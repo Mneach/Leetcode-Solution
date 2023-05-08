@@ -1,18 +1,14 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_map<int, int> map;
+        set<int> answer;
 
-        for(auto i : nums){
-            map[i]++;
+        int length = nums.size();
+
+        for(int i = 0; i < length; i++){
+            answer.insert(nums[i]);
         }
 
-        bool checkAnswer = false;
-
-        for(auto currentMap : map){
-            if(currentMap.second >= 2) checkAnswer = true;
-        }
-
-        return checkAnswer;
+        return !(answer.size() == nums.size());
     }
 };
