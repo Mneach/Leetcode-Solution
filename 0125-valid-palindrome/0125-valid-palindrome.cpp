@@ -1,24 +1,24 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-            string reverseString = "";
+        int i = 0;
+        int j = s.size() - 1;
 
-            int length = s.length();
+        while(i < j){
 
-            for (int i = 0; i < length; i++)
-            {
-                if(tolower(s[i]) >= 'a'  && tolower(s[i]) <= 'z' && s[i] != ' '){
-                    reverseString.push_back(tolower(s[i]));
-                }else if(s[i] >= '0' && s[i] <= '9'){
-                    reverseString.push_back(s[i]);
-                }
-            }
+            while(isalnum(s[i]) == false && i < j) i++;
+            while(isalnum(s[j]) == false && j > i) j--;
             
-            string tempString = reverseString;
-            reverse(reverseString.begin(), reverseString.end());
+            if(tolower(s[i]) != tolower(s[j]) ){
+                
+                 
+                 return false;
+            }
 
-            cout << tempString << " " << reverseString << endl;
-        
-            return tempString == reverseString;
+            i++;
+            j--;
         }
+
+        return true;    
+    }
 };
