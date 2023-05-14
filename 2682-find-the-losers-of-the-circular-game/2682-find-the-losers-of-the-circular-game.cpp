@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> circularGameLosers(int n, int k) {
         vector<int> answer(n, 0);
-        vector<int> condition;
+        vector<int> losers;
         
         int currentIndex = 0;
         int i = 1;
@@ -15,9 +15,9 @@ public:
         }
         
         for(int i = 0; i < n; i++){
-            if(answer[i] == 0) condition.push_back(i + 1);
+            if(answer[i] == 0) losers.push_back(i + 1);
         }
         
-        return condition;
+        return losers;
     }
 };
