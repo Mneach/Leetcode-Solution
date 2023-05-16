@@ -2,25 +2,17 @@ class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         
-        map<int, int> temp;
+        int length = nums.size();
+        int bucket[102] = {0};
         
-        for(int i = 0; i < nums.size(); i++){
-            if(temp[nums[i]]) temp[nums[i]] = temp[nums[i]] + 1;
-            else temp[nums[i]] = 1;
+        for(auto i : nums) bucket[i + 1]++;
+        
+        for(int i = 1; i < 102; i++) bucket[i] += bucket[i - 1];
+        
+        for(int i = 0; i < length; i++){
+            nums[i] = bucket[nums[i]];
         }
         
-        vector<int> answer;
-        for(int i = 0; i < nums.size(); i++){
-            
-            int tempTotal = 0;
-            for(auto x : temp){
-                if(x.first == nums[i]) break;
-                tempTotal += x.second;
-            }
-            
-            answer.push_back(tempTotal);
-        }
-        
-        return answer;
+        return nums;
     }
 };
