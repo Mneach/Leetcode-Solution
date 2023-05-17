@@ -2,22 +2,29 @@ class Solution {
 public:
     vector<int> minOperations(string boxes) {
         
-        vector<int> answer(boxes.size());
+        int lenght = boxes.size();
+        vector<int> answer(lenght);
         
-        for(int i = 0; i < boxes.size(); i++){
-            
-            int totalLeft = 0;
-            int totalRight = 0;
-            
-            for(int j = 0; j < i; j++){
-                if(boxes[j] == '1') totalLeft += i - j;
-            }
-            
-            for(int k = i; k < boxes.size(); k++){
-                if(boxes[k] == '1') totalRight += k - i;
-            }
-            
-            answer[i] = totalLeft + totalRight;
+        int sum = boxes[0] - '0';
+        
+        int leftSum = 0;
+        for(int i = 1; i < lenght; i++){
+            answer[i] = sum + leftSum;
+            leftSum = answer[i];
+            sum += boxes[i] - '0';
+        }
+        
+        for(int i = 0; i < lenght; i++){
+            cout << answer[i] << endl;
+        }
+        
+        leftSum = 0;
+        sum = boxes[lenght - 1] - '0';
+        
+        for(int i = lenght - 2; i >= 0; i--){
+            answer[i] += leftSum + sum;
+            leftSum += sum;
+            sum += boxes[i] - '0';
         }
         
         return answer;
