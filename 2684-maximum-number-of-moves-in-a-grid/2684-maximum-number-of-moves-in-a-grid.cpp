@@ -1,8 +1,6 @@
 class Solution {
 public:
     
-    int result = 0;
-    
     int maxMoves(vector<vector<int>>& grid, int i, int j, int m, int n,int prev, vector<vector<int>> & dp){
        
         if(i < 0 || j < 0 || i >= m || j >=  n) return 0;
