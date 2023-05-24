@@ -2,17 +2,17 @@ class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
         
-        vector<vector<int>> dp(numRows);
+        vector<vector<int>> dp;
         
         for(int i = 0; i < numRows; i++){
-            int currentIndex = 1;
-            dp[i].push_back(1);
-            while(currentIndex < i){
-                cout << dp[i - 1][currentIndex - 1] << endl;
-                dp[i].push_back(dp[i - 1][currentIndex - 1] + dp[i - 1][currentIndex]);
-                currentIndex++;
+            
+            vector<int> row(i + 1 , 1);
+            
+            for(int j = 1; j < i; j++){
+                row[j] = dp[i - 1][j - 1] + dp[i - 1][j]; 
             }
-            if(i != 0) dp[i].push_back(1);
+            
+            dp.push_back(row);
         }
         
         return dp;
