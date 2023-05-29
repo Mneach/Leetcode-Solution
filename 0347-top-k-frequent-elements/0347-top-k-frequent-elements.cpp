@@ -24,9 +24,8 @@ public:
                 
                 answer.push_back(bucket[i][j]);
                 
-                if(answer.size() == k) break;
+                if(answer.size() == k) return answer;
             }
-            if(answer.size() == k) break;
         }
         
         return answer;
