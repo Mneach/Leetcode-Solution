@@ -12,24 +12,24 @@ public:
                 map[nums[i]] = 1;
             }
         }
-    
-        vector<pair<int , int>> vec(map.begin(), map.end());
         
-        sort(vec.begin(), vec.end(), [](const auto &a , const auto &b){
-            return a.second > b.second;
-        });
-        
-        vector<int> answer;
-
-        int currentIndex = 1;
-        
-        for(auto x : vec){
-            answer.push_back(x.first);
-            if(currentIndex == k) break;
-            currentIndex++;
+        vector<vector<int>> bucket(nums.size() + 1);
+        for(auto x : map){
+            bucket[x.second].push_back(x.first);
         }
         
-        return answer;       
+        vector<int> answer;
+        for(int i = bucket.size() - 1; i >= 0; i--){
+            for(int j = 0; j < bucket[i].size(); j++){
+                
+                answer.push_back(bucket[i][j]);
+                
+                if(answer.size() == k) break;
+            }
+            if(answer.size() == k) break;
+        }
+        
+        return answer;
     }
                   
 };
