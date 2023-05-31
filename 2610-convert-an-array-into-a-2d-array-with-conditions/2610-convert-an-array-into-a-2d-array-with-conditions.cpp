@@ -8,11 +8,7 @@ public:
         for(int i = 0; i < nums.size(); i++){
             bucket[nums[i]]++;
         }
-        
-        for(int i = 0; i < bucket.size(); i++){
-            cout << bucket[i] << " ";
-        }
-        
+
         while(true){
             vector<int> temp;
             bool checkEmpty = true;
