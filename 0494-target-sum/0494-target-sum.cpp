@@ -9,7 +9,11 @@ public:
         
         if(dp[index].count(sum)) return dp[index][sum];
         
-        dp[index][sum] = backtracking(nums, dp, index + 1, nums[index] + sum, target) + backtracking(nums, dp, index + 1, sum - nums[index], target);
+        int positive = backtracking(nums, dp, index + 1, sum + nums[index], target);
+        int negative = backtracking(nums, dp, index + 1, sum - nums[index], target);
+        
+        dp[index][sum] = positive + negative;
+        
         return dp[index][sum];
     }
     
