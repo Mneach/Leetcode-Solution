@@ -6,7 +6,7 @@ public:
         if(dp[index] != -1) return dp[index];
         
         string currentString = "";
-        int minimumRemove = s.length();
+        int minimumAnswer = s.length();
         
         for(int i = index; i < s.size(); i++){
             currentString.push_back(s[i]);
@@ -15,19 +15,17 @@ public:
             int next = answer(s , i + 1, dp , map);
             int total = currentRemove + next;
             
-            minimumRemove = min(minimumRemove, total);
+            minimumAnswer = min(minimumAnswer, total);
         }
         
-        return dp[index] = minimumRemove;
+        return dp[index] = minimumAnswer;
     }
         
     int minExtraChar(string s, vector<string>& dictionary) {
         vector<int> dp(s.length() , -1);
         unordered_map<string, int> map;
         
-        for(auto x : dictionary){
-            map[x]++;
-        }
+        for(auto x : dictionary) map[x]++;
         
         return answer(s, 0, dp, map);
     }
