@@ -14,9 +14,9 @@ public:
             int x = coordinates[i - 2][0];
             int y = coordinates[i- 2][1];
             
-            int diff1 = (y2 - y1) * (x1 - x);
-            int diff2 = (y1 - y) * (x2 - x1);
-            
+			int diff1 = (x2 - x1) * (y1 - y);
+            int diff2 = (x1 - x) * (y2 - y1);
+
             if(diff1 != diff2) return false;
         }
         
