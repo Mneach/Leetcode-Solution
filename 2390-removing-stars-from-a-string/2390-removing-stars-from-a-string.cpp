@@ -4,9 +4,9 @@ public:
         stack<char> stack;
         string answer = "";
         
-        for(int i = 0; i < s.length(); i++){
+        for(int i = s.length() - 1; i >= 0; i--){
             
-            if(s[i] == '*'){
+            if(s[i] != '*' && stack.empty() == false && stack.top() == '*'){
                 stack.pop();
             }else{
                 stack.push(s[i]);
@@ -17,8 +17,6 @@ public:
             answer += stack.top();
             stack.pop();
         }
-        
-        reverse(answer.begin(), answer.end());
         
         return answer;
     }
