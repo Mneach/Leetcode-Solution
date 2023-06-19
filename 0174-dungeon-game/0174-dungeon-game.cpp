@@ -8,7 +8,6 @@ public:
     
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
         
-        // vector<vector<int>> dp(dungeon.size(), vector<int>(dungeon[0].size(), INT_MAX));
         int totalRow = dungeon.size();
         int totalColumn = dungeon[0].size();
         
@@ -35,14 +34,7 @@ public:
                 }
             }
         }
-        
-        for(int row = 0; row < dungeon.size(); row++){
-            for(int column = 0; column < dungeon[row].size(); column++){
-                cout << dungeon[row][column] << " ";
-            }
-            cout << endl;
-        }        
-        
+
         return abs(dungeon[0][0]) + 1;
     }
 };
