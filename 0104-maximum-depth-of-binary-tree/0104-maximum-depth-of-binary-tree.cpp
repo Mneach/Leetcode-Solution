@@ -12,20 +12,17 @@
 class Solution {
 public:
     
-    int answer = 0;
-    
-    void PostOrder(TreeNode* root, int current){
+    int dfs(TreeNode* root){
         if(root != NULL){
-            PostOrder(root->left, current + 1);
-            PostOrder(root->right, current + 1);
-            current += 1;
-            answer = max(current , answer);
+            int maxLeft = dfs(root->left);
+            int maxRight = dfs(root->right);
+            return max(maxLeft, maxRight) + 1;
+        }else{
+            return 0;
         }
     }
     
     int maxDepth(TreeNode* root) {
-        int current = 0;
-        PostOrder(root, current);
-        return answer;
+        return dfs(root);
     }
 };
