@@ -2,29 +2,24 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         
-        int totalZero = 0;
-        int sum = 1;
+        vector<int> pref_product(nums.size());
+        vector<int> suf_product(nums.size());
         
-        for(int i = 0; i < nums.size(); i++){
-            if(nums[i] == 0) totalZero++;
-            else sum *= nums[i];
+        pref_product[0] = 1;
+        suf_product[nums.size() - 1] = 1;
+        
+        for(int i = 1; i < nums.size(); i++){
+            pref_product[i] = nums[i - 1] * pref_product[i - 1];
         }
         
-        vector<int> answer;
-        cout << sum << " " << totalZero << endl;
+        for(int j = nums.size() - 2; j >= 0; j--){
+            suf_product[j] = nums[j + 1] * suf_product[j + 1];
+        }
         
-        for(int i = 0; i < nums.size(); i++){
-            if(totalZero == 0){
-                answer.push_back(sum / nums[i]);   
-            }else if(totalZero == 1){
-                if(nums[i] == 0){
-                    answer.push_back(sum);
-                }else{
-                    answer.push_back(0);
-                }
-            }else if(totalZero >= 2){
-                answer.push_back(0);
-            }
+        vector<int> answer(nums.size());
+        
+        for(int i = 0; i < pref_product.size(); i++){
+            answer[i] = pref_product[i] * suf_product[i];
         }
         
         return answer;
