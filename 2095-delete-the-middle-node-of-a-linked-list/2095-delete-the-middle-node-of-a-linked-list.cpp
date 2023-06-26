@@ -16,26 +16,14 @@ public:
         
         ListNode* slow = head;
         ListNode* fast = head->next;
-        ListNode* answer = new ListNode(head->val);
-        ListNode* temp = answer;
         
         while(fast->next != NULL && fast->next->next != NULL){
             slow = slow->next;
-            
-            temp->next = new ListNode(slow->val);
-            temp = temp->next;
-            
             fast = fast->next->next;
         }
         
-        slow = slow->next;
+        slow->next = slow->next->next;
         
-        while(slow->next != NULL){
-            slow = slow->next;
-            temp->next = new ListNode(slow->val);
-            temp = temp->next;            
-        }
-        
-        return answer;
+        return head;
     }
 };
