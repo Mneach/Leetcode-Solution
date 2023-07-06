@@ -22,9 +22,9 @@ class Solution {
 public:
     
     void dfs(Node *root, vector<int>& answer){
+        answer.push_back(root->val);
         
-        for(auto x : root->children){
-            answer.push_back(x->val);
+        for(auto x : root->children){    
             dfs(x, answer);
         }
     }
@@ -34,7 +34,7 @@ public:
         if(!root) return {};
         
         vector<int> answer;
-        answer.push_back(root->val);
+        
         dfs(root, answer);
         
         return answer;
