@@ -12,32 +12,25 @@
 class Solution {
 public:
     
-    void count(TreeNode* root, int& totalNode, int& totalValue){
+    pair<int,int> dfs(TreeNode* root, int &answer){
         if(root){
-            totalNode++;
-            totalValue += root->val;
-            count(root->left, totalNode, totalValue);
-            count(root->right, totalNode, totalValue);
-        }
-    }
-    
-    void dfs(TreeNode* root, int &answer){
-        if(root){
-            dfs(root->left, answer);
-            dfs(root->right, answer);
+            pair<int,int> leftResult = dfs(root->left, answer); 
+            int sumValueLeft = leftResult.first;
+            int sumNodeLeft = leftResult.second;
             
-            int totalNodeLeft = 0;
-            int totalNodeRight = 0;
-            int totalValueNodeLeft = 0;
-            int totalValueNodeRight = 0;
-            count(root->left, totalNodeLeft, totalValueNodeLeft); 
-            count(root->right, totalNodeRight, totalValueNodeRight); 
+            pair<int,int> rightResult = dfs(root->right, answer);
+            int sumValueRight = rightResult.first;
+            int sumNodeRight = rightResult.second;
             
-            int totalValue = totalValueNodeLeft + totalValueNodeRight + root->val;
-            int totalNode = totalNodeLeft + totalNodeRight + 1;
+            int sumValue = sumValueLeft + sumValueRight + root->val;
+            int sumNode = sumNodeLeft + sumNodeRight + 1; 
             
-            cout << totalValue << " " << totalNode << endl;
-            if(root->val == totalValue / totalNode) answer++;
+            cout << sumNode << " " << sumValue << endl; 
+            if(root->val == sumValue / sumNode) answer++;
+            
+            return {sumValue, sumNode};
+        }else{
+            return {0, 0};
         }
     }
     
