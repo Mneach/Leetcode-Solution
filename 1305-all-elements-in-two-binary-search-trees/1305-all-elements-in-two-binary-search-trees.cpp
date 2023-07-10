@@ -21,44 +21,12 @@ public:
     }
     
     vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
-       vector<int> arr1, arr2;
+        vector<int> result;
         
-        inOrder(root1, arr1);
-        inOrder(root2, arr2);
+        inOrder(root1, result);
+        inOrder(root2, result);
         
-        int indexArr1, indexArr2;
-        indexArr1 = indexArr2 = 0;
-        int indexResult = 0;
-        
-        vector<int> result(arr1.size() + arr2.size());
-        while(indexArr1 < arr1.size() && indexArr2 < arr2.size()){
-           int temp;
-            
-            if(arr1[indexArr1] <= arr2[indexArr2]){
-                temp = arr1[indexArr1];
-                indexArr1++;
-            }else if(arr2[indexArr2] < arr1[indexArr1]){
-                temp = arr2[indexArr2];
-                indexArr2++;
-            }
-            
-            result[indexResult] = temp;
-            indexResult++;
-            cout << indexResult << " " << indexArr1 << " " << indexArr2 << endl;
-        }
-       
-        while(indexArr1 < arr1.size()){
-            result[indexResult] = arr1[indexArr1];
-            indexResult++;
-            indexArr1++;
-        }
-        
-        while(indexArr2 < arr2.size()){
-            result[indexResult] = arr2[indexArr2];
-            indexResult++;
-            indexArr2++;
-        }
-        
+        sort(result.begin(), result.end());
         return result;
     }
 };
