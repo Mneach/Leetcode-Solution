@@ -12,20 +12,13 @@ class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
         
-        ListNode* curr = head;
-        
-        
-        int totalIndex = 0;
-        while(curr != NULL){
-            totalIndex++;
-            curr = curr->next;
-        }
-        
-        totalIndex = (totalIndex / 2);
-        
-        for(int i = 0; i < totalIndex; i++){
+        ListNode* p = head;
+        while(p->next && p->next->next){
             head = head->next;
+            p = p->next->next;
         }
+        
+        if(p->next) head = head->next;
         
         return head;
     }
