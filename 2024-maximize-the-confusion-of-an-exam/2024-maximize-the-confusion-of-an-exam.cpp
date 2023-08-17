@@ -4,7 +4,6 @@ public:
         unordered_map<char,int> arr;
         
         int answer = 0;
-        int left = 0;
         for(int i = 0; i < answerKey.length(); i++){
             
             arr[answerKey[i]]++;
@@ -12,7 +11,6 @@ public:
             
             if(minimum > k){
                 arr[answerKey[i - answer]]--;
-                left++;
             }else{
                 answer++;
             }
