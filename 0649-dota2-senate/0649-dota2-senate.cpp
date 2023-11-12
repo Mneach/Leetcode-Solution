@@ -1,31 +1,43 @@
 class Solution {
 public:
-    string predictPartyVictory(string senate) {
+    string predictPartyVictory(string input) {
         
-        queue<int> radiantQueue;
-        queue<int> direQueue;
-        
-        for(int i = 0; i < senate.length(); i++){
-            if(senate[i] == 'R') radiantQueue.push(i);
-            else direQueue.push(i);
+       queue<int> direQueue;
+	queue<int> radiantQueue;
+
+	for(int i = 0; i < input.length(); i++){
+		if(input[i] == 'R'){
+		    radiantQueue.push(i);
+        }else{
+            direQueue.push(i);
         }
-        
-        while(radiantQueue.empty() == false && direQueue.empty() == false){
-            
+    }
+
+    // ban 
+    while(direQueue.empty() == false && radiantQueue.empty() == false){
             int direIndex = direQueue.front();
             int radiantIndex = radiantQueue.front();
-            
+
             direQueue.pop();
             radiantQueue.pop();
-            
+
             if(direIndex < radiantIndex){
-                direQueue.push(direIndex + senate.size());
-            }else{
-                radiantQueue.push(radiantIndex + senate.size());
-            }
+            // ban radiant
+            // push current direIndex ke dalam queue
+            direQueue.push(direIndex + input.length());
+        }else{
+            // ban dire
+            // push current radiantIndex ke dalam queue
+            radiantQueue.push(radiantIndex + input.length());
         }
-        
-        if(radiantQueue.empty()) return "Dire";
-        else return "Radiant";
+    }
+
+    // Announce Victory
+    if(radiantQueue.empty()){
+        return "Dire";
+    }else{
+        return "Radiant";
+    }
+
     }
 };
