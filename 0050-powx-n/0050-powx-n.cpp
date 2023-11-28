@@ -1,13 +1,21 @@
 class Solution {
 public:
+    
+    
     double myPow(double x, int n) {
-        long long int exponen = abs(n);
-        double result = pow(x, exponen);
+       
+        if(n == 1) return x;
+        else if(n == 0) return 1;
+        else if(n == -1) return 1/x;
         
-        if(n < 0){
-            result = 1 / result;
+        double temp = myPow(x, n / 2);
+        cout << temp << endl;
+        if(n % 2 == 0){
+            return (temp * temp);
+        }else if(n % 2 == 1){
+            return (x * temp * temp);
+        }else{
+            return (temp * temp * (1 / x));
         }
-        
-        return result;
     }
 };
