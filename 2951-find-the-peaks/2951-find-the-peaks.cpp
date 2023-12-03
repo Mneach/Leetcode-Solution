@@ -6,15 +6,7 @@ public:
         if(left <= right){
             int mid = (left + right) / 2;
             
-            if(mid == 0){
-                if(mountain[mid + 1] > mountain[mid] && mountain[mid + 1] > mountain[mid + 2] && mountain.size() > 3){
-                    answer.push_back(mid + 1);
-                }
-                
-                return;
-            }else if(mid == mountain.size() - 1){
-                return;
-            }else if(mountain[mid] > mountain[mid + 1] && mountain[mid] > mountain[mid - 1]){
+           if(mountain[mid] > mountain[mid + 1] && mountain[mid] > mountain[mid - 1]){
                 answer.push_back(mid);
             }
             
