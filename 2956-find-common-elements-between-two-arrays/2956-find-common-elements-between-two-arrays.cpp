@@ -5,16 +5,17 @@ public:
         int answer1 = 0;
         int answer2 = 0;
         
-        for(int i = 0; i < nums1.size(); i++){
-            
-            if(find(nums2.begin(), nums2.end(), nums1[i]) != nums2.end()){
+        set<int> bucket1(nums1.begin(), nums1.end());
+        set<int> bucket2(nums2.begin(), nums2.end());
+        
+        for(auto data : nums1){
+            if(bucket2.count(data)){
                 answer1++;
             }
         }
         
-        for(int i = 0; i < nums2.size(); i++){
-            
-            if(find(nums1.begin(), nums1.end(), nums2[i]) != nums1.end()){
+        for(auto data : nums2){
+            if(bucket1.count(data)){
                 answer2++;
             }
         }
