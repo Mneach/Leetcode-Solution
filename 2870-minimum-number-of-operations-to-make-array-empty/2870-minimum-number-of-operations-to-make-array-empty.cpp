@@ -11,24 +11,11 @@ public:
         bool valid = true;
         int answer = 0;
         for(auto data : mp){
-            int count2 = 0;
-            int count3 = 0;
-            int tempValue = data.second;
-
-            while(tempValue > 0){
-                if(tempValue % 3 == 0){
-                    count3 = tempValue / 3;
-                    break;
-                }
-                count2++;
-                tempValue -= 2;
-            }
-
-            if(tempValue < 0){
+            if(data.second == 1){
                 valid = false;
                 break;
             }else{
-                answer += count2 + count3;
+                answer += ceil(double(data.second) / 3);
             }
         }
         
