@@ -10,33 +10,55 @@
  */
 class Solution {
 public:
+    
+    void printAllList(ListNode* curr){
+        while(curr){
+            cout << curr -> val << " ";
+            curr = curr -> next;
+        }
+        cout << endl;
+    }
+    
     void reorderList(ListNode* head) {
         
-        ListNode* curr = head;
+        if(head == NULL) return;
         
-        vector<int> arr;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        
+        // reverse
+        ListNode* prev = NULL;
+        ListNode* curr = slow;
+        ListNode* currNext = NULL;
         
         while(curr){
-            arr.push_back(curr->val);
-            curr = curr -> next;
+            currNext = curr -> next;
+            
+            curr->next = prev;
+            prev = curr;
+            curr = currNext;
         }
         
-        curr = head;
-        int left = -1;
-        int right = arr.size();
-        for(int i = 0; i < arr.size(); i++){
-            int index = i;
-            if(i % 2 != 0){
-                right--;
-                index = right;
-            }else{
-                left++;
-                index = left;
-            }
-            curr->val = arr[index];
-            curr = curr -> next;
+        printAllList(head);
+        printAllList(prev);
+        
+        ListNode* currFront = head;
+        ListNode* currBack = prev;
+        ListNode* temp = NULL;
+        
+        while(currBack -> next){
+            temp = currFront -> next;
+            currFront->next = currBack;
+            currFront = temp;
+            
+            temp = currBack->next;
+            currBack->next = currFront;
+            currBack = temp;
         }
-        
-        
     }
 };
