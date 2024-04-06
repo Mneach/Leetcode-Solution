@@ -4,16 +4,21 @@ public:
     priority_queue<int, vector<int>, greater<int>> pq;
     unordered_map<int,int> ump;
     
+    int marker;
     SeatManager(int n) {
-        for(int i = 1; i <= n; i++){
-            pq.push(i);
-        }
+        marker = 1;
     }
     
     int reserve() {
+        if(pq.empty() == false){
+            int res = pq.top();
+            pq.pop();
+            
+            return res;
+        }
         
-        int res = pq.top();
-        pq.pop();
+        int res = marker;
+        marker++;
         
         return res;
     }
