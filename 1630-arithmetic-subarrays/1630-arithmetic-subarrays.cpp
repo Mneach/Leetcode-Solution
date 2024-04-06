@@ -6,24 +6,33 @@ public:
         
         for(int i = 0; i < l.size(); i++){
             
-            vector<int> bucket;
+            int minimum = INT_MAX;
+            int maximum = INT_MIN;
+            
+            unordered_map<int, int> ump;
             for(int j = l[i]; j <= r[i]; j++){
-                bucket.push_back(nums[j]);
+                minimum = min(nums[j], minimum);
+                maximum = max(nums[j], maximum);
+                ump[nums[j]]++;
             }
             
-            sort(bucket.begin(), bucket.end());
+           
+            
+            int n = r[i] - l[i];
+            
+            if ((maximum - minimum) % (n) != 0) {
+                answer.push_back(false);
+                continue;
+            }
+            
+            int diff = (maximum - minimum) / (n);
+            
+             // cout << minimum << " " << maximum << " " << n << " " << diff << endl;
             
             bool temp = true;
-            
-            int diff = -1;
-            for(int i = 0; i < bucket.size() - 1; i++){
-                if(i == 0){
-                    diff = abs(bucket[i] - bucket[i + 1]);
-                }else{
-                    if(abs(bucket[i] - bucket[i + 1]) != diff){
-                        temp = false;
-                        break;
-                    }
+            for(int j = 0; j <= n; j++){
+                if(ump.count(minimum + (diff * j)) != 1){
+                    temp = false;
                 }
             }
             
