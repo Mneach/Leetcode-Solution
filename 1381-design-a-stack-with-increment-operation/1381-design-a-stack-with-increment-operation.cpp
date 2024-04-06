@@ -1,45 +1,41 @@
 class CustomStack {
 public:
     
-    int size;
-    stack<int> st;
-    stack<int> bucket;
+    vector<int> stack, bucketIncrement;
+    int n;
     
     CustomStack(int maxSize) {
-        size = maxSize;
+        n = maxSize;
     }
     
     void push(int x) {
-        if(st.size() < size){
-            st.push(x);
-        }
+        if(stack.size() == n) return;
+        
+        stack.push_back(x);
+        bucketIncrement.push_back(0);
     }
     
     int pop() {
-        if(st.empty() == false){
-            int top = st.top();
-            st.pop();
-            return top;
-        }else{
+        int stackSize = stack.size() - 1;
+        
+        if(stackSize < 0) {
             return -1;
+        }else if(stackSize > 0){
+            bucketIncrement[stackSize - 1] += bucketIncrement[stackSize];
         }
+        int top = stack[stackSize] + bucketIncrement[stackSize];
+        stack.pop_back();
+        bucketIncrement.pop_back();
+        
+        return top;
     }
     
     void increment(int k, int val) {
-        int current = 1;
-        int stackSize = st.size();
-        while(st.empty() == false){ 
-            if(current > stackSize - k) bucket.push(st.top() + val);
-            else bucket.push(st.top());
-            
-            current++;
-            st.pop();
-        }
+        int stackSize = stack.size();
+
+        int minimum = min(k, stackSize) - 1;
         
-        while(bucket.empty() == false){
-            st.push(bucket.top());
-            bucket.pop();
-        }
+        if(minimum >= 0) bucketIncrement[minimum] += val;
         
     }
 };
