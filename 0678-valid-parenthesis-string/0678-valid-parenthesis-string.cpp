@@ -2,31 +2,37 @@ class Solution {
 public:
     bool checkValidString(string s) {
        
-        int balance = 0;
+        stack<int> openBracket;
+        stack<int> asterix;
         
         for(int i = 0; i < s.length(); i++){
+            char ch = s[i];
             
-            if(s[i] == '(' || s[i] == '*'){
-                balance++;
+            if(ch == '('){
+                openBracket.push(i);
+            }else if(ch == '*'){
+                asterix.push(i);
             }else{
-                balance--;
+                
+                if(openBracket.empty() == false){
+                    openBracket.pop();
+                }else if(asterix.empty() == false){
+                    asterix.pop();
+                }else{
+                    return false;
+                }
             }
-            
-            if(balance < 0) return false;
         }
         
-        balance = 0;
-        for(int i = s.length() - 1; i >= 0; i--){
-            
-            if(s[i] == ')' || s[i] == '*'){
-                balance++;
-            }else{
-                balance--;
+        while(openBracket.empty() == false && asterix.empty() == false){
+            if(openBracket.top() > asterix.top()){
+                return false;
             }
             
-            if(balance < 0) return false;
-        }      
+            asterix.pop();
+            openBracket.pop();
+        }
         
-        return true;
+        return openBracket.empty();
     }
 };
