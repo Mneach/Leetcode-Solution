@@ -6,6 +6,7 @@ public:
         
         unordered_map<int,vector<int>> ump;
         vector<bool> visited(n, false);
+        queue<int> q;
         
         for(int i = 0; i < edges.size(); i++){
             int start = edges[i][0];
@@ -15,19 +16,13 @@ public:
             ump[end].push_back(start);
         }
         
-        queue<int> q;
-        for(auto data : ump[source]){
-            q.push(data);
-        }
+        q.push(source);
+        visited[source] = true;
         
         int answer = false;
         while(q.empty() == false){
             int end = q.front();
             q.pop();
-            
-            if(visited[end]) continue;
-            
-            visited[end] = true;
             
             if(end == destination){
                 answer = true;
@@ -35,7 +30,10 @@ public:
             }
             
             for(auto data : ump[end]){
-                q.push(data);
+                if(visited[data] == false){
+                    visited[data] = true;
+                    q.push(data);
+                }
             }
         }
         
