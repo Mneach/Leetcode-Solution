@@ -1,26 +1,22 @@
 class Solution {
 public:
     int hIndex(vector<int>& arr) {
-        sort(arr.begin(), arr.end());
+        priority_queue<int, vector<int>, greater<int> > pq;
         
-        int left = 0;
-        int right = arr.size() - 1;
+        for(auto data : arr){
+            pq.push(data);
+        }
         
-        int hIndex = 0;
-        
-        while(left <= right){
-            int mid = left + (right - left) / 2;
+        while(pq.empty() == false){
+            int totalPaper = pq.size();
             
-            int totalPaper = arr.size() - mid;
-            // cout << mid << " " << totalPaper << " " << arr[mid] << endl;
-            if(arr[mid] >= totalPaper){
-                hIndex = max(hIndex, totalPaper);
-                right = mid - 1;
+            if(pq.top() >= totalPaper){
+                return pq.size();
             }else{
-                left = mid + 1;
+                pq.pop();
             }
         }
         
-        return hIndex;
+        return 0;
     }
 };
