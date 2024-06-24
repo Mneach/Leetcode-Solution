@@ -3,14 +3,12 @@ public:
     int minKBitFlips(vector<int>& nums, int k) {
         int answer = 0;        
         int right = INT_MAX;
-        priority_queue<int, vector<int>, greater<int>> pq;
 
         int flip = 0;
 
         for(int i = 0; i < nums.size(); i++){
             
-            if(pq.size() > 0 && i == pq.top()){
-                pq.pop();
+            if(i >= k && nums[i - k] == -1){
                 flip--;
             }
 
@@ -18,7 +16,7 @@ public:
 
                 if(i + k > nums.size()) return -1;
 
-                pq.push(i + k);
+                nums[i] = -1;
                 answer++;
                 flip++;
             }
