@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
+| [1293-three-consecutive-odds](https://github.com/Mneach/Leetcode-Solution/tree/master/1293-three-consecutive-odds) |
 ## Binary Search
 |  |
 | ------- |
