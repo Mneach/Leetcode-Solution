@@ -1,43 +1,53 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        unordered_set<int> toDeleteSet(to_delete.begin(), to_delete.end());
-        vector<TreeNode*> forest;
 
-        root = processNode(root, toDeleteSet, forest);
+    TreeNode* search(TreeNode* root, unordered_map<int,int> &deleted, vector<TreeNode*> &answer){
+        
+        if(!root) return nullptr;
 
-        // If the root is not deleted, add it to the forest
-        if (root) {
-            forest.push_back(root);
+        root -> left = search(root -> left, deleted, answer);
+        root -> right = search(root -> right, deleted, answer);
+
+        if(deleted[root -> val] > 0){
+            cout << root -> val << endl;
+            if(root -> left) {
+                answer.push_back(root -> left);
+            }
+            
+            if(root -> right) {
+                answer.push_back(root -> right);
+            }
+
+            delete root;
+            return nullptr;
         }
 
-        return forest;
+        return root;
     }
 
-private:
-    TreeNode* processNode(TreeNode* node, unordered_set<int>& toDeleteSet,
-                          vector<TreeNode*>& forest) {
-        if (!node) {
-            return nullptr;
+    vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
+        vector<TreeNode*> answer;
+        unordered_map<int,int> deleted;
+
+        for(auto data : to_delete) deleted[data]++;
+
+        root = search(root, deleted, answer);
+
+        if(root){
+            answer.push_back(root);
         }
 
-        node->left = processNode(node->left, toDeleteSet, forest);
-        node->right = processNode(node->right, toDeleteSet, forest);
-
-        // Node Evaluation: Check if the current node needs to be deleted
-        if (toDeleteSet.find(node->val) != toDeleteSet.end()) {
-            // If the node has left or right children, add them to the forest
-            if (node->left) {
-                forest.push_back(node->left);
-            }
-            if (node->right) {
-                forest.push_back(node->right);
-            }
-            // Delete the current node and return null to its parent
-            delete node;
-            return nullptr;
-        }
-
-        return node;
+        return answer;
     }
 };
