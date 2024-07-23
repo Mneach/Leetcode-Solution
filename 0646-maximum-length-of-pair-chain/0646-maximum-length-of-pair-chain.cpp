@@ -36,7 +36,7 @@ public:
 
         vector<int> dp(pairs.size(), INT_MIN);
 
-        for(int i = pairs.size() - 1; i >= 0; i--){
+        for(int i = 0; i < pairs.size(); i++){
             answer = max(answer, recursive(pairs, dp, i));
         }
 
