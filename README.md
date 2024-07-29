@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/Mneach/Leetcode-Solution/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1511-count-number-of-teams](https://github.com/Mneach/Leetcode-Solution/tree/master/1511-count-number-of-teams) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mneach/Leetcode-Solution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Mneach/Leetcode-Solution/tree/master/1720-crawler-log-folder) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1511-count-number-of-teams](https://github.com/Mneach/Leetcode-Solution/tree/master/1511-count-number-of-teams) |
 ## Greedy
 |  |
 | ------- |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
+| [1511-count-number-of-teams](https://github.com/Mneach/Leetcode-Solution/tree/master/1511-count-number-of-teams) |
 ## Segment Tree
 |  |
 | ------- |
