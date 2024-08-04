@@ -17,11 +17,6 @@ public:
 
         sort(prefixSum.begin(), prefixSum.end());
 
-        for(auto data : prefixSum){
-            cout << data << " ";
-        }
-        cout << endl;
-
         int answer = 0;
 
         for(int i = left; i <= right; i++){
