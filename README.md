@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
+| [0890-lemonade-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0376-wiggle-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0376-wiggle-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
+| [0890-lemonade-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mneach/Leetcode-Solution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/1818-maximum-score-from-removing-substrings) |
