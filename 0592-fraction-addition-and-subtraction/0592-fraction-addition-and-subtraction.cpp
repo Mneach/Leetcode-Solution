@@ -83,7 +83,6 @@ public:
             }
 
             vp[i + 1].first = answer;
-            cout << answer << endl;
         }
 
         if(answer != 0){
