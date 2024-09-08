@@ -12,56 +12,51 @@ class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
         
+        vector<int> arr;
+        
+        while(head != nullptr){
+            arr.push_back(head -> val);
+            head = head -> next;
+        }
+
+        int divide = arr.size() / k;
+        int extra = arr.size() % k;
+
         vector<ListNode*> answer;
-        int size = 0;
-        
-        for(ListNode* i = head; i != NULL; i = i -> next){
-            size++;
-        }
-        
-        if(k > size){
-            for(ListNode* i = head; i != NULL; i = i -> next){
-                answer.push_back(new ListNode(i->val));
-            }
-            
-            for(int i = 0; i < k - size; i++){
-                answer.push_back(NULL);
-            }
-        }else{
-            int modulo = size % k;
-            int divider = size / k;
-            
-            int currentIndex = 1;
-            ListNode* curr = head;
-            ListNode* left = new ListNode(curr -> val);
-            ListNode* right = left;
-            while(curr != NULL){
-                
-                if(currentIndex % divider == 0){
-                    if(modulo > 0){
-                        right -> next = new ListNode ( curr -> next -> val );
-                        right = right -> next;
-                        
-                        curr = curr -> next;
-                        modulo--;
-                    }
-                    answer.push_back(left);
-                    if(curr -> next){
-                        left = new ListNode ( curr -> next -> val);
-                        right = left;
-                    }
-                }else{
-                    if(curr -> next){
-                        right -> next = new ListNode (curr -> next -> val);
-                        right = right -> next;    
-                    }
-                }
-                
-                curr = curr -> next;
-                currentIndex = (currentIndex % divider) + 1;
+
+        int count = 1;
+        ListNode* tempHead = arr.size() == 0 ? nullptr : new ListNode(arr[0]);
+        ListNode* current = tempHead;
+
+        for(int i = 1; i < arr.size(); i++){
+
+            if(extra == 0 && count == divide){
+                answer.push_back(tempHead);
+                tempHead = new ListNode(arr[i]);
+                current = tempHead;
+                count = 1;
+            }else if(extra > 0 && count == divide + 1){
+                answer.push_back(tempHead);
+                tempHead = new ListNode(arr[i]);
+                current = tempHead;
+                extra--;
+                count = 1;
+            }else{
+                ListNode* next = new ListNode(arr[i]);
+                current -> next = next;
+                current = next;
+                count++;
             }
         }
-        
+
+        if(tempHead != nullptr){
+            answer.push_back(tempHead);
+        }
+
+        while(answer.size() != k){
+            answer.push_back(nullptr);
+        }
+
         return answer;
     }
 };
