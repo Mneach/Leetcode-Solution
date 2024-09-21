@@ -32,7 +32,7 @@ Time Complexity : O(n)
 Memory Complexity : O(n)
 - need to save from 1 until n
 
-# Implementation 2 (using)
+# Implementation 2 (using math idea)
 Time Complexity : O(n)
 Memory Complexity : (1)
 */
