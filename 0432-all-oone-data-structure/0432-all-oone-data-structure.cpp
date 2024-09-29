@@ -67,7 +67,8 @@ public:
                 Node* prevNode = current -> prev;
                 Node* nextNode = current -> next;
                 prevNode -> next = nextNode;
-                nextNode -> prev = prevNode;                
+                nextNode -> prev = prevNode;   
+                delete current;             
             }
         }
     }
@@ -108,7 +109,7 @@ public:
             prevNode -> next = nextNode;
             nextNode -> prev = prevNode;
 
-            // delete current;
+            delete current;
         }
     }
     
