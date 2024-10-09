@@ -45,22 +45,22 @@ public:
 
 /*
 
-Solve using sort + prefix sum
+Solve using sort based on monster health + binary search
 
-1. we will try to pair monster with coin
-2. sort based on the monster health
-3. looping from hero 0 until hero n
-4. if hero health >= monster health
-   4.1 add the current coin to the variable
-5. if hero health < monster health
-   5.1 push the current coin value to the array of answer 
+1. create pair that consist of monster health + coin
+2. put those data into the bucket
+3. calculate the coin
+   3.1 save a curernt total coin variable
+   3.2 increase current total coin by current coin
+   3.3 change current coin with new current total coin
+4. loop for every hero in heroes
+   4.1 do binary search to find the coin that we can get based on the hero
+5. return answer
 
-Time Complexity = (N * log n) + n
-N log n -> from sort algorithm
-N -> from loop all of the heroes and return the coin based on selecter hero
+Time Complexity = O(N Log N)
+N log n -> to sort the data (we are using map datastructure)
+N log n -> binary search to find the answer
 
-Memory Complexity = (N + M)
-N -> Total Pair Monster and Hero
-M -> Total Heroes
-
+Memory Complexity = O(M)
+M -> total monster and coin
 */
