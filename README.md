@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/Mneach/Leetcode-Solution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mneach/Leetcode-Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -166,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mneach/Leetcode-Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Sorting
 |  |
 | ------- |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Mneach/Leetcode-Solution/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mneach/Leetcode-Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/Mneach/Leetcode-Solution/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 ## Dynamic Programming
@@ -440,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1694-make-sum-divisible-by-p](https://github.com/Mneach/Leetcode-Solution/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mneach/Leetcode-Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 ## Number Theory
 |  |
 | ------- |
