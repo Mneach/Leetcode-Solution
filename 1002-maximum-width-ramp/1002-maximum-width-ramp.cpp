@@ -28,6 +28,13 @@ public:
 };
 
 /*
+
+# Intuition
+- you need to know the maximum number that you can reach with the current number
+- calculate the distance between those numbers
+- to know what is the maximum number that we can reach, we can store that maximum number in an array or stacks
+- alwasy start from right to left, to its will be take o(N) to construct the maximum number that we can reach with the current number
+
 # Using two pointer approach
 1. we need to create max right array
    1.1 start looping from the right to the left, and hold the current max value
@@ -35,4 +42,10 @@ public:
    2.1 we need to calculate every process
    2.2 if nums[left] > maxRightArr[current]
    2.3 move left pointer to left + 1
+
+Time Complexity : O(N)
+O(N) -> we need to loop from left to right to construct the answer
+
+Memory Complexity : O(N)
+O(N) -> we need to use an array or stack to store the maximum number in the current state
 */
