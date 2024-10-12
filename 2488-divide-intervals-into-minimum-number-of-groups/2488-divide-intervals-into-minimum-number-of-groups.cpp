@@ -30,3 +30,17 @@ public:
         return pq.size();
     }
 };
+
+/*
+
+Intuitinon : 
+we need to make another group if the end interval in the current group is more than the current end
+
+# Implementation : sorting + priority queue
+- sorting the data and make sure if we put from the lowest to the highest start
+- that is important to construct the answer
+- use proiority queue to save the end interval for every group
+- if priority queue top is less than start, that mean we dont need to create anotther group, we can put that data into that group, and update the end interval of that group
+- othwerise create another group by pushing the data into the prioriy queue
+
+*/
