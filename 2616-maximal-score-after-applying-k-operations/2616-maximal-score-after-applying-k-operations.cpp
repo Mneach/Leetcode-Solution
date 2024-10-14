@@ -11,7 +11,6 @@ public:
 
        while(k > 0){
             long long temp = pq.top();
-            cout << temp << endl;
             pq.pop();
 
             answer += temp;
