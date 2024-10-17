@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
+| [0670-maximum-swap](https://github.com/Mneach/Leetcode-Solution/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
+| [0670-maximum-swap](https://github.com/Mneach/Leetcode-Solution/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/Mneach/Leetcode-Solution/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/Mneach/Leetcode-Solution/tree/master/2645-pass-the-pillow) |
