@@ -2,20 +2,16 @@ class FirstUnique {
 public:
 
     unordered_map<int,int> bucket;
-    unordered_map<int,bool> notUnique;
     queue<int> st;
     FirstUnique(vector<int>& nums) {
         for(auto number : nums){
             st.push(number);
             bucket[number]++;
-            if(bucket[number] > 1){
-                notUnique[number] = true;
-            }
         }    
     }
     
     int showFirstUnique() {
-        while(st.size() > 0 && notUnique[st.front()] == true){
+        while(st.size() > 0 && bucket[st.front()] > 1){
             st.pop();
         }
 
@@ -25,11 +21,8 @@ public:
     
     void add(int value) {
         bucket[value]++;
-        if(bucket[value] > 1){
-            notUnique[value] = true;
-        }
-
-        if(notUnique[value] == false){
+        
+        if(bucket[value] <= 1){
             st.push(value);
         }
     }
