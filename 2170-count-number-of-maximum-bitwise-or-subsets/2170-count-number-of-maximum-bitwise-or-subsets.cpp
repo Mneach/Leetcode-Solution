@@ -19,10 +19,6 @@ public:
             recursive(nums, mp, i, nums[i]);
         }
 
-        for(auto data : mp){
-            cout << data.first << " " << data.second << endl;
-        }
-
         return mp.begin() -> second;
     }
 };
