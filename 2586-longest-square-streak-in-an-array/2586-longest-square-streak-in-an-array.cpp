@@ -8,8 +8,6 @@ public:
             ump[number]++;
         }
 
-        sort(nums.begin(), nums.end());
-
         int answer = -1;
         for(int i = 0; i < nums.size(); i++){
             if(ump[nums[i]] <= 0){
@@ -18,9 +16,9 @@ public:
                 long long current = nums[i];
                 int temp = 0;
                 while(ump[current] > 0){
-                    ump[current] = 0;
                     temp++;
                     current = (current * current);
+                    if(current > 1e5) break;
                 }
 
                 if(temp == 1) continue;
