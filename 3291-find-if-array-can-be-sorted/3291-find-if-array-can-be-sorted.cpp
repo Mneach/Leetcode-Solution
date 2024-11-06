@@ -61,10 +61,6 @@ public:
             pq.pop();
         }
 
-        for(int i = 0; i < temp.size(); i++){
-            cout << temp[i] << " " << ump[temp[i]] << endl;
-        }
-
         // check if sorted 
         for(int i = 0; i < temp.size() - 1; i++){
             if(temp[i] > temp[i + 1]) return false;
