@@ -64,6 +64,7 @@ public:
 # Intuition
 1. if the current result >= k, try to shrink the window
 2. otherwise just increase the window until current result >= k
+3. make array of bits(32) to put current result in binary number (32 bit)
 
 Time complexity : 
 O(N * 2) -> because we are using sliding window
