@@ -14,9 +14,9 @@ public:
     }
 
     bool primeSubOperation(vector<int>& nums) {
-        vector<bool> prime(1e4 + 1, true);
+        vector<bool> prime(1e3 + 1, true);
 
-        SieveOfEratosthenes(prime, 1e4 + 1);
+        SieveOfEratosthenes(prime, 1e3 + 1);
 
         for(int i = 0; i < nums.size(); i++){
             int prev = i == 0 ? INT_MIN : nums[i - 1];
