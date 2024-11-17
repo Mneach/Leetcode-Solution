@@ -51,13 +51,11 @@ Intuition :
 - if currentSum >= k store the current window to the answer
 - try to shirnk the window, if the currentSum - deqeue.front().sum >= k
   - if we can shrink the window, we need to recalculate the answer
+  - answer = min(answer, (rightIndex - leftIndex))
 
 - try to maintain the mountain, make sure alwasy increasing
   - if the currentSum < deque.back().sum 
     - pop until currentSum > deque.back().sum
-
-- because we want to search minimum sub-array, alwasy using this formula
-  - answer = min(answer, (rightIndex - leftIndex) + 1);
 
 Implementation : 
 - using datastructure deqeue
