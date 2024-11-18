@@ -15,8 +15,6 @@ public:
                 k--;
             }
 
-            cout << left << " " << right << endl;
-
             for(int i = 0; i < code.size(); i++){
                 answer[i] = currentResult;
                 currentResult -= code[left];
