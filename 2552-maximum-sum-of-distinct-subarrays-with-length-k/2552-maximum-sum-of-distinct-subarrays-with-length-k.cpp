@@ -47,11 +47,11 @@ public:
 Intuition : 
 - Need to sum nums of elements from nums[i] until nums[i + k]
 - to check whether there is duplicate number inside (index[i] until index[i + k]) we can use these solutions
-  - loop from index[i] until index[i + 1] and store the number in a container
+  - loop until hashMap[nums[i]] != 1
   - using hashmap to check whether there is a duplicate number
     - every process we need to do this
       - decrement value on hashMap[nums[i]] 
-      - increment value ono hashMap[nums[i + k]]
+  - update tempK to become k - ((rightIndex - leftIndex) + 1), because we need to know the remaining of k after doing the top process
 - if there is a duplicate number inside (index[i] until index[i + k])
   - move left pointer to the right pointer
     - every process we need to decrement nums[left]
