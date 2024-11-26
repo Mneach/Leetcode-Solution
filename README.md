@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
+| [3188-find-champion-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3188-find-champion-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2411-spiral-matrix-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mneach/Leetcode-Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3188-find-champion-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3188-find-champion-i) |
 ## Design
 |  |
 | ------- |
