@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Mneach/Leetcode-Solution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2009-longest-word-with-all-prefixes](https://github.com/Mneach/Leetcode-Solution/tree/master/2009-longest-word-with-all-prefixes) |
 | [2035-count-sub-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/2035-count-sub-islands) |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2201-valid-arrangement-of-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Mneach/Leetcode-Solution/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mneach/Leetcode-Solution/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mneach/Leetcode-Solution/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mneach/Leetcode-Solution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -676,4 +678,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2201-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
