@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/Mneach/Leetcode-Solution/tree/master/1511-count-number-of-teams) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1972-rotating-the-box](https://github.com/Mneach/Leetcode-Solution/tree/master/1972-rotating-the-box) |
@@ -262,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1256-rank-transform-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1333-sort-the-jumbled-numbers) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mneach/Leetcode-Solution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
