@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
+| [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/Mneach/Leetcode-Solution/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2716-prime-subtraction-operation) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
+| [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -644,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mneach/Leetcode-Solution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mneach/Leetcode-Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
+| [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
 ## Number Theory
 |  |
 | ------- |
