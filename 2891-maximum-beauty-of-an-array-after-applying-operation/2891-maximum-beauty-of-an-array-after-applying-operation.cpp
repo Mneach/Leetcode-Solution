@@ -20,7 +20,7 @@ Memorycomplexity : O(1)
 # Two pointer technique
 1. sort the nums
 2. implement two pointer technique to get the answer
-   - we need to move left pointer, if (nums[right] - k) - nums[left] <= k
+   - we need to move left pointer, if (nums[right] - k) - nums[left] > k
    - otherwise, just move the right pointer and keep calculate the max answer
 
 Time Complexity : O(N log n) + n
