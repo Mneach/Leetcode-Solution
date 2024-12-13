@@ -1,4 +1,27 @@
 
+/*
+
+how to solve : 
+
+# Using min priority queue
+1. insert all the elements in nums into min priority queue
+   - so we will sort the data based on the num and index asc
+2. to compute the answer we need to follow the problem description
+   - pop the data from priority queue
+   - if the current index is already visited, we can't use that data anymore, so we need to skip
+   - otherwise use the data from prority_queue and mark the before and after index as visited.
+
+Time Complexity : N log n + O(N)
+N log n -> come from insert all the elements inside the nums into min priority queue
+N -> loop for every data in priority queue
+
+Memory Complexity : O(N) + M
+O(N) -> to save all the data inside the priority_queue
+O(M) -> need array to mark the current index as visited;
+
+*/
+
+
 struct Compare {
 public:
     bool operator()(pair<int,int> &first, pair<int,int> &second){
