@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0376-wiggle-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0376-wiggle-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mneach/Leetcode-Solution/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0376-wiggle-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0376-wiggle-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
@@ -757,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Enumeration
