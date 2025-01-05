@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0859-design-circular-deque](https://github.com/Mneach/Leetcode-Solution/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
+| [0878-shifting-letters](https://github.com/Mneach/Leetcode-Solution/tree/master/0878-shifting-letters) |
 | [0890-lemonade-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0906-walking-robot-simulation](https://github.com/Mneach/Leetcode-Solution/tree/master/0906-walking-robot-simulation) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
+| [0878-shifting-letters](https://github.com/Mneach/Leetcode-Solution/tree/master/0878-shifting-letters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mneach/Leetcode-Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
+| [0878-shifting-letters](https://github.com/Mneach/Leetcode-Solution/tree/master/0878-shifting-letters) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
