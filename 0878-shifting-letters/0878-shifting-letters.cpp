@@ -1,9 +1,7 @@
 class Solution {
 public:
     string shiftingLetters(string s, vector<int>& shifts) {
-        long long int total = 0;
-
-        for (auto shift : shifts) total += shift;
+        long long int total = accumulate(shifts.begin(), shifts.end(), 0LL);
 
         for (int i = 0; i < s.length(); i++) {
             int ascii = s[i] - 'a';
