@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Mneach/Leetcode-Solution/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Mneach/Leetcode-Solution/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
