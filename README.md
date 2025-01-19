@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
+| [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1484-linked-list-in-binary-tree) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -595,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
+| [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
