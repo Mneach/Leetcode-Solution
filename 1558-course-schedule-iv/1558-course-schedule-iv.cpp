@@ -31,15 +31,7 @@ public:
         for (int i = 0; i < adjList.size(); i++) {
             dfs(adjList, i, bucket);
         }
-
-        // for (int i = 0; i < bucket.size(); i++) {
-        //     cout << "node : = " << i << endl;
-        //     for (auto data : bucket[i]) {
-        //         cout << data << " ";
-        //     }
-        //     cout << endl;
-        // }
-
+        
         for (auto data : queries) {
             int source = data[0];
             int dest = data[1];
