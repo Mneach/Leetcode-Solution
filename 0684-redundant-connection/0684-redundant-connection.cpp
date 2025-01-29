@@ -41,7 +41,6 @@ public:
                 for (auto nextNode : adjList[node]) {
                     if (nextNode == parent[node]) continue;
                     if (visited[nextNode] == true) {
-                        cout << node << " " << nextNode << endl;
                         prevFindNode = node;
                         find = nextNode;
                         break;
