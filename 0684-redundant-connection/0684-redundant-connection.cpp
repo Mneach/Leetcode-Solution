@@ -1,3 +1,13 @@
+
+/*
+
+Intuition : 
+1. cyclic alwasy happen in this graph, since edges == nodes
+2. need to track the parent for backtracking after we find a cyclic
+3. using union find to solve the problem
+
+*/
+
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
@@ -29,7 +39,6 @@ public:
                 q.pop();
 
                 for (auto nextNode : adjList[node]) {
-                    // cout << "DEBUG : " << node << " " << nextNode << " " << parent[node] << endl;
                     if (nextNode == parent[node]) continue;
                     if (visited[nextNode] == true) {
                         cout << node << " " << nextNode << endl;
@@ -52,13 +61,11 @@ public:
 
         // start from find node to parent
         // find the same parent between find node and prevFindNode
-        cout << find << " " << prevFindNode << endl;
 
         vector<vector<int>> tempPath;
         tempPath.push_back({prevFindNode, find});
 
         while(parent[find] != -1) {
-            // cout << parent[find] << " " << find << endl;
             tempPath.push_back({parent[find], find});
             visited[find] = true;
             find = parent[find];
@@ -83,7 +90,6 @@ public:
         for (auto data : path) {
             int source = data[0];
             int dest = data[1];
-            // cout << "INSIDE ARRAY : " << source << " " << dest << endl;
 
             if (source == -1 || dest == -1) {
                 continue;
