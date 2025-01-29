@@ -4,7 +4,7 @@
 Intuition : 
 1. cyclic alwasy happen in this graph, since edges == nodes
 2. need to track the parent for backtracking after we find a cyclic
-3. using union find to solve the problem
+3. we can use disjoint set to solve the problem 
 
 */
 
