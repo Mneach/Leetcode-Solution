@@ -3,7 +3,7 @@ Intuition :
 1. We need to move as far as we can
 2. for horizontal direction, we just need to move either to left or right
 3. for vertial direction, we just need to move either to top or right
-4. the answer should be either these values
+4. the answer should be between these values
    - abs(horizontal direction) + abs(vertical direction)
    - abs(horizontal direction) + abs(vertical direction) + use k value to convert the direction 
 */
