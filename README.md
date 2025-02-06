@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1364-tuple-with-same-product](https://github.com/Mneach/Leetcode-Solution/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Mneach/Leetcode-Solution/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
+| [1364-tuple-with-same-product](https://github.com/Mneach/Leetcode-Solution/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -745,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mneach/Leetcode-Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
+| [1364-tuple-with-same-product](https://github.com/Mneach/Leetcode-Solution/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
