@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
+| [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
 | [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 ## Greedy
 |  |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3188-find-champion-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3188-find-champion-i) |
+| [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Design
