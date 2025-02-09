@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mneach/Leetcode-Solution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3195-separate-black-and-white-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3195-separate-black-and-white-balls) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Sorting
 |  |
 | ------- |
@@ -590,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3451-string-compression-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Stack
 |  |
 | ------- |
@@ -918,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## String Matching
 |  |
 | ------- |
