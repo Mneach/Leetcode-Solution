@@ -512,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Math
@@ -594,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -617,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
 ## Tree
 |  |
 | ------- |
