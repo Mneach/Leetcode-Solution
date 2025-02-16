@@ -1,23 +1,7 @@
 class Solution {
 public:
     vector<int> answer;
-
-    void printArray(vector<int> &bucket) {
-        for (int i = 0; i < bucket.size(); i++) {
-            cout << i << " " << bucket[i] << endl;
-        }
-
-        cout << endl;
-    }
-
     void dfs(vector<int> &bucket, int index, int n, vector<bool> &visited) {
-        // cout << index << endl;
-        // printArray(bucket);
-        // for (int i = 0; i < visited.size(); i++) {
-        //     cout << i << " " << visited[i] << endl;
-        // }
-        // cout << endl;
-
         if (index == bucket.size()) {
             for (auto num : bucket) {
                 answer.push_back(num);
