@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0386-lexicographical-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
@@ -633,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -652,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
