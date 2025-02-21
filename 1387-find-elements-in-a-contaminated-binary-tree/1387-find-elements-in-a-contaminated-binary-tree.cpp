@@ -27,7 +27,7 @@ public:
     }
     
     bool find(int target) {
-        return visited.find(target) != visited.end(); 
+        return visited.count(target) > 0; 
     }
 };
 
