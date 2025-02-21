@@ -11,36 +11,23 @@
  */
 class FindElements {
 private:
-    vector<int> bucket;
-public:
-    void recover(TreeNode* root, int index) {
-        if (root) {
-            if (root -> left) {
-                root -> left -> val = (2 * root -> val) + 1;
-                bucket[root -> left -> val] = root -> left -> val;
-                recover(root -> left, root -> left -> val);
-            }
+    unordered_set<int> visited;
 
-            if (root -> right) {
-                root -> right -> val = (2 * root -> val) + 2;
-                bucket[root -> right -> val] = root -> right -> val;
-                recover(root -> right, root -> right -> val);
-            }
+    void dfs(TreeNode* root, int value) {
+        if (root) {
+            visited.insert(value);
+            dfs(root -> left, (2 * value) + 1);
+            dfs(root -> right, (2 * value) + 2);
         }
     }
 
+public:
     FindElements(TreeNode* root) {
-        for (int i = 0; i < 1e6 + 1; i++) {
-            bucket.push_back(-1);
-        }
-        root -> val = 0;
-        bucket[root -> val] = root -> val;
-        recover(root, root -> val);
+        dfs(root, 0);
     }
     
     bool find(int target) {
-        if (bucket[target] >= 0) return true;
-        return false;
+        return visited.find(target) != visited.end(); 
     }
 };
 
