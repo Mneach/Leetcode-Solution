@@ -23,7 +23,7 @@ private:
     }
 
 public:
-    void dfs(TreeNode* root, string traversal, int level) {
+    void dfs(TreeNode* root, string &traversal, int level) {
        while(index < traversal.length() && traversal[index] == '-') {
             dash++;
             index++;
