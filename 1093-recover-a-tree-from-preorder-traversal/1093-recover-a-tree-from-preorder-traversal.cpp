@@ -13,7 +13,8 @@ class Solution {
 private:
     int index = 0;
     int dash = 0;
-    int extractNumber(string traversal) {
+
+    int extractNumber(string &traversal) {
         string result = "";
         while (index < traversal.length() && traversal[index] != '-') {
             result += traversal[index];
