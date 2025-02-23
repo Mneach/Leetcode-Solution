@@ -6,7 +6,8 @@ public:
 
         for (int i = 0; i < grid.size(); i++) {
             for (int j = 0; j < grid[i].size(); j++) {
-                pq.push({grid[i][j], i});
+                int cell = grid[i][j];
+                pq.push({cell, i});
             }
         }
 
