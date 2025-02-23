@@ -29,7 +29,7 @@ public:
             // because we want to convert all the negative direction to the current direction
             // the reason we put min(totalChar, distance + K (k * 2)) is because there is a case
             // when k * 2 is more than our total character
-            answer = max({answer, distance, min(totalChar, distance + (k * 2))});
+            answer = max({answer, min(totalChar, distance + (k * 2))});
         }
 
         return answer;
