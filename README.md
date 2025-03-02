@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/Mneach/Leetcode-Solution/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Mneach/Leetcode-Solution/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mneach/Leetcode-Solution/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mneach/Leetcode-Solution/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mneach/Leetcode-Solution/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2035-count-sub-islands](https://github.com/Mneach/Leetcode-Solution/tree/master/2035-count-sub-islands) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Mneach/Leetcode-Solution/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -767,11 +769,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2434-design-a-number-container-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2434-design-a-number-container-system) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 ## Binary Indexed Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
 | [1511-count-number-of-teams](https://github.com/Mneach/Leetcode-Solution/tree/master/1511-count-number-of-teams) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
@@ -779,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Divide and Conquer
 |  |
@@ -805,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mneach/Leetcode-Solution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Mneach/Leetcode-Solution/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -970,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [2434-design-a-number-container-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2434-design-a-number-container-system) |
+| [2512-longest-uploaded-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2512-longest-uploaded-prefix) |
 | [2868-continuous-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2868-continuous-subarrays) |
 ## Queue
 |  |
