@@ -6,6 +6,8 @@ public:
         else if (reminder == 0) return true;
 
         for (int i = index; i < bucket.size(); i++) {
+            if (reminder - bucket[i] < 0) break;
+            
             bool result = dfs(bucket, reminder - bucket[i], i + 1);
 
             if (result == true) return result;
