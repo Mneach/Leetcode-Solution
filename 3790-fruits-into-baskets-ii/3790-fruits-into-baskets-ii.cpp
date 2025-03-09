@@ -13,6 +13,7 @@ public:
                     result = data;
                     break;
                 }
+                
             }
 
             if (result == INT_MIN) answer++;
