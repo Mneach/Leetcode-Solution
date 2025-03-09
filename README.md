@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
+| [3723-sum-of-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/3723-sum-of-good-numbers) |
 ## Binary Search
 |  |
 | ------- |
