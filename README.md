@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3643-zero-array-transformation-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3643-zero-array-transformation-ii) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3723-sum-of-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/3723-sum-of-good-numbers) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3643-zero-array-transformation-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -970,6 +972,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/Mneach/Leetcode-Solution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/Mneach/Leetcode-Solution/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3427-special-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3427-special-array-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3643-zero-array-transformation-ii) |
 ## Number Theory
 |  |
 | ------- |
