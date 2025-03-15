@@ -8,44 +8,44 @@ public:
             bucket[ascii]++;
         }
 
-        priority_queue<pair<int,char>> pq;
+        // find the most frequent character
+        int currentMax = -1;
+        char character;
+        for (int i = 0; i < 26; i++) {
+            if (bucket[i] > 0 && bucket[i] > currentMax) {
+                currentMax = bucket[i];
+                character = i + 'a'; 
+            }
+        }
+        
+        // check if we have valid condition
+        int half = s.size() % 2 == 0 ? s.size() / 2 : (s.size() / 2) + 1;
+        if (currentMax > half) return "";
 
+        // fill the even index first;
+        vector<char> result(s.size());
+        int index = 0;
+        while (bucket[character - 'a'] > 0) {
+            result[index] = character;
+            bucket[character - 'a']--;
+            index += 2;
+        }
+
+        // fill empty index
         for (int i = 0; i < bucket.size(); i++) {
-            if (bucket[i] > 0) pq.push({bucket[i], i + 'a'});
-        }
-
-        string result = "";
-        while (pq.size() > 1) {
-            auto [total, curr] = pq.top();
-            pq.pop();
-
-            result += curr;
-            if (pq.size() >= 1) {
-               auto [nextTotal, nextCurr] = pq.top(); 
-               pq.pop();
-
-               result += nextCurr;
-               if (nextTotal - 1 > 0) {
-                    pq.push({nextTotal - 1, nextCurr});
-               }
-            }
-
-            if (total - 1 > 0) {
-                pq.push({total - 1, curr});
+            while (bucket[i] > 0) {
+                if (index >= s.size()) {
+                    index = 1;
+                }
+                result[index] = i + 'a';
+                index += 2;
+                bucket[i]--;
             }
         }
 
-        if (pq.size() == 1) {
-            auto [total, curr] = pq.top();
-            pq.pop();
+        string answer = "";
+        for (auto c : result) answer += c;
 
-            if (total == 1) {
-                result += curr;
-            } else {
-                return "";
-            }
-        }
-
-        return result;
+        return answer;
     }
 };
