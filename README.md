@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
