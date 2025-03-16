@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
@@ -1051,6 +1052,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Mneach/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
