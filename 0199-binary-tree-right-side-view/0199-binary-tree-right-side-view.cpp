@@ -14,6 +14,7 @@ public:
     
     vector<int> rightSideView(TreeNode* root) {
         
+        // return empty if root is null;
         if(!root) return {};
         
         vector<int> answer;
