@@ -15,6 +15,7 @@ public:
 
     void invertRoot(TreeNode* root){
         if(root == NULL) return;
+        
         TreeNode* temp = root->left;
         root->left = root->right;
         root->right = temp;
