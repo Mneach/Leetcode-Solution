@@ -10,7 +10,7 @@ public:
     
     void add(int num) {
         if (num == 0) {
-            // reset
+            // need to reset the arr
             arr = {1};
             size = 0;
         } else {
