@@ -9,6 +9,7 @@ public:
 
             if (i == pattern.size() || pattern[i] == 'I') {
                 // reset the state
+                
                 while (st.size() > 0) {
                     char number = st.top() + '0';
                     st.pop();
