@@ -2,7 +2,6 @@ class Solution {
 public:
     bool canConstruct(string s, int k) {
         if (s.length() < k) return false;
-
         vector<int> arr(26, 0);
 
         for (auto c : s) {
@@ -31,7 +30,6 @@ public:
         } else {
             minimum = totalOdd;
         }
-
         return minimum <= k && k <= maximum;
     }
 };
