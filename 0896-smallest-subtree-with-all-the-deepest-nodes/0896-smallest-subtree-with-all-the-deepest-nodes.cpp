@@ -12,6 +12,7 @@
 class Solution {
 public:
 
+    // {Current Node, Depth}
     pair<TreeNode*, int> dfs(TreeNode* root) {
         if (root == NULL) {
             return {root, 0};
