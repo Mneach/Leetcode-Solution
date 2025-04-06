@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3429-special-array-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/Mneach/Leetcode-Solution/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3444-find-the-number-of-good-pairs-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3444-find-the-number-of-good-pairs-ii) |
 | [3463-alternating-groups-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3483-alternating-groups-ii) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3444-find-the-number-of-good-pairs-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3444-find-the-number-of-good-pairs-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
