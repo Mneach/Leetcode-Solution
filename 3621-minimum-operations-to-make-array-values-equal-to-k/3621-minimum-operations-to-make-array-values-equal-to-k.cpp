@@ -1,19 +1,16 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        sort(nums.begin(), nums.end());
+        unordered_set<int> bucket;
 
-        int answer = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] < k) return -1;
-
-            if (i == 0 && nums[i] > k) {
-                answer++;
-            } else if (i > 0 && nums[i] != nums[i - 1]) {
-                answer++;
+        for (auto num : nums) {
+            if (num < k) {
+                return -1;
+            } else if (num > k) {
+                bucket.insert(num);
             }
         }
 
-        return answer;
+        return bucket.size();
     }
 };
