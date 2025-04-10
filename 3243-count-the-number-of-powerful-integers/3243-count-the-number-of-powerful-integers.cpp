@@ -45,8 +45,6 @@ public:
             }
         }
         
-        cout << result << endl;
-
         return cache[n][tight] = result;
     }
 
