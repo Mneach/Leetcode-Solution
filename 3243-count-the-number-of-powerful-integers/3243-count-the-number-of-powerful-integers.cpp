@@ -44,7 +44,6 @@ public:
                 result = (result + dfs(num, s , tight & (upperBound == i), n - 1, limit));
             }
         }
-        
         return cache[n][tight] = result;
     }
 
