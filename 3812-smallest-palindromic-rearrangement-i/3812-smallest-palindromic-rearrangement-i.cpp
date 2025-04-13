@@ -8,30 +8,22 @@ public:
             bucket[ascii]++;
         }
 
-        int totalOdd = 0;
         int currentIndex = 0;
-        char oddChar = ' ';
 
         for (int i = 0; i < 26; i++) {
-            if (bucket[i] > 0 && bucket[i] % 2 == 1) {
+            if (bucket[i] > 0) {
                 int current = 0;
+                int total = bucket[i] % 2 == 1 ? bucket[i] - 1 : bucket[i];
 
-                while (current < bucket[i] - 1) {
+                while(current < total) {
                     s[currentIndex] = i + 'a';
                     s[s.length() - currentIndex - 1] = i + 'a';
                     current += 2;
                     currentIndex++;
                 }
-                
-                // fill the mid
-                s[s.length() / 2] = i + 'a';
-            } else if (bucket[i] > 0 && bucket[i] % 2 == 0) {
-                int current = 0;
-                while (current < bucket[i]) {
-                    s[currentIndex] = i + 'a';
-                    s[s.length() - currentIndex - 1] = i + 'a';
-                    current += 2;
-                    currentIndex++;
+
+                if (bucket[i] % 2 == 1) {
+                    s[s.length() / 2] = i + 'a';
                 }
             }
         }
