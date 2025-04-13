@@ -4,7 +4,6 @@ public:
     set<vector<int>> bucket;
     
     void recursive(vector<int> nums, int begin){
-        
         if(begin == nums.size()){
             bucket.insert(nums);
         }else{
