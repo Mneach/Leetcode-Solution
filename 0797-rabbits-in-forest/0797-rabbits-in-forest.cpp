@@ -12,15 +12,11 @@ public:
             int number = data.first;
             int total = data.second;
 
-            // cout << number << " " << total << endl;
-
             if (total % (number + 1) != 0) {
                 answer += ((total / (number + 1)) + 1) * (number + 1);
             } else {
                 answer += (total / (number + 1)) * (number + 1);
             }
-
-            // cout << "RESULT : " << " " <<  number << " " << answer << endl;
         }
 
         return answer;
