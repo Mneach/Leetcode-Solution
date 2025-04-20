@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/Mneach/Leetcode-Solution/tree/master/2145-grid-game) |
+| [2159-two-out-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/2159-two-out-of-three) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mneach/Leetcode-Solution/tree/master/2164-two-best-non-overlapping-events) |
@@ -432,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mneach/Leetcode-Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
+| [2159-two-out-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/2159-two-out-of-three) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mneach/Leetcode-Solution/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
@@ -1079,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1940-maximum-xor-for-each-query](https://github.com/Mneach/Leetcode-Solution/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2159-two-out-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/2159-two-out-of-three) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Mneach/Leetcode-Solution/tree/master/2323-minimum-bit-flips-to-convert-number) |
