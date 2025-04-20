@@ -618,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/Mneach/Leetcode-Solution/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -689,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2050-count-good-numbers) |
+| [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Mneach/Leetcode-Solution/tree/master/2610-closest-prime-numbers-in-range) |
@@ -756,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
+| [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mneach/Leetcode-Solution/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1251,4 +1254,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3548-find-the-count-of-good-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
+## Game Theory
+|  |
+| ------- |
+| [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 <!---LeetCode Topics End-->
