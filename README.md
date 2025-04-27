@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mneach/Leetcode-Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mneach/Leetcode-Solution/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
+| [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/Mneach/Leetcode-Solution/tree/master/2145-grid-game) |
@@ -768,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Mneach/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
