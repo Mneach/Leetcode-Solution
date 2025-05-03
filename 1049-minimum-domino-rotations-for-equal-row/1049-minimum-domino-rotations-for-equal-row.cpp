@@ -6,6 +6,9 @@ Intuition :
 3. to find the minimum rotation we can use this formula
    - lets say top rotation = 3 and length of the array = 10
    - total rotation if we choose bottom array should be equal = 7
+   - but becareful there is a same number in the array, so the final formula should be like this
+   - topRotation = 3, length of the array = 10, same number = 2
+   - bottomRotation = 10 - 2 - 3 = 5
 
 How to solve : 
 1. count how many x number appear
