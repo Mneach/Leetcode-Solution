@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/Mneach/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1063-best-sightseeing-pair](https://github.com/Mneach/Leetcode-Solution/tree/master/1063-best-sightseeing-pair) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -630,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/Mneach/Leetcode-Solution/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/Mneach/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mneach/Leetcode-Solution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
