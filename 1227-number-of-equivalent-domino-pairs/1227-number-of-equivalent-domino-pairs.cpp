@@ -18,9 +18,6 @@ public:
 
         for (int i = 1; i < bucket.size(); i++) {
             for (int j = 1; j < bucket[i].size(); j++) {
-                if (bucket[i][j] == 0) continue;
-
-                // cout << i << " " << j << " " << bucket[i][j] << endl;
                 answer += preCompute[bucket[i][j]];
             }
         }
