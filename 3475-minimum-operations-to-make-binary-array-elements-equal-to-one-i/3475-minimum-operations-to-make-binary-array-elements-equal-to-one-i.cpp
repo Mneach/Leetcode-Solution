@@ -11,6 +11,7 @@ public:
             }
         }
         int sum = accumulate(nums.begin(), nums.end(), 0);
+        
         if (sum == nums.size()) return count;
         return -1;
     }
