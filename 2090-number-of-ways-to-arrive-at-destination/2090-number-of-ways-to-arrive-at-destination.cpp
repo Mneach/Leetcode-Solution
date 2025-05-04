@@ -2,7 +2,9 @@ class Solution {
 public:
     int countPaths(int n, vector<vector<int>>& roads) {
         constexpr int MOD = 1e9 + 7;
-        using pii = pair<long long, int>; // {travelTime, node}
+
+        // {travelTime, node}
+        using pii = pair<long long, int>; 
 
         // Build adjacency list
         vector<vector<pii>> graph(n);
