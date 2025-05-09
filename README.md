@@ -627,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 ## Greedy
 |  |
@@ -747,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## String
 |  |
@@ -835,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3451-string-compression-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Stack
@@ -1321,6 +1324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 ## Game Theory
 |  |
 | ------- |
