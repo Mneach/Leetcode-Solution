@@ -8,7 +8,6 @@ public:
             ump[arr1[i]]++;
         }
 
-
         for(auto number : arr2){
             int total = ump[number];
             ump[number] = -1;
