@@ -26,7 +26,6 @@ public:
                 temp[word[i]]++;
             }
 
-            // compare
             bool flag = true;
             for (auto data : ump) {
                 char key = data.first;
