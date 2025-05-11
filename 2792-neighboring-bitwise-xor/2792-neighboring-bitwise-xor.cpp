@@ -5,7 +5,6 @@ public:
         if(derived.size() == 1 && derived[0] == 0) return true;
         else if(derived.size() == 1 && derived[0] == 1) return false;
         
-        
         vector<int> original;
         for(int i = 0; i < derived.size() - 1; i++){
             if(i == 0 && derived[i] == 0){
