@@ -501,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Mneach/Leetcode-Solution/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Mneach/Leetcode-Solution/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
@@ -636,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 ## Greedy
@@ -759,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3548-find-the-count-of-good-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## String
@@ -849,6 +852,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -1092,6 +1096,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/Mneach/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/Mneach/Leetcode-Solution/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Shortest Path
 |  |
