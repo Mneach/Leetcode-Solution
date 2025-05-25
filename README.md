@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mneach/Leetcode-Solution/tree/master/0747-min-cost-climbing-stairs) |
+| [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
@@ -334,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
+| [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
+| [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
@@ -811,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
+| [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
