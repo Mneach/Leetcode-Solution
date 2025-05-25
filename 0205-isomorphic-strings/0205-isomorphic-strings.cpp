@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        
         unordered_map<char , char> s_map;
         unordered_map<char , char> t_map;
         
