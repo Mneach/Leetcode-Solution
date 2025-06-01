@@ -1,69 +1,60 @@
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
-        unordered_map<char, char> nextSlot = {
-            {'0', '1'}, 
-            {'1', '2'}, 
-            {'2', '3'}, 
-            {'3', '4'}, 
-            {'4', '5'},
-            {'5', '6'}, 
-            {'6', '7'}, 
-            {'7', '8'}, 
-            {'8', '9'}, 
-            {'9', '0'}
-        };
-        unordered_map<char, char> prevSlot = {
-            {'0', '9'}, 
-            {'1', '0'}, 
-            {'2', '1'}, 
-            {'3', '2'}, 
-            {'4', '3'},
-            {'5', '4'}, 
-            {'6', '5'}, 
-            {'7', '6'}, 
-            {'8', '7'}, 
-            {'9', '8'}
+        // Precompute wheel rotations
+        const vector<pair<char, char>> wheelTransitions = {
+            {'0', '1'}, {'1', '2'}, {'2', '3'}, {'3', '4'}, {'4', '5'},
+            {'5', '6'}, {'6', '7'}, {'7', '8'}, {'8', '9'}, {'9', '0'}
         };
         
-        unordered_set<string> visitedCombination(deadends.begin(), deadends.end());
+        unordered_map<char, char> nextSlot, prevSlot;
+        for (const auto& transition : wheelTransitions) {
+            nextSlot[transition.first] = transition.second;
+            prevSlot[transition.second] = transition.first;
+        }
         
-        queue<string> pendingCombination;
+        unordered_set<string> visited(deadends.begin(), deadends.end());
+        queue<string> q;
         
-        if(visitedCombination.find("0000") != visitedCombination.end()) return -1;
+        const string initial = "0000";
+        if (visited.count(initial)) return -1;
         
-        pendingCombination.push("0000");
-        visitedCombination.insert("0000");
+        q.push(initial);
+        visited.insert(initial);
         int turns = 0;
         
-        while(pendingCombination.empty() == false){
-            for(int depth = pendingCombination.size(); depth > 0; --depth){
-                string current = pendingCombination.front();
-                pendingCombination.pop();
-
-                cout << current << endl;
+        while (!q.empty()) {
+            int levelSize = q.size();
+            
+            for (int i = 0; i < levelSize; ++i) {
+                string current = q.front();
+                q.pop();
+                
                 if (current == target) {
                     return turns;
                 }
-
-                for(int i = 0; i < 4; i++){
-                    string newCombination = current;
-                    newCombination[i] = nextSlot[newCombination[i]];
-
-                    if (visitedCombination.find(newCombination) == visitedCombination.end()) {
-                        pendingCombination.push(newCombination);
-                        visitedCombination.insert(newCombination);
+                
+                // Generate all possible next combinations
+                for (int j = 0; j < 4; ++j) {
+                    // Rotate wheel forward
+                    string next = current;
+                    next[j] = nextSlot[next[j]];
+                    if (!visited.count(next)) {
+                        visited.insert(next);
+                        q.push(next);
                     }
-
-                    newCombination = current;
-                    newCombination[i] = prevSlot[newCombination[i]];
-                    if (visitedCombination.find(newCombination) == visitedCombination.end()) {
-                        pendingCombination.push(newCombination);
-                        visitedCombination.insert(newCombination);
+                    
+                    // Rotate wheel backward
+                    string prev = current;
+                    prev[j] = prevSlot[prev[j]];
+                    if (!visited.count(prev)) {
+                        visited.insert(prev);
+                        q.push(prev);
                     }
                 }
             }
-            turns += 1;
+            
+            ++turns;
         }
         
         return -1;
