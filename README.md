@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
+| [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
@@ -688,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0376-wiggle-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0376-wiggle-subsequence) |
 | [0561-array-partition](https://github.com/Mneach/Leetcode-Solution/tree/master/0561-array-partition) |
