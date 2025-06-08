@@ -27,7 +27,6 @@ public:
                 if(minCost[currentChar] != INT_MIN && minCost[currentChar] < currentCost){
                     continue;
                 }
-
                 // visit all connected nodes
                 for(auto& [targetChar, conversionCost] : adjList[currentChar]){
                     long long newTotalCost = currentCost + conversionCost;
