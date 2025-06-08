@@ -5,14 +5,28 @@ public:
 
         for(auto data : nums) ump[data]++;
 
-        sort(nums.begin(), nums.end(), [&](int p1, int p2){
-            if(ump[p1] == ump[p2]){
-                return p1 > p2;
+        vector<pair<int,int>> vp;
+
+        for(auto data : ump){
+            vp.push_back(make_pair(data.first, data.second));
+        }
+
+        sort(vp.begin(), vp.end(), [](pair<int,int> &p1, pair<int,int> &p2){
+            if(p1.second == p2.second){
+                return p1.first > p2.first;
             }else{
-                return ump[p1] < ump[p2];
+                return p1.second < p2.second;
             }
         });
 
-        return nums;
+        vector<int> answer;
+
+        for(auto data : vp){
+            for(int i = 0; i < data.second; i++){
+                answer.push_back(data.first);
+            }
+        }
+
+        return answer;
     }
 };
