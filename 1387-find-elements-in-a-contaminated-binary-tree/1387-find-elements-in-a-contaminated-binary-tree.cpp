@@ -20,7 +20,6 @@ private:
             dfs(root -> right, (2 * value) + 2);
         }
     }
-
 public:
     FindElements(TreeNode* root) {
         dfs(root, 0);
