@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0027-remove-element) |
 | [0040-combination-sum-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
