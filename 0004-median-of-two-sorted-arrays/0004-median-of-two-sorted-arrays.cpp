@@ -65,17 +65,12 @@ public:
         while (left <= right) {
             int mid = (left + right) / 2;
             int remaining = ((nums1.size() + nums2.size() + 1) / 2) - mid;
-            cout << left << " " << right << endl;
-            cout << mid << " " << remaining << endl;
 
             int l1 = mid == 0 ? INT_MIN : nums1[mid - 1];
             int r1 = mid == nums1.size() ? INT_MAX : nums1[mid];
             
             int l2 = remaining == 0 ? INT_MIN : nums2[remaining - 1];
             int r2 = remaining == nums2.size() ? INT_MAX : nums2[remaining];
-
-            cout << l1 << " " << l2 << " " << r1 << " " << r2 << endl;
-            cout << "=========" << endl;
 
             if (l1 <= r2 && l2 <= r1) {
                 if ((nums1.size() + nums2.size()) % 2 == 1) {
