@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0027-remove-element) |
 | [0040-combination-sum-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -1141,6 +1143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
