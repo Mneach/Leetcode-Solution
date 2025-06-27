@@ -751,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/Mneach/Leetcode-Solution/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Mneach/Leetcode-Solution/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -930,6 +931,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1220,6 +1222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Mneach/Leetcode-Solution/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Mneach/Leetcode-Solution/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
@@ -1443,6 +1446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Mneach/Leetcode-Solution/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -1452,6 +1456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
 | [1656-count-good-triplets](https://github.com/Mneach/Leetcode-Solution/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2215-finding-3-digit-even-numbers) |
