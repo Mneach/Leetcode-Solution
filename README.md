@@ -829,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/Mneach/Leetcode-Solution/tree/master/3860-resulting-string-after-adjacent-removals) |
 ## Math
 |  |
 | ------- |
@@ -986,6 +987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/Mneach/Leetcode-Solution/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Mneach/Leetcode-Solution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Stack
@@ -1016,6 +1018,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/Mneach/Leetcode-Solution/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/Mneach/Leetcode-Solution/tree/master/3860-resulting-string-after-adjacent-removals) |
 ## Tree
 |  |
 | ------- |
