@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3723-sum-of-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/3723-sum-of-good-numbers) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 ## Binary Search
 |  |
 | ------- |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Mneach/Leetcode-Solution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Mneach/Leetcode-Solution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 ## Two Pointers
 |  |
 | ------- |
@@ -671,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Mneach/Leetcode-Solution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
+| [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -789,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/Mneach/Leetcode-Solution/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3647-zero-array-transformation-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3647-zero-array-transformation-iii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
+| [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 ## Linked List
 |  |
 | ------- |
@@ -1202,6 +1206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/3647-zero-array-transformation-iii) |
+| [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 ## Merge Sort
 |  |
 | ------- |
