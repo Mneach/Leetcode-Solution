@@ -1,39 +1,33 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        
-       int minimumSize = INT_MAX;
-       for(auto data : strs){
-           int length = data.length();
-           minimumSize = min(minimumSize,length);
-       }
-        
-       
-       vector<string> bucket;
-        
-       for(auto data : strs){
-           string temp = data.substr(0, minimumSize);
-           bucket.push_back(temp);
-       }
-        
-       string answer = "";
-       for(int i = 0; i < minimumSize; i++){
-           
-           bool check = true;
-           for(int j = 0; j < strs.size() - 1; j++){
-               if(strs[j][i] != strs[j + 1][i]){
-                   check = false;
-                   break;
-               }
-           }
-           
-           if(check){
-               answer += strs[0][i];
-           }else{
-               break;
-           }
-       }
-        
-       return answer;
+        string answer = "";
+        string first = strs[0];
+
+        for (int i = 0; i < first.length(); i++) {
+            char currentWord = first[i];
+            bool valid = true;
+            
+            for (int j = 1; j < strs.size(); j++) {
+                if (i >= strs[j].length()) {
+                    valid = false;
+                    break;
+                }
+
+                char word = strs[j][i];
+                if (currentWord != word) {
+                    valid = false;
+                    break;
+                }
+            }
+
+            if (valid) {
+                answer += currentWord;
+            } else {
+                break;
+            }
+        }
+
+        return answer;
     }
 };
