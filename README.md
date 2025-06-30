@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
+| [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
@@ -466,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
@@ -617,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -1174,6 +1177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
@@ -1233,6 +1237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/Mneach/Leetcode-Solution/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
