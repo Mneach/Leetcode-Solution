@@ -8,11 +8,6 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        for (auto num : nums) {
-            cout << num << " ";
-        }
-        cout << endl;
-
         for (int i = 0; i < nums.size() - 1; i++) {
             if (nums[i] == nums[i + 1]) {
                 if (isCurrent) current++; 
@@ -20,8 +15,6 @@ public:
             } else {
                 if (isCurrent) current++;
                 else next++;
-
-                cout << i << " " << current << " " << next << " " << isCurrent << endl;
 
                 if (abs(nums[i + 1] - nums[i]) == 1) {
                     if (isCurrent == true) {
