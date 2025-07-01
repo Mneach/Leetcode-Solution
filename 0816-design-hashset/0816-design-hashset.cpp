@@ -1,22 +1,41 @@
 class MyHashSet {
-public:
+private:
+    int getIndex(int key) {
+        return key / 32;
+    }
 
-    bool hash[1000001] = {0};
+    int getKey(int key) {
+        int res = key % 32;
+        return 1 << res;
+    }
+public:
+    int num[31251] = {0};
 
     MyHashSet() {
-        
+
     }
     
     void add(int key) {
-        hash[key] = true;
+        int index = getIndex(key);
+        key = getKey(key);
+
+        // insert key to spesific index
+        num[index] |= key;
     }
     
     void remove(int key) {
-        hash[key] = false; 
+        // remove key from spesific index
+        int index = getIndex(key);
+        key = ~getKey(key);
+
+        num[index] &= (key);
     }
     
     bool contains(int key) {
-        return hash[key];     
+        int index = getIndex(key);
+        key = getKey(key);
+
+        return (num[index] & key) != 0;
     }
 };
 
