@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
@@ -470,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
@@ -692,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
@@ -907,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/Mneach/Leetcode-Solution/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1431,6 +1435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -1438,6 +1443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0386-lexicographical-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mneach/Leetcode-Solution/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -1487,6 +1493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0047-permutations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0047-permutations-ii) |
+| [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0494-target-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Mneach/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
