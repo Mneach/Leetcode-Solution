@@ -27,14 +27,9 @@ public:
             bucket[value].push_back(key);
         }
 
-        for (int i = bucket.size() - 1; i >= 0 && k > 0; i--) {
+        for (int i = bucket.size() - 1; i >= 0 && answer.size() < k; i--) {
             if (bucket[i].size() != 0) {
-                int index = 0;
-                while (k > 0 && index < bucket[i].size()) {
-                    answer.push_back(bucket[i][index]);
-                    k--;
-                    index++;
-                }
+                answer.insert(answer.end(), bucket[i].begin(), bucket[i].end());
             }
         }
 
