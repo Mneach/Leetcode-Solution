@@ -1,6 +1,20 @@
+/*
+
+How to solve : 
+1. there are only 2 ways, take the current event or skip the current event
+2. if we take the current event, the next event that must be have start time > current event end time (to find this we can use binary search) and decrease the value k
+3. if we skip the current event, we just need to move into the next index and keep the value k
+
+Time Complexity : O(N) * K
+Since the maximum step that we can take is K and we need to loop for every event in the array of events
+
+Memory Copmlexity : O(N) * K
+Because we need to cache for every combination index and remaining K value
+
+*/
+
 class Solution {
 public:
-
     int recursive(vector<vector<int>>& events, vector<vector<int>>& cache, int index, int k) {
         if (k <= 0) return 0;
         if (index >= events.size()) return 0; 
