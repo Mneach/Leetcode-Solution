@@ -1,27 +1,41 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        
-        vector<int> pref_product(nums.size());
-        vector<int> suf_product(nums.size());
-        
-        pref_product[0] = 1;
-        suf_product[nums.size() - 1] = 1;
-        
-        for(int i = 1; i < nums.size(); i++){
-            pref_product[i] = nums[i - 1] * pref_product[i - 1];
+        vector<int> prefix;
+        vector<int> suffix;
+        int size = nums.size();
+
+        for (int i = 0; i < size; i++) {
+            if (i == 0) {
+                prefix.push_back(nums[i]);
+            } else {
+                prefix.push_back(prefix[i - 1] * nums[i]);
+            }
         }
-        
-        for(int j = nums.size() - 2; j >= 0; j--){
-            suf_product[j] = nums[j + 1] * suf_product[j + 1];
+
+        int index = 0;
+        for (int i = size - 1; i >= 0; i--) {
+            if (index == 0) {
+                suffix.push_back(nums[i]);
+            } else {
+                suffix.push_back(nums[i] * suffix[index - 1]); 
+            }
+
+            index++;
         }
-        
-        vector<int> answer(nums.size());
-        
-        for(int i = 0; i < pref_product.size(); i++){
-            answer[i] = pref_product[i] * suf_product[i];
+
+        vector<int> answer;
+        for (int i = 0; i < size; i++) {
+
+            if (i == 0) {
+               answer.push_back(suffix[size - 2]); 
+            } else if (i == size - 1) {
+               answer.push_back(prefix[size - 2]); 
+            } else {
+               answer.push_back(prefix[i - 1] * suffix[size - i - 2]);
+            }
         }
-        
+
         return answer;
     }
 };
