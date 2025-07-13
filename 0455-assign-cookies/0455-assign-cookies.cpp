@@ -14,7 +14,6 @@ public:
             }
             cookieIndex++;
         }
-        
         return contentChildren;
     }
 };
