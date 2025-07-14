@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
+| [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -1104,6 +1105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Mneach/Leetcode-Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
@@ -1139,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Mneach/Leetcode-Solution/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
@@ -1410,6 +1413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0338-counting-bits](https://github.com/Mneach/Leetcode-Solution/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Mneach/Leetcode-Solution/tree/master/0476-number-complement) |
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
