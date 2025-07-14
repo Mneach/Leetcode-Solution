@@ -601,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Mneach/Leetcode-Solution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/Mneach/Leetcode-Solution/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
+| [3905-partition-string](https://github.com/Mneach/Leetcode-Solution/tree/master/3905-partition-string) |
 | [3934-coupon-code-validator](https://github.com/Mneach/Leetcode-Solution/tree/master/3934-coupon-code-validator) |
 ## Two Pointers
 |  |
@@ -893,6 +894,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Mneach/Leetcode-Solution/tree/master/3860-resulting-string-after-adjacent-removals) |
+| [3905-partition-string](https://github.com/Mneach/Leetcode-Solution/tree/master/3905-partition-string) |
 ## Math
 |  |
 | ------- |
@@ -1062,6 +1064,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Mneach/Leetcode-Solution/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Mneach/Leetcode-Solution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3905-partition-string](https://github.com/Mneach/Leetcode-Solution/tree/master/3905-partition-string) |
 | [3934-coupon-code-validator](https://github.com/Mneach/Leetcode-Solution/tree/master/3934-coupon-code-validator) |
 ## Stack
 |  |
@@ -1513,6 +1516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3905-partition-string](https://github.com/Mneach/Leetcode-Solution/tree/master/3905-partition-string) |
 ## Ordered Set
 |  |
 | ------- |
