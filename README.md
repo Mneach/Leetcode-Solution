@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Mneach/Leetcode-Solution/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3483-alternating-groups-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3483-alternating-groups-ii) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/Mneach/Leetcode-Solution/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -781,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Mneach/Leetcode-Solution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3391-maximum-difference-score-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/3391-maximum-difference-score-in-a-grid) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
