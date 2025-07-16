@@ -44,8 +44,6 @@ public:
                     }
                 }
                 
-                // cout << i << " " << j << " " << tempAnswer + 1 << endl;
-                
                 answer = max(tempAnswer + 1, answer);
             }
         }
