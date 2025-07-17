@@ -43,7 +43,6 @@ public:
                         count++;
                     }
                 }
-                
                 answer = max(tempAnswer + 1, answer);
             }
         }
