@@ -9,7 +9,8 @@ public:
         for (auto data : nums) {
             total += data;
             answer = max({answer, abs(total - currentMax), abs(total - currentMin)});
-
+            cout << total << " " << abs(total - currentMax) << " " << abs(total - currentMin) << " " << answer << endl;
+            cout << currentMin << " " << currentMax << endl;
             currentMax = max({total, currentMax});
             currentMin = min({total, currentMin});
         }
