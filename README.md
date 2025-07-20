@@ -920,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
@@ -978,6 +979,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
