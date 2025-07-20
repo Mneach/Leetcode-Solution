@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/Mneach/Leetcode-Solution/tree/master/2048-build-array-from-permutation) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mneach/Leetcode-Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mneach/Leetcode-Solution/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2089-maximum-matrix-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2089-maximum-matrix-sum) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mneach/Leetcode-Solution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2159-two-out-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/2159-two-out-of-three) |
@@ -1025,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1949-implement-trie-ii-prefix-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Mneach/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
@@ -1539,6 +1542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2009-longest-word-with-all-prefixes](https://github.com/Mneach/Leetcode-Solution/tree/master/2009-longest-word-with-all-prefixes) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1642,6 +1646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Quickselect
 |  |
