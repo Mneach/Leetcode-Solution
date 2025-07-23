@@ -7,7 +7,6 @@ public:
         for (int i = 0; i < n; ++i) {
             int start = nums[i];
 
-            // Advance `i` while the next number is consecutive
             while (i + 1 < n && nums[i + 1] == nums[i] + 1) {
                 ++i;
             }
