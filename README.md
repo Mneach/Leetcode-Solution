@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
+| [0228-summary-ranges](https://github.com/Mneach/Leetcode-Solution/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/Mneach/Leetcode-Solution/tree/master/0238-product-of-array-except-self) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
 | [0289-game-of-life](https://github.com/Mneach/Leetcode-Solution/tree/master/0289-game-of-life) |
