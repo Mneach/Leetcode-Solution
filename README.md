@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
 | [0945-snakes-and-ladders](https://github.com/Mneach/Leetcode-Solution/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
@@ -639,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
 | [0868-push-dominoes](https://github.com/Mneach/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [0874-backspace-string-compare](https://github.com/Mneach/Leetcode-Solution/tree/master/0874-backspace-string-compare) |
+| [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mneach/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
+| [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1217-relative-sort-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1217-relative-sort-array) |
