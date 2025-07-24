@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0367-valid-perfect-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0367-valid-perfect-square) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
@@ -935,6 +936,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
 | [0292-nim-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/0326-power-of-three) |
+| [0367-valid-perfect-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Mneach/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
