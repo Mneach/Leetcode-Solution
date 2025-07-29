@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Mneach/Leetcode-Solution/tree/master/0646-maximum-length-of-pair-chain) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0697-degree-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0697-degree-of-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
@@ -517,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0697-degree-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0697-degree-of-an-array) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
