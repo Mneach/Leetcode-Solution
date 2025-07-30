@@ -1484,6 +1484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Mneach/Leetcode-Solution/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Mneach/Leetcode-Solution/tree/master/0476-number-complement) |
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
+| [1054-complement-of-base-10-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1786-count-the-number-of-consistent-strings) |
