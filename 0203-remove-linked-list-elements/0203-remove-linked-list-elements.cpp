@@ -27,11 +27,9 @@ public:
                 if (slow == NULL) {
                     head = fast;
                     slow = fast;
-                    cout << slow -> val << "->";
                 } else {
                     slow -> next = fast;
                     slow = slow -> next;
-                    cout << slow -> val << "->";
                 }
             }
 
