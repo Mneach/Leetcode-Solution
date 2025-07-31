@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
 | [0945-snakes-and-ladders](https://github.com/Mneach/Leetcode-Solution/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
@@ -776,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Mneach/Leetcode-Solution/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/Mneach/Leetcode-Solution/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/Mneach/Leetcode-Solution/tree/master/0868-push-dominoes) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/Mneach/Leetcode-Solution/tree/master/1063-best-sightseeing-pair) |
 | [1170-shortest-common-supersequence](https://github.com/Mneach/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
@@ -1484,6 +1486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Mneach/Leetcode-Solution/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Mneach/Leetcode-Solution/tree/master/0476-number-complement) |
 | [0861-flipping-an-image](https://github.com/Mneach/Leetcode-Solution/tree/master/0861-flipping-an-image) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1054-complement-of-base-10-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
