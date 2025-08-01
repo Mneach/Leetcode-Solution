@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/Mneach/Leetcode-Solution/tree/master/0118-pascals-triangle) |
 | [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
@@ -757,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0096-unique-binary-search-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0096-unique-binary-search-trees) |
+| [0118-pascals-triangle](https://github.com/Mneach/Leetcode-Solution/tree/master/0118-pascals-triangle) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
