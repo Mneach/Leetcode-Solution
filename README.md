@@ -977,6 +977,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
+| [1289-day-of-the-week](https://github.com/Mneach/Leetcode-Solution/tree/master/1289-day-of-the-week) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
