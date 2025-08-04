@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Mneach/Leetcode-Solution/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
+| [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -978,6 +979,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
 | [1289-day-of-the-week](https://github.com/Mneach/Leetcode-Solution/tree/master/1289-day-of-the-week) |
+| [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -1757,4 +1759,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
+| [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
