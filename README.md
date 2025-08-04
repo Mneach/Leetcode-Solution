@@ -1071,6 +1071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
+| [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Mneach/Leetcode-Solution/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1502-construct-k-palindrome-strings) |
