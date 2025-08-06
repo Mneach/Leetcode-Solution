@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
+| [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Mneach/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -1073,6 +1074,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
+| [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
