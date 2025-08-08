@@ -804,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mneach/Leetcode-Solution/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/Mneach/Leetcode-Solution/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
 | [0868-push-dominoes](https://github.com/Mneach/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
@@ -992,6 +993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0670-maximum-swap](https://github.com/Mneach/Leetcode-Solution/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
 | [1289-day-of-the-week](https://github.com/Mneach/Leetcode-Solution/tree/master/1289-day-of-the-week) |
@@ -1786,4 +1788,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/Mneach/Leetcode-Solution/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
