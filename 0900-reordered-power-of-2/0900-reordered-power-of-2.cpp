@@ -7,6 +7,11 @@ How to solve :
    - if no, just need to move into next index
    - otherwise, we need to count the digit in that number, if the total digit from 0 - 9 is equal, that means we can reconstruct that n to become number power of 2
 
+Time Complexity : O(M)
+-> where M is the maximum total digit in range (1 - 2^32)
+Memory Complexity : O(N)
+-> where N is total digit in number n
+
 */
 
 class Solution {
