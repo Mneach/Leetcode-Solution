@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1071-binary-prefix-divisible-by-5](https://github.com/Mneach/Leetcode-Solution/tree/master/1071-binary-prefix-divisible-by-5) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/Mneach/Leetcode-Solution/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/1207-delete-nodes-and-return-forest) |
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/Mneach/Leetcode-Solution/tree/master/0965-unique-email-addresses) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/1207-delete-nodes-and-return-forest) |
@@ -1090,6 +1092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Mneach/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
@@ -1449,6 +1452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/Mneach/Leetcode-Solution/tree/master/0900-reordered-power-of-2) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mneach/Leetcode-Solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1217-relative-sort-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1217-relative-sort-array) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/1227-number-of-equivalent-domino-pairs) |
