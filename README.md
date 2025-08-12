@@ -1004,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0870-magic-squares-in-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/0870-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Mneach/Leetcode-Solution/tree/master/0900-reordered-power-of-2) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mneach/Leetcode-Solution/tree/master/1094-matrix-cells-in-distance-order) |
+| [1260-day-of-the-year](https://github.com/Mneach/Leetcode-Solution/tree/master/1260-day-of-the-year) |
 | [1289-day-of-the-week](https://github.com/Mneach/Leetcode-Solution/tree/master/1289-day-of-the-week) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -1097,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Mneach/Leetcode-Solution/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Mneach/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
+| [1260-day-of-the-year](https://github.com/Mneach/Leetcode-Solution/tree/master/1260-day-of-the-year) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Mneach/Leetcode-Solution/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1302-delete-characters-to-make-fancy-string) |
