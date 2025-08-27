@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Mneach/Leetcode-Solution/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3723-sum-of-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/3723-sum-of-good-numbers) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Mneach/Leetcode-Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Mneach/Leetcode-Solution/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -865,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3637-count-number-of-balanced-permutations](https://github.com/Mneach/Leetcode-Solution/tree/master/3637-count-number-of-balanced-permutations) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Mneach/Leetcode-Solution/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Mneach/Leetcode-Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Greedy
 |  |
 | ------- |
@@ -1355,6 +1357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Mneach/Leetcode-Solution/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/Mneach/Leetcode-Solution/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/Mneach/Leetcode-Solution/tree/master/3708-zigzag-grid-traversal-with-skip) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Mneach/Leetcode-Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Design
 |  |
 | ------- |
@@ -1688,6 +1691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Mneach/Leetcode-Solution/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Mneach/Leetcode-Solution/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Trie
 |  |
 | ------- |
