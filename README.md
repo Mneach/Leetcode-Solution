@@ -557,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
+| [0807-custom-sort-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
 | [0837-most-common-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0837-most-common-word) |
@@ -736,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
+| [0807-custom-sort-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0807-custom-sort-string) |
 | [0900-reordered-power-of-2](https://github.com/Mneach/Leetcode-Solution/tree/master/0900-reordered-power-of-2) |
 | [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
@@ -1100,6 +1102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Mneach/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0778-reorganize-string) |
+| [0807-custom-sort-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0837-most-common-word) |
 | [0841-shortest-distance-to-a-character](https://github.com/Mneach/Leetcode-Solution/tree/master/0841-shortest-distance-to-a-character) |
