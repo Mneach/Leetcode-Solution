@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0228-summary-ranges](https://github.com/Mneach/Leetcode-Solution/tree/master/0228-summary-ranges) |
+| [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Mneach/Leetcode-Solution/tree/master/0238-product-of-array-except-self) |
 | [0265-paint-house-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0265-paint-house-ii) |
 | [0289-game-of-life](https://github.com/Mneach/Leetcode-Solution/tree/master/0289-game-of-life) |
@@ -540,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
+| [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
@@ -725,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
+| [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/Mneach/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
@@ -1483,6 +1486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/Mneach/Leetcode-Solution/tree/master/0561-array-partition) |
 | [0594-longest-harmonious-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
