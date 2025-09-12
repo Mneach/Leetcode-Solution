@@ -5,10 +5,10 @@ How to solve the problem :
 2. every time we add a new row, put 1 at left and right side as a default value
 3. sum the number from previous row and put that result in the new row 
 
-Time Complexity : O(N)
+Time Complexity : O(N ^ 2)
 N -> total number in that pascal triangle
 
-Memory Complexity : O(N)
+Memory Complexity : O(N ^ 2)
 N -> total number in that pascal triangle
 
 */
