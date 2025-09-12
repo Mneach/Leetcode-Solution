@@ -21,7 +21,11 @@ Memory complexity : O(1)
 2. loop from first index of nums array until last index of nums array, for every process we need to do these steps
    2.1 multiply last number in the prefixSum (prefixSum[prefixSum.size() - 1]) with the currentNumber
 3. to get the answer at index i, we can use this formula
-   3.1 formula : prefixSum * suffixSum[nums.size() - i - 1]
+   3.1 formula : prefixSum * suffixSum[nums.size() - i - 2]
+
+Note : 
+1. why using suffixSum[nums.size() - i - 2], the reason is because of we want to ignore the number in the current index, thats why we put -2 there
+2. if index i == nums.size() - 1, we just need to use prefixSum value as our answer for that index, since using the current formula will get an error (index out of bounds)
 
 Time Complexity : O(N)
 N -> size of nums array
