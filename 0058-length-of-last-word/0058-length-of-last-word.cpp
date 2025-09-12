@@ -3,6 +3,10 @@
 How to solve the problem : 
 1. every time we meet a space character we will try to check how many character the we have and put that into the answer variable
 
+edge cases :
+1. what if the string only contain 1 word without any spaces
+   - if that the cases, we will add additional condition to check how many character that we have and put that into the answer variable
+
 Time complexity : O(N)
 N -> length of string
 
