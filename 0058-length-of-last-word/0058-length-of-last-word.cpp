@@ -1,21 +1,38 @@
+/*
+
+How to solve the problem : 
+1. every time we meet a space character we will try to check how many character the we have and put that into the answer variable
+
+Time complexity : O(N)
+N -> length of string
+
+Memory complexity : O(1)
+
+*/
+
+
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        
-        
-       bool checkSpace = false;
-       string answer = "";
-        
-       for(int i = s.length() - 1; i >= 0; i--){
-           
-           
-          if(s[i] == ' ' && answer != ""){
-              break;
-          }else if(tolower(s[i]) >= 'a' && tolower(s[i]) <= 'z'){
-              answer += s[i];
-          }
-       }
-        
-       return answer.size();
+        int answer = 0;        
+        int count = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            char character = s[i];
+
+            if (character == ' ') {
+                if (count != 0) {
+                    answer = count;
+                }
+
+                count = 0;
+            } else {
+                count++;
+            }
+        }
+
+        if (count != 0) answer = count;
+
+        return answer;
     }
 };
