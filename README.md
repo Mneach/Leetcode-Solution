@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Mneach/Leetcode-Solution/tree/master/0118-pascals-triangle) |
+| [0128-longest-consecutive-sequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Mneach/Leetcode-Solution/tree/master/0135-candy) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0128-longest-consecutive-sequence) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/Mneach/Leetcode-Solution/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -539,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
