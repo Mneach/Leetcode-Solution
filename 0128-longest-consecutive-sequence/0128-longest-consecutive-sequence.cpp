@@ -2,66 +2,50 @@
 
 How to solve the problem : 
 
-# Using hash table + recursive
-1. loop for every number in nums array to construct the hash table
-2. hash table will have key = number and value = total number that appear in nums array
-3. loop for every number in nums array to get the answer
-4. for every number, we need to check if hashtable[number + 1] is exists ? 
-   - case 1 : hashtable[number + 1] exists, then we will increase the number to number + 1 and repeat step 4
-   - case 2 : hashtable[number + 1] not exists, then we will stop the recursive and return 0
-   - case 3 : if the number is already cache in cache hash table, we just need directly return that
-   - put the result in the cache hash table with key = number and value = result
-   - calculate result with this formula : 1 + recursive()
-5. loop for every data in cache hash table and find the largest result
+# Using hash table
+1. loop for every number in nums array
+2. to get the current answer at number x we can use this formula
+   - formula : result from prev number + result from after the current number + current number value
+   - formula : hashTable[number - 1] + hashTable[number + 1] + 1
+3. update the value of most left number in the current sequance (key = current number - hashTable[number - 1])
+4. update the value of most right number in the current sequance (key = current number + hashTable[number + 1]);
+5. calculate the answer with this fomula (answer = max(answer, hashTable[number]))
 
 Note : 
-1. Why calculate formula using 1 + recursive ? the reason is because of we want to find the longest consecutive sequence.
+1. What is the reason update the prev and next number in hash table ? 
+A : the reason is because of we dont know the order of the number and we dont want to sort the data here, thats why we need to update the most left and most right number in the current sequance
 
-Time Complexity : O(N + N + M) -> O(2N + M) -> O(N)
-first N -> to construct the hash table
-second N -> to construct the answer
-M -> to get the answer from cache table
+Time Complexity : O(N)
+N -> size of nums array
 
-Memory Complexity : O(N + M) -> O(N)
-N -> hash table
-M -> cache hash table
+Memory Complexity : O(N)
+N -> size of hash table
 
 */
 
 class Solution {
-private:
-    int recursive(unordered_map<int,int> &hashTable, unordered_map<int,int> &cacheHashTable, int number) {
-
-        if (hashTable[number] == 0) {
-            return 0;
-        }
-
-        if (cacheHashTable[number] > 0) {
-            return cacheHashTable[number];
-        }
-
-        int result = recursive(hashTable, cacheHashTable, number + 1);
-
-        cacheHashTable[number] = result + 1;
-
-        return cacheHashTable[number];
-    }
 public:
     int longestConsecutive(vector<int>& nums) {
         unordered_map<int,int> hashTable;
-        unordered_map<int,int> cacheHashTable;
         int answer = 0;
 
         for (auto number : nums) {
-            hashTable[number]++;
-        }
 
-        for (auto number : nums) {
-            int result = recursive(hashTable, cacheHashTable, number);
-            answer = max(answer, result);
+            if (hashTable[number] == 0) {
+                hashTable[number] = hashTable[number - 1] + hashTable[number + 1] + 1; 
+
+                // update most left number
+                hashTable[number - hashTable[number - 1]] = hashTable[number];
+
+                // update most right number
+                hashTable[number + hashTable[number + 1]] = hashTable[number];
+
+                answer = max(answer, hashTable[number]);
+            }
+
+            // we can simply skip the result that already calculated
         }
 
         return answer;
-
     }
 };
