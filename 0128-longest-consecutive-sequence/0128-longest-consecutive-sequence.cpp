@@ -11,8 +11,11 @@ How to solve the problem :
    - case 2 : hashtable[number + 1] not exists, then we will stop the recursive and return 0
    - case 3 : if the number is already cache in cache hash table, we just need directly return that
    - put the result in the cache hash table with key = number and value = result
-   - calculate result with this formula : hashTable[number] + recursive()
+   - calculate result with this formula : 1 + recursive()
 5. loop for every data in cache hash table and find the largest result
+
+Note : 
+1. Why calculate formula using 1 + recursive ? the reason is because of we want to find the longest consecutive sequence.
 
 Time Complexity : O(N + N + M) -> O(2N + M) -> O(N)
 first N -> to construct the hash table
