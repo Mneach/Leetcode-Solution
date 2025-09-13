@@ -1,10 +1,17 @@
 /*
 
 How to solve the problem : 
-1. loop for every index in string t and do these processes
-   1.1 check if character at index i in string t is already exist in hash table
-   1.1.1 if the character is not exist, we will put that character into the hash table with key = t[index] and value = s[index]
-   1.1.2 if the character exist, we need to check if the value of hashtable[t[index]] == s[index], if the value is not equal that means we cannot replact the character in string s at index i with the caracter in string t at index i, we can simply return false. Otherwise repeat again from 1.1
+1. Iterate over every index i in string t (or s, since both have equal length).
+2. Check the mapping in a hash table (dictionary): 
+   2.1 Case 1: Character t[i] is not in the hash table
+   2.1.1 If s[i] has not been visited yet, create a mapping t[i] → s[i] in the hash table and mark s[i] as visited.
+   2.1.2 If s[i] has already been visited by another character, return false (because two characters from t would map to the same character in s).
+   
+   2.2 Case 2: Character t[i] already exists in the hash table
+   2.2.1 Verify if the stored mapping hashTable[t[i]] == s[i].
+   2.2.2 If not equal, return false (because it would break the consistency rule).
+
+3. If the loop completes without conflicts, return true.
 
 Note : 
 1. Order is matter
@@ -13,8 +20,9 @@ Note :
 Time Complexity : O(N)
 N -> length of string T
 
-Memory Complexity : O(N)
+Memory Complexity : O(N + M)
 N -> length of string T
+M -> length of string S
 
 */
 
@@ -33,7 +41,9 @@ public:
                 } 
 
             } else {
-                if (visited[s[i]] == true) return false;
+                if (visited[s[i]] == true) {
+                    return false;
+                }
                 hashTable[t[i]] = s[i];
                 visited[s[i]] = true;
             }
