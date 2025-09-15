@@ -556,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0554-brick-wall](https://github.com/Mneach/Leetcode-Solution/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
@@ -1107,6 +1108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0392-is-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0392-is-subsequence) |
 | [0415-add-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0415-add-strings) |
+| [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
@@ -1392,6 +1394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
+| [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1843,6 +1846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
