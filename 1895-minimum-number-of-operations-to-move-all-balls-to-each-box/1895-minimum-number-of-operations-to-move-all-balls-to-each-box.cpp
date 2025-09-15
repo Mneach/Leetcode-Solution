@@ -20,13 +20,11 @@ What makes the algorithm run slower ?
 2. loop from left index until right index of the array, everytime we meet '1' we will compute the distance between current index with 0, we can simply just add the current index to the rightResult
 3. loop from left index until right index of the array to calculate the answer at index i
    - we can use this formula to calculate the answer at index i : leftResult + rightResult 
+   - increase left value by 1 if the current index i = 1, since the ball on the left of current index will be decreaes by 1
+   - decrease right vlaue by 1 if the current index i = 1, since the ball on the right of current index will be decrease by 1
    - update left result everytime we move the index, since the disntance will be updated by 1, formula : leftResult + left
    - update right result everytime we move the index, since the distance will be updated by 1
    formula : rightResult - right
-   - if the current index is '1', we need to increase the left value by 1, and decrease the right value by 1
-
-edge cases : 
-if the current index = 0, then we just need to use directly from the right result 
 
 Time Complexity : O(N + N)
 N -> size of the boxes array
