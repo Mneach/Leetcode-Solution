@@ -16,14 +16,16 @@ M -> the total of function decode called
 */
 
 class Solution {
-public:
-
+private:
     unordered_map<string,string> hashMap;
+    int id = 0;
 
+public:
     // Encodes a URL to a shortened URL.
     string encode(string longUrl) {
-        hashMap[longUrl] = longUrl; 
-        return longUrl;
+        string shortUrl = "https://tinyurl.com/" + id;
+        hashMap[shortUrl] = longUrl;
+        return shortUrl;
     }
 
     // Decodes a shortened URL to its original URL.
