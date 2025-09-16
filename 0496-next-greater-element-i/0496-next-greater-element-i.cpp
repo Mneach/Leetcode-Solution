@@ -26,9 +26,9 @@ How to improve the solution ?
 2. To construct the next greater element we will use stack data structure to save the next greater element
 3. To constcut the next greater element we need to do these steps
    - we will start from the end of index of nums2 array
+   - if the stacks is not empty and the value of top of the stack is less than the current value, we need to pop that value until the top of the stack value is >= current number
    - if the stacks is empty we just need to return -1, that means there is no first greater element for that index, put the number and the first greater elemnt into hashtable
    - if the stacks is not empty, we need to check if the value of top of the stack is more than current value, then put the value from top of the stack into hashtable
-   - if the stacks is not empty and the value of top of the stack is less than the current value, we need to pop that value until the top of the stack value is >= current number
 4. To construct the answer, we need to loop for every number in nums1 array. After that we need to lookup into the hashtable to get the value
 
 Time Complexity : O(N + (M + K))
