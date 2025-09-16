@@ -2,7 +2,7 @@
 
 How to solve the problem : 
 
-# Two Pointer Technique
+# Two Pointer Technique + Greedy
 1. Find the increasing sub array inside prices array
 2. to maximize the result we need to get the element in the end of sub array - the element at start of sub array
 
