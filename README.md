@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/Mneach/Leetcode-Solution/tree/master/1025-minimum-cost-for-tickets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Mneach/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1063-best-sightseeing-pair](https://github.com/Mneach/Leetcode-Solution/tree/master/1063-best-sightseeing-pair) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [0965-unique-email-addresses](https://github.com/Mneach/Leetcode-Solution/tree/master/0965-unique-email-addresses) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -1677,6 +1679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [0878-shifting-letters](https://github.com/Mneach/Leetcode-Solution/tree/master/0878-shifting-letters) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1477-product-of-the-last-k-numbers) |
