@@ -16,15 +16,18 @@ Memory Complexity : O(1)
 
 # Using hashtable
 1. We need to think the number as a group (subarray) not an individual number
-2. Create the prefix sum from nums array, so that can make us easily to construct the subarray that divisible by K. Divide the number in prefix sum by k, so later we just need to find / eliminate the remaining value of the current subarray
+2. Create the prefix sum from nums array, so that can make us easily to construct the subarray that divisible by K.
 3. To know if this subarray is divisible by K, we need to find / eliminate the remaining value of the current subarray  
 4. Loop from the first index of nums array until the last index of nums array, check if we can find the remaining value of the current subarray, 
-   - if we can find, add the hashtable[prefixSum[i]] value to the answer, and we can put that into hashtable with key = current prefix sum value and value = total that number appear in prefix sum
-   - otherwise, just move to the next index
+   - we need to find the remaining value of the current sum array in hashtable and add that value to the answer variable
+   - add the current subarray remaining into the hashtable
 
 
 Edge cases : 
 1. create hashtable[0] with default value 1, since 0 is already divisible by K
+2. in C++ somehow modulo with minus number return an unexpected number
+   - ex : -1 % 2 -> should be 1, but in c++ it returns -1
+   - to solve that we need to manually create a math formula to module the minus number
 
 Time Complexity : O(N + N)
 N -> size of nums array
