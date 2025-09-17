@@ -27,11 +27,13 @@ How to improve ?
 
 # Using Hash Table Approach
 1. Loop from the first index of nums array until last index of nums array to construct the left array
-   - To find the dominant element at index 1, we can use this formula (hashtable[nums[i]] * 2 > i)
-   - if the condition is valid, we will add that dominant element as a value at index i in left array
-   - otherwise, we will add -1 as a value at index i in left array
+   - If the current number (hashTable[nums[i]]) is more than prevNumber, update the prevTotal and prevNumber
+   - To find the dominant element at index i, we can use this formula (prevTotal * 2 > i)
+   - if the condition is valid, we will add prevNumber as a value at index i in left array
+   - 
 2. Loop from the last index of nums array until first index of nums array to know the dominant element for right sub array and to get the answer
-   - To find the dominant element at index 1, we can use this formula (hashtable[nums[i]] * 2 > 1)
+   - If the current number (hashTable[nums[i]]) is more than prevNumber, update the prevTotal and prevNumber
+   - To find the dominant element at index 1, we can use this formula (prevTotal * 2 > 1)
    - if the condition is valid, we need to check if the current dominant element == dominant element from left sub array, then mark that index as an answer
    - to get the dominant element from left sub array we can use leftArray[i - 1]
    - put the current number into hashtable
