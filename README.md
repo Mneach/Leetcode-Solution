@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Mneach/Leetcode-Solution/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0518-coin-change-ii) |
+| [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
@@ -562,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
+| [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0554-brick-wall](https://github.com/Mneach/Leetcode-Solution/tree/master/0554-brick-wall) |
@@ -1047,6 +1049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Mneach/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
 | [0415-add-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0415-add-strings) |
+| [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0670-maximum-swap](https://github.com/Mneach/Leetcode-Solution/tree/master/0670-maximum-swap) |
@@ -1694,6 +1697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Mneach/Leetcode-Solution/tree/master/0238-product-of-array-except-self) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
+| [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Mneach/Leetcode-Solution/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
