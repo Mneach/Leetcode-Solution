@@ -644,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mneach/Leetcode-Solution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2308-divide-array-into-equal-pairs) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2372-rearrange-characters-to-make-target-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2372-rearrange-characters-to-make-target-string) |
 | [2434-design-a-number-container-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -1204,6 +1205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2372-rearrange-characters-to-make-target-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2372-rearrange-characters-to-make-target-string) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -1548,6 +1550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2308-divide-array-into-equal-pairs) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Mneach/Leetcode-Solution/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2372-rearrange-characters-to-make-target-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2372-rearrange-characters-to-make-target-string) |
 | [2448-count-number-of-bad-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2448-count-number-of-bad-pairs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
