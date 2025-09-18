@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Mneach/Leetcode-Solution/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/Mneach/Leetcode-Solution/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/Mneach/Leetcode-Solution/tree/master/2145-grid-game) |
@@ -627,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2107-find-unique-binary-string) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/Mneach/Leetcode-Solution/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2159-two-out-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/2159-two-out-of-three) |
 | [2161-stock-price-fluctuation](https://github.com/Mneach/Leetcode-Solution/tree/master/2161-stock-price-fluctuation) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -1065,6 +1067,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Mneach/Leetcode-Solution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2050-count-good-numbers) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/Mneach/Leetcode-Solution/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -1529,6 +1532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Mneach/Leetcode-Solution/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Mneach/Leetcode-Solution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Mneach/Leetcode-Solution/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/Mneach/Leetcode-Solution/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Mneach/Leetcode-Solution/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -1714,6 +1718,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/Mneach/Leetcode-Solution/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Mneach/Leetcode-Solution/tree/master/2610-closest-prime-numbers-in-range) |
 | [2716-prime-subtraction-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2716-prime-subtraction-operation) |
