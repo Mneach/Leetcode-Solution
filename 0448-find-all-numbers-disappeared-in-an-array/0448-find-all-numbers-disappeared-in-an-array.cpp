@@ -47,7 +47,15 @@ M -> size of hashTable
 
 # Using Native Approach
 1. Loop for every number in nums, mark the current index with negative value
+   - get the number index using abs(nums[i] - 1)
+   - mark the number index with - nums[index]
 2. Loop from 0 to nums.size(), if nums[i] > 0, then add (i + 1) to the answer array. 
+
+Note : 
+1. Why using abs ? 
+   - Because we need to mark the value at nums[index] as negative value
+2. why mark as negative value ? 
+   - so we can know that the number at index i + 1, is exists in nums array
 
 Time Complexity : O(N + N) -> O(N)
 N -> size of array
