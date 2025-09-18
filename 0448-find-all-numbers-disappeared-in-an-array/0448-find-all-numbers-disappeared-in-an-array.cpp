@@ -45,30 +45,33 @@ Memory Complexity : O(K + M)
 K -> size of answer array
 M -> size of hashTable
 
+# Using Native Approach
+1. Loop for every number in nums, mark the current index with negative value
+2. Loop from 0 to nums.size(), if nums[i] > 0, then add (i + 1) to the answer array. 
+
+Time Complexity : O(N + N) -> O(N)
+N -> size of array
+
+Memory Complexity : O(1)
+
 */
 
 
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
-        unordered_map<int,int> hashTable;
+        
         vector<int> answer;
-        int n = nums.size();
 
-        for (int i = 1; i <= n; i++) {
-            hashTable[i]++;
+        for (int i = 0; i < nums.size(); i++) {
+            // because the index start from 0
+            int index = abs(nums[i]) - 1;
+            nums[index] = -abs(nums[index]);
         }
 
         for (int i = 0; i < nums.size(); i++) {
-            hashTable[nums[i]]--;
-        }
-
-        for (auto data : hashTable) {
-            int key = data.first;
-            int value = data.second;
-
-            if (value > 0) {
-                answer.push_back(key);
+            if (nums[i] > 0) {
+                answer.push_back(i + 1);
             }
         }
 
