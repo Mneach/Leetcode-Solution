@@ -19,8 +19,15 @@ How to improve ?
 # Hashtable
 1. Loop from the first index of nums array until the last index of nums array, and do these steps
    - Add the nums[i] to the current sum and modulo current sum by K
-   - if nums[i] already exists in hashtable, then return true. That means we can elimate the subarray so the result can be divisible by K
-   - put the current sum into the hashtable
+   - if nums[i] already exists in hashtable, we need to check the distance between the current index with the hashTable
+     - if the distance > 1 return true, since we need to create atleast subarray with length two
+   - otherwise, put the current sum into the hashtable
+
+edge cases : 
+1. what if for the first time the currentSum result = 0 ? ex : [1,2,4] K = 3
+   - we need to add default value for number 0 in hashtable, hashTable[0] = -1
+   - we need to add that value because by default if the modulo result == 0, that means the current sum can be divisible by K
+   - why we put -1 as a default value ? because of the index of the subarray of prefixSum start from 0
 
 Time Complexity : O(N)
 N -> nums of size array
