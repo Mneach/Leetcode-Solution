@@ -4,6 +4,12 @@ How to solve the problem :
 1. Mapping pattern[i] to the word in string s, and put that into the hashtable
 2. if pattern[i] is already have a value, and the value of pattern[i] in hashtable different with word from string s, then return false
 
+edge cases : 
+1. what if string s have more word that then pattern string ? 
+   - return false
+2. what if string s have less word that then pattern string ? 
+   - return false
+
 Time Complexity : O(N + M)
 N -> length of pattern string
 M -> length of pattern s
