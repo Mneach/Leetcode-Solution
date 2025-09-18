@@ -8,13 +8,12 @@ How to solve the problem :
    - Create the sub array with size P
    - put the left pointer in the most left index of sub array
    - put the right pointer in the most right index of sub array
-   - if the current sub array length == P, then loop for every character in hashtable and check if all the value in hashtable data == 0, then mark current index as an answer
+   - Remove current character from hashtable -> hashtable[s[right]]--
+   - if the current sub array length == P, then loop for every character in hashtable and check if all the value in hashtable data == 0, then mark current left value as an answer
      - Remove most right character to the hashtable -> hashtable[s[left]]--
      - Add most left character to the hasthable -> hashtable[s[right]]++
-     - Move right pointer to right pointer + 1
-     - Movel leftp oointer to left pointer + 1
-    - otherwise
-     - Remove current character from hashtable -> hashtable[s[right]]--; 
+     - Move left pointer to left pointer + 1
+   - Move right pointer to right pointer + 1
 
 Time Complexity : O((N - M) * K)
 N -> size of string s
