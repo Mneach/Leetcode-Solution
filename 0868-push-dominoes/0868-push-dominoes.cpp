@@ -7,7 +7,8 @@ How to solve the problem :
 2. we will intialize the left and right pointer with value 0
 3. if dominoes[i] == 'R'
    - mark flagRight = true
-   - change cominoes[i] = 'R' 
+   - totalRight = 0;
+   - move the current left pointer to current right
 4. if dominoes[i] == 'L'
    - if total R == 0, move to the left pointer until the right pointer and change dominoes[left] = 'L'
    - else
@@ -35,11 +36,10 @@ public:
 
             if (dominoes[right] == 'R') {
                 flagRight = true;
-                totalRight = 0;
                 left = right;
             } else if (dominoes[right] == 'L') {
                 
-                if (totalRight == 0) {
+                if (flagRight == 0) {
                     while (left <= right) {
                         dominoes[left] = 'L';
                         left++;
@@ -60,13 +60,11 @@ public:
                     }
 
                     flagRight = false;
-                    totalRight = 0;
                 }
             }
 
             if (flagRight) {
                 dominoes[right] = 'R';
-                totalRight++;
             }
         }
 
