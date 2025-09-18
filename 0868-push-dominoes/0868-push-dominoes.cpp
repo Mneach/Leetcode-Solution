@@ -1,113 +1,75 @@
 /*
 
-How to solve : 
-# String namipulation
-- Create string that will process left 
-- Create String that will process right 
-- combine those strings with these condition
-   - if left == 'L' and right == 'L', put 'L' to the answer
-   - else if left == 'R' and right == 'R', put 'R' to the answer
-   - else if left == '.' and right == '.', put the '.' to the answer
-   - else if left == 'L' and right == '.', put the 'L' to the answer
-   - else if left == '.' and right == 'R', put the 'R' to the answer
-   - else compare total L and R, compute balance dominoes
+How to solve the problem : 
 
-The idea to compute balance domnioes
-- if the total compare is odd, first half should be 'R', middle should be '.', second half should be 'L'
-- if the total compare is even, first half should be 'R' and second half should be 'L'
-
-Example : 
-dominoes = ".L.R...LR..L.."
-
-left =     "LL.RLLLLRLLL.."
-right =    ".L.RRRRLRRRL.."
-combine =. "LL.RR.LLRRLL.."
+# Using two pointer approach
+1. Loop from the first index of dominoes array until the last index of dominoes array
+2. we will intialize the left and right pointer with value 0
+3. if dominoes[i] == 'R'
+   - mark flagRight = true
+   - change cominoes[i] = 'R' 
+4. if dominoes[i] == 'L'
+   - if total R == 0, move to the left pointer until the right pointer and change dominoes[left] = 'L'
+   - else
+     - move the left pointer to the middle of the distance of right pointer and left pointer
+     - if the distance is odd, then change dominoes[i] = '.' and add left pointer by 1
+     - move the left pointer until the right pointer and change dominoes[i] = 'L'
+   - reset totalRight = 0
+   - mark flagRight = false
 
 Time Complexity : O(N)
-Where N -> length of the dominoes
+N -> size of dominoes array
 
-Memory Complexity : O(N)
-Where N -> length of the dominoes
+Memory Complexity : O(1)
 
 */
-
 
 class Solution {
 public:
     string pushDominoes(string dominoes) {
-        string answer = dominoes;
-        string left = dominoes;
-        string right = dominoes;
-        int size = dominoes.size();
+        int left = 0;
+        int totalRight = 0;
+        bool flagRight = false;
 
-        char lastChar = ' ';
-        for (int i = size - 1; i >= 0; i--) {
-            char domino = dominoes[i];
+        for (int right = 0; right < dominoes.length(); right++) {
 
-            if (domino == '.' && lastChar == 'L') {
-                left[i] = 'L';
-            }
-
-            lastChar = left[i];
-        }
-
-        for (int i = 0; i < size; i++) {
-            char domino = dominoes[i];
-
-            if (domino == '.' && lastChar == 'R') {
-                right[i] = 'R';
-            }
-
-            lastChar = right[i];
-        }
-
-        for (int i = 0; i < size; i++) {
-            if (left[i] == 'L' && right[i] == 'R') {
-                // compute how many different character
-                int total = 0;
-                while (i < size && left[i] == 'L' && right[i] == 'R') {
-                    total++;
-                    i++;
-                }
-
-                if (total % 2 == 1) {
-                    int currentIndex = i - total;
-                    int mid = i - ((total / 2) + 1);
-                    while (currentIndex < mid) {
-                        answer[currentIndex] = 'R';
-                        currentIndex++;
-                    }
-
-                    answer[mid] = '.';
-                    
-                    currentIndex = mid + 1;
-                    while (currentIndex < i) {
-                        answer[currentIndex] = 'L';
-                        currentIndex++;
+            if (dominoes[right] == 'R') {
+                flagRight = true;
+                totalRight = 0;
+                left = right;
+            } else if (dominoes[right] == 'L') {
+                
+                if (totalRight == 0) {
+                    while (left <= right) {
+                        dominoes[left] = 'L';
+                        left++;
                     }
                 } else {
-                    int currentIndex = i - total;
-                    int mid = i - (total / 2);
-                    while (currentIndex < mid) {
-                        answer[currentIndex] = 'R';
-                        currentIndex++;
+                    int length = (right - left) + 1;
+                    int middle = left + (length / 2);
+                    left = middle;
+
+                    if (length % 2 == 1) {
+                        dominoes[middle] = '.';
+                        left++;
                     }
 
-                    while (currentIndex < i) {
-                        answer[currentIndex] = 'L';
-                        currentIndex++;
+                    while (left <= right) {
+                        dominoes[left] = 'L';
+                        left++;
                     }
+
+                    flagRight = false;
+                    totalRight = 0;
                 }
-                i -= 1;
-            } else if (left[i] == 'L') {
-                answer[i] = left[i];
-            } else if (right[i] == 'R') {
-                answer[i] = right[i];
-            } else {
-                answer[i] = left[i];
+            }
+
+            if (flagRight) {
+                dominoes[right] = 'R';
+                totalRight++;
             }
         }
 
-        return answer;
+        return dominoes;
     }
 };
