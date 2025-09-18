@@ -3,6 +3,9 @@
 How to solve the problem : 
 1. Mapping pattern[i] to the word in string s, and put that into the hashtable
 2. if pattern[i] is already have a value, and the value of pattern[i] in hashtable different with word from string s, then return false
+3. otherwise,
+   - if the current word is already visited, return false 
+   - otherwise put the pattern[i] as a key into the hashtable with value = word and mark the current word as visited
 
 edge cases : 
 1. what if string s have more word that then pattern string ? 
