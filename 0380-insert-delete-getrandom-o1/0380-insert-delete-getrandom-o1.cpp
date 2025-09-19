@@ -13,6 +13,11 @@ How to solve the problem :
      - return true
    - otherwise return false
 
+Tiem Complexity : O(1)
+
+Memory Complexity : O(N + M)
+N -> size of hashtable
+M -> size of array
 
 */
 
