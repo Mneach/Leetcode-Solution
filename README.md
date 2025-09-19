@@ -553,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0202-happy-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
@@ -1122,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
@@ -1587,6 +1589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
@@ -1641,6 +1644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0190-reverse-bits](https://github.com/Mneach/Leetcode-Solution/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Mneach/Leetcode-Solution/tree/master/0231-power-of-two) |
@@ -1877,10 +1881,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
