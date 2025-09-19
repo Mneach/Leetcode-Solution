@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Mneach/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
 | [0376-wiggle-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/0377-combination-sum-iv) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -1051,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
 | [0367-valid-perfect-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Mneach/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0415-add-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0415-add-strings) |
 | [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
@@ -1419,6 +1422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0729-my-calendar-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0729-my-calendar-i) |
@@ -1924,4 +1928,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2130-maximum-product-of-the-length-of-two-palindromic-subsequences](https://github.com/Mneach/Leetcode-Solution/tree/master/2130-maximum-product-of-the-length-of-two-palindromic-subsequences) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
