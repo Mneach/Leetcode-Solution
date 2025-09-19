@@ -5,13 +5,14 @@ How to solve the problem :
 # Using hashtable + Bit Manipulation
 1. Loop from the first index of the s until last index of the s
 2. For every process we need to do these steps
-   - if k <= 0
-     - eliminate the left binary value, by using this formula : currentResult -= pow(2, k - 1)
-   - if the s[i] == '1'
+   - if s[right] == '1'
      - currentResult = (currentResult << 1) + 1
    - else 
      - currentResult = (currentResult << 1)
-   - save the current result to the hashtable with key = current result value = how many times that number appears
+   - if the distance between right and left pointer == k, then 
+     - put the current result into the hashtable
+     - if the s[left] == '1', then we need to decreaes the current result by (2^k) - 1, since we want to eliminante the most left index
+   - increase the left pointer by 1
 3. Loop from 0 until (2^K) - 1
 4. For every process we just need to check if the current number exists in the hashtable
    - if the current number is not exists in hashtable return false
