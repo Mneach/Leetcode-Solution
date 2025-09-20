@@ -1,30 +1,32 @@
 /*
 
-How to solve : 
+How to solve the problem : 
 
-# Bruteforce solution
-1. createt left part and right part
-2. left part start from 0 until right index
-3. right part alwasy start from left index + 1
-4. every process, put the result into the answer variable
+# Brute Force Solution
+1. Create all combinations of sub arrays
+2. left sub array must have nums[0] until nums[i]
+3. right sub array must have nums[i + 1] until nums[nums.size() - 1]
+4. sum left sub array and sum right sub array, after that compare left with right sub array, if sum of left sub array >= sum of right sub array, then increase the answer value by 1
 
-Time complexity : (N ^ 2)
+Time Complexity : O(N^2)
+N -> size of nums
+
+Memory Complexity : O(1)
+
+What makes the algorithm run slowly ? 
+1. the reason is because, for every index we need to recreate the left and right sub array
+
+# Prefix Sum + Two Pointer
+1. Loop from index 0 until nums.size() - 1 to get sum of right sub array
+2. Loop from index 0 until nums.size() - 1, for every index we need to do these steps
+   - Add the current number (nums[i]) to the prefixSumLeft
+   - Decrease the current number (nums[i]) from the prefixSumRight
+   - If the prefixSumleft >= prefixSumRight, increase the answer value by 1
+
+Time Complexity : O(N + N)
 N -> size of nums array
-
-# Two pointer solution
-1. create left part and right part
-2. left part should be start from 0
-3. for right part , we need to sum the right part start from index 1 until nums.size() - 1
-4. every process we need to do this
-   4.1 compare left part and right part
-   4.2 if comparison result is fullfill the condition based on the problem desc, increment the answer
-   4.3 move left pointer to left pointer + 1
-   4.4 add left part with nums[left]
-   4.5 minus right part with nums[right]
-   4.6 move right pointer to the right pointer + 1
-
-Time Complexity : O(N)
-N -> size of array nums
+first N -> to create sum for right sub array
+second N -> to get the answer
 
 Memory Complexity : O(1)
 
@@ -33,21 +35,21 @@ Memory Complexity : O(1)
 class Solution {
 public:
     int waysToSplitArray(vector<int>& nums) {
+        int answer = 0;        
+        long long prefixSumLeft = 0;
+        long long prefixSumRight = 0;
 
-        int answer = 0;
-        long long totalLeft = nums[0];
-        long long totalRight = 0;
-
-        for (int i = 1; i < nums.size() ; i++) {
-            totalRight += nums[i];
+        for (int i = 0; i < nums.size(); i++) {
+            prefixSumRight += nums[i];
         }
 
-        for (int right = 1; right < nums.size(); right++) {
-            if (totalLeft >= totalRight) {
+        for (int i = 0; i < nums.size() - 1; i++) {
+            prefixSumLeft += nums[i];
+            prefixSumRight -= nums[i];
+
+            if (prefixSumLeft >= prefixSumRight) {
                 answer++;
             }
-            totalLeft += nums[right];
-            totalRight -= nums[right];
         }
 
         return answer;
