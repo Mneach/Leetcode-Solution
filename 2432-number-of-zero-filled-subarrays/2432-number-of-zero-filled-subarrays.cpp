@@ -3,7 +3,8 @@
 How to solve the problem : 
 1. loop from first index of the array until last index of the array
 2. we need to get the subarray with value 0
-3. to calculate how many combination that we can create, we can use this formula : (N * (N + 1)) / 2
+3. count how many 0 appear in the sub array
+4. to calculate how many combination that we can create, we can use this formula : (N * (N + 1)) / 2
 
 Time Complexity : O(N)
 N -> size of nums
