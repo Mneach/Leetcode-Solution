@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0932-monotonic-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0932-monotonic-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/Mneach/Leetcode-Solution/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/Mneach/Leetcode-Solution/tree/master/0941-sort-array-by-parity) |
