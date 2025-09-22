@@ -707,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -1125,6 +1126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/Mneach/Leetcode-Solution/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0058-length-of-last-word) |
+| [0125-valid-palindrome](https://github.com/Mneach/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0140-word-break-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0140-word-break-ii) |
 | [0168-excel-sheet-column-title](https://github.com/Mneach/Leetcode-Solution/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0171-excel-sheet-column-number) |
