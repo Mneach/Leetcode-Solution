@@ -24,27 +24,24 @@ class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
         vector<int> answer(nums.size(), 0);
-        int answerIndex = 0;
+        int less = 0;
+        int more = nums.size() - 1;
 
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0, j = nums.size() - 1; i < nums.size(); i++, j--){
             if (nums[i] < pivot) {
-                answer[answerIndex] = nums[i];
-                answerIndex++;
+                answer[less] = nums[i];
+                less++;
+            }
+
+            if (nums[j] > pivot) {
+                answer[more] = nums[j];
+                more--;
             }
         }
 
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] == pivot) {
-                answer[answerIndex] = nums[i];
-                answerIndex++;
-            }
-        }
-
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] > pivot) {
-                answer[answerIndex] = nums[i];
-                answerIndex++;
-            }
+        while (less <= more) {
+            answer[less] = pivot;
+            less++;
         }
 
         return answer;
