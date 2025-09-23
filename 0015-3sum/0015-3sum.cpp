@@ -57,47 +57,59 @@ N -> size of nums
 Memory Complexity : O(M)
 M -> size of set
 
+What makes that algorithm slowly ? 
+1. Is because we are using a hashmap to get the answer which can introduce O(M) time complexity
+
+How to improve ? 
+1. Just throw the hashmap and ues two pointer technique like in 2sum sorted problem
+
+# Using two pointer
+1. Loop from the first index of array until last index of array
+2. if there is duplicate number, we can skip the number, since we need to return unique value
+3. initialize left and right pointer
+4. left = i + 1 and right = nums.size() - 1
+5. while left pointer less than right pointer, we need to do these steps
+   - skip the duplicate number
+   - if nums[left] + nums[right] > target, then decrease the right pointer by 1
+   - if nums[left] + nums[right] < target, then decrease the left pointer by 1
+   - if nums[left] == nums[right]
+     - add to answer variable
+     - increaes left pointer by 1
+     - skip the duplicate number
+
 */
 
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        unordered_map<int,int> hashTable;
         vector<vector<int>> answer;
-        
+
         sort(nums.begin(), nums.end());
 
-        for (auto data : nums) {
-            hashTable[data]++;
-        }
-
         for (int i = 0; i < nums.size(); i++) {
-            int first = nums[i];
-            hashTable[first]--;
-
+            // skip the duplicate number
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
+            int left = i + 1;
+            int right = nums.size() - 1;
 
-            for (int j = i + 1; j < nums.size(); j++) {
-                int second = nums[j];
-                hashTable[second]--;
+            while (left < right) {
+                int threeSum = nums[i] + nums[left] + nums[right];
 
-                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
-
-                int third = (first + second) * -1;
-                if(hashTable[third] > 0) {
-                    int minimum = min(first, min(second, third));
-                    int maximum = max(first, max(second, third));
-                    int middle = first + second + third - minimum - maximum;
-
-                    answer.push_back({minimum, middle, maximum});
+                if (left > i + 1 && nums[left] == nums[left - 1]) {
+                    left++;
+                    continue;
                 }
-            }
 
-            // readding the data into the hashtable
-            for (int j = i + 1; j < nums.size(); j++) {
-                hashTable[nums[j]]++;
+                if (threeSum > 0) {
+                    right--;
+                } else if (threeSum < 0) {
+                    left++;
+                } else {
+                    answer.push_back({nums[i], nums[left], nums[right]});
+                    left++;
+                }
             }
         }
 
