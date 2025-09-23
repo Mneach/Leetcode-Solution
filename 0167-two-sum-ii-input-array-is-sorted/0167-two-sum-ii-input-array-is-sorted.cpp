@@ -10,7 +10,7 @@ How to solve the problem :
    - the reason is because of we need to get the sum more than the current sum and the array is already sorted in increasing order
 4. if nums[left] + nums[right] > target
    - move right pointer to right pointer - 1
-   - the reason is because of we need to decrease the current su value
+   - the reason is because of we need to decrease the current sum value
 
 Time Complexity : O(N / 2) -> O(N)
 N -> size of numbers
