@@ -77,6 +77,11 @@ How to improve ?
      - increaes left pointer by 1
      - skip the duplicate number
 
+Time Complexity : O(N^2)
+N -> size of nums
+
+Memory complexity : O(1)
+
 */
 
 class Solution {
