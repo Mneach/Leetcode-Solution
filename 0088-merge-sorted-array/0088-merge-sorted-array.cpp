@@ -6,14 +6,21 @@ How to solve the problem
 1. we will move from last index in nums1 until first index nums1
    - the reason is because we need to merge nums1 and nums2 data to nums1 array
 2. initialize two pointer, left and right pointer, current pointer
-3. left = m -1 , and right pointer = n - 1, current pointer nums1.size()
+3. left = m -1 , and right pointer = n - 1, current pointer nums1.size() - 1
 4. loop the current pointer from last index of nums until first index of nums
-   - if nums1[left] < nums2[right], 
-     - nums1[current] = nums2[right]
-     - decrease the right by 1
-   - if nums1[left] < nums2[right]
-     - nums1[current] = nums1[left];
-     - decreaes the left by 1
+   - if left >= 0 && right >= 0
+     - if nums1[left] < nums2[right], 
+        - nums1[current] = nums2[right]
+        - decrease the right by 1
+     - if nums1[left] < nums2[right]
+        - nums1[current] = nums1[left];
+        - decreaes the left by 1
+   - if left >= 0 && right < 0
+     - nums1[current] = nums1[left]
+     - decrease left by 1
+   - if left < 0 && right >= 0
+     - nums1[current] = nums2[left]
+     - decrease right by 1
    - decrease current pointer by 1
 
 Time Complexity : O(N + M)
