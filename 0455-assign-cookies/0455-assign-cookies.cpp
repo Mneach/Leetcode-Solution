@@ -6,8 +6,8 @@ How to solve the problem
 1. Sort the g and s arrays
 2. intialize left and right pointer (left = 0 and right = 0)
 3. while g[left] < s[right]
-   - increase left pointer by 1
-   - increase right pointer by 1
+   - if g[left] <= s[right], increase left, right, and answer value by 1
+   - else, increase right pointer by 1
 4. return the left pointer
 
 Time Complexity : O(N log N + M log M)
