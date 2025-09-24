@@ -12,6 +12,7 @@ How to solve the problem
    - compare that current answer to the real answer variable
    - if nums[left] > nums[right], decrease the right pointer by 1  
    - else if nums[left] < nums[right], increase left pointer by 1
+   - else you can move left or right pointer, it doesnt matter, becaues we alwasy get the minimum height
 
 Time Complexity : O(N)
 N -> size of height array
