@@ -9,6 +9,7 @@ How to solve the problem :
 4. if nums[right] != 0
    - move left pointer to nums[left] == 0, and make sure left < right
    - if nums[left] == 0, swam nums[left] to nums[right]
+   - increase left pointer by 1
 5. increase right pointer by 1
 
 Time Copmlexity : O(N)
