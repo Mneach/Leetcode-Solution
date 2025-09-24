@@ -33,15 +33,12 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        long long temp = target;
-        
         for (int i = 0; i < nums.size(); i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
 
             int a = nums[i];
-            temp -= a;
 
             for (int j = i + 1; j < nums.size(); j++) {
                 if (j > i + 1 && nums[j] == nums[j - 1]) {
@@ -49,7 +46,8 @@ public:
                 }
 
                 int b = nums[j];
-                temp -= nums[j];
+
+                long long temp = ((target * 1LL) - a - b);
 
                 // two pointer technique
                 int left = j + 1;
@@ -72,11 +70,7 @@ public:
                         left++;
                     }
                 }
-
-                temp += nums[j];
             }
-
-            temp += nums[i];
         }
 
         return answers;
