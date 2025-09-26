@@ -5,14 +5,16 @@ How to solve the problem
 # Using Greedy + Two Pointer
 1. initialize two pointer (left = 0 and right = 1)
 2. Loop for every color in colors array
-3. while (right < colors.size())
-   - while (right < colors.size() && colors[left] == colors[right])
-     - if neededTime[left] > neededTime[right]
-       - add answer variable by neededTime[left]
-       - right++
-     - else
-       - add answer variable by neededTime[right]
-       - left = right, because we want to keep the right one
+3. if colors[left] != colors[right]
+   - move left pointer to right pointer
+   - increaes right pointer by 1
+4. else
+    - if neededTime[left] > neededTime[right]
+        - add answer variable by neededTime[left]
+    - else
+        - add answer variable by neededTime[right]
+        - left = right, because we want to keep the right one
+    - increase right pointer by 1
 
 
 Time Complexity : O(N)
