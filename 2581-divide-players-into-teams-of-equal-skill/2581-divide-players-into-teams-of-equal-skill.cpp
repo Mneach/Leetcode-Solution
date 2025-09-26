@@ -33,6 +33,7 @@ How to improve the solution
    - find the pair using formula above
    - we also need to check if hashTable[current] != hashTable[find], then return -1
    - otherwise multiple current with find and hashTable[current] and put that in answer variable
+   - Update hashtable value to 0, so we didn't compute the same key again
 
 edge cases : 
 1. what if current value == find value
