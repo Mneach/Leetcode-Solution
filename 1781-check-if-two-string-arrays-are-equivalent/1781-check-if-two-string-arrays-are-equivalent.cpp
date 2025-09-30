@@ -3,11 +3,17 @@
 How to solve the problem
 
 # Using Two Pointer Technique
-1. Initialize left and right pointer (left = 0 and right = 0)
-2. left pointer for word1 and right pointer for word2
-3. to know if the string is equal we can use this validation
-   - word1[left % word1.size()] == word2[right % word2.size()], then word1 and word2 have same character at that index
-   - word1[left % word1.size()] != word2[right % word2.size()], then word1 and word2 doesn't have same character at that index, we should return false
+1. intiialize the index (word1 index and word2 index)
+2. while word1Index < word1.size() && word2Index < word2.size()
+   - take word from word1
+   - take word from word2
+   - compare the character from word1 and word2
+   - if the character is not equal return false
+   - otherwise
+     - increase the index by 1 for those words
+     - if the index >= word.length()
+     - reset the index
+     - reset the flag, so we can get next word in the next iteration
 
 Time Complexity : O(N + M)
 N -> total characters in word1
