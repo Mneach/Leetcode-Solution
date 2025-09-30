@@ -23,22 +23,21 @@ Memory Complexity : O(1)
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
-        for (int i = 0; i < nums.size() - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                nums[i] *= 2;
-                nums[i + 1] = 0;
-            }
-        }
-
         int left = 0;
-        int right = 1;
-
+        int right = 0;
+        
         while (right < nums.size()) {
-            if (nums[left] == 0 && nums[right] != 0) {
-                swap(nums[left], nums[right]);
+            if (right < nums.size() - 1 && nums[right] == nums[right + 1]) {
+                nums[right] *= 2;
+                nums[right + 1] = 0;
             }
 
-            if (nums[left] != 0) {
+            if (nums[right] != 0) {
+
+                if (left != right) {
+                    swap(nums[left], nums[right]);
+                }
+
                 left++;
             }
 
