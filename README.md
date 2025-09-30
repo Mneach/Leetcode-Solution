@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Mneach/Leetcode-Solution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/Mneach/Leetcode-Solution/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Mneach/Leetcode-Solution/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/Mneach/Leetcode-Solution/tree/master/1803-average-waiting-time) |
 | [1813-maximum-erasure-value](https://github.com/Mneach/Leetcode-Solution/tree/master/1813-maximum-erasure-value) |
@@ -1246,6 +1247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/Mneach/Leetcode-Solution/tree/master/1720-crawler-log-folder) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Mneach/Leetcode-Solution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Mneach/Leetcode-Solution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Mneach/Leetcode-Solution/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/Mneach/Leetcode-Solution/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
