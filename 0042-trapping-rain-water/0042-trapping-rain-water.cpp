@@ -42,13 +42,17 @@ P -> size of right array
 1. what if we just need to save the next greater element using two pointer left and right
 
 # Using Two Pointer
-1. loop from first index of height array until last index of height array
-2. if left == right
-   - find next greater right element
-3. if height[i] >= left
-   - update left pointer to i
-4. to computer how many water that we can get, we can use this formula
-   - formula : min(height[left], height[right]) - height[i]
+1. initialize two pointer (left = 0 and right = size - 1)
+2. initialize left max and right max (leftMax = height[left] and rightMax = height[right])
+3. while left < right
+   - if leftMax < rightMax, that means we pick the leftMax
+     - increase left pointer by 1
+     - update left max
+     - add answer by left max - height[left]
+   - else, that means we pick the right max
+     - decrease right pointer by 1
+     - update right max 
+     - add answer by (right max - height[right]])
 
 Time Complexity : O(N + N)
 N -> size of height array
@@ -63,28 +67,20 @@ public:
         int answer = 0;
         int size = height.size();
         int left = 0;
-        int right = 0;
+        int leftMax = height[left];
+        int right = size - 1;
+        int rightMax = height[right];
 
-        for (int i = 0; i < size; i++) {
-
-            if (height[i] >= height[left]) {
-                left = i;
+        while (left < right) {
+            if (leftMax < rightMax) {
+                left++;
+                leftMax = max(leftMax, height[left]);
+                answer += leftMax - height[left];
+            } else {
+                right--;
+                rightMax = max(rightMax, height[right]);
+                answer += rightMax - height[right];
             }
-
-            if (i == right) {
-                // find next right greater element
-                right++;
-                for (int j = right + 1; j < size; j++) {
-                    if (height[j] >= height[right]) {
-                        right = j;
-                    }
-                }
-
-                continue;
-            }
-
-            answer += min(height[left], height[right]) - height[i];
-
         }
 
         return answer;
