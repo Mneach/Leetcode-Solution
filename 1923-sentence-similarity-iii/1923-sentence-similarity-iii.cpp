@@ -1,45 +1,48 @@
 class Solution {
 private:
-    string extract(string s, int index){
+    vector<string> getWords(string s) {
+        vector<string> result;
+        string temp = "";
 
-        string result = "";
-        for(int i = index; i < s.length(); i++){
-            if(s[i] == ' ') break;
-            result += s[i];
+        for (auto c : s) {
+            if (c == ' ') {
+                result.push_back(temp);
+                temp = "";
+            } else {
+                temp += c;
+            }
         }
+
+        result.push_back(temp);
 
         return result;
     }
-
 public:
     bool areSentencesSimilar(string sentence1, string sentence2) {
-
-        if(sentence1 == sentence2) return true;
-
-        stringstream ss1(sentence1), ss2(sentence2);
-        string word;
-        vector<string> s1, s2;
-        while (ss1 >> word) s1.push_back(word);
-        while (ss2 >> word) s2.push_back(word);
-
-        if(s1.size() > s2.size()){
-            return areSentencesSimilar(sentence2, sentence1);
+        if (sentence1.length() < sentence2.length()) {
+            swap(sentence2, sentence1);
         }
 
-        int start = 0;
-        
-        while(start < s1.size() && s1[start] == s2[start]){
-            start++;
+        vector<string> s1 = getWords(sentence1);
+        vector<string> s2 = getWords(sentence2);
+
+        int l1 = 0;
+        int r1 = s1.size() - 1;
+        int l2 = 0;
+        int r2 = s2.size() - 1;
+
+        // move the left poinetr
+        while (l1 < s1.size() && l2 < s2.size() && s1[l1] == s2[l2]) {
+            l1++;
+            l2++;
         }
 
-        int end1 = s1.size() - 1;
-        int end2 = s2.size() - 1;
-
-        while(end1 >= 0 && s1[end1] == s2[end2]){
-            end1--;
-            end2--;
+        // move the right pointer
+        while (r1 >= 0 && r2 >= 0 && s1[r1] == s2[r2]) {
+            r1--;
+            r2--;
         }
 
-        return end1 < start;
+        return l2 > r2;
     }
 };
