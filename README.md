@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0189-rotate-array) |
+| [0219-contains-duplicate-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/Mneach/Leetcode-Solution/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Mneach/Leetcode-Solution/tree/master/0238-product-of-array-except-self) |
@@ -577,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0202-happy-number](https://github.com/Mneach/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
+| [0219-contains-duplicate-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0264-ugly-number-ii) |
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
@@ -1660,6 +1662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
+| [0219-contains-duplicate-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
