@@ -16,7 +16,7 @@ How to solve the problem
        - update valid index -> validIndex = (index - k) + 1 + size 
    - index++;
 
-Time Complexity : O(N + N)
+Time Complexity : O(N + K) -> O(N)
 N -> size of colors
 
 Memory Complexity : O(1)
