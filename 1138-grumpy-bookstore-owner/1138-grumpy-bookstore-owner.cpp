@@ -1,29 +1,45 @@
+/*
+
+How to solve the problem : 
+1. initialize variables (count = 0, result = 0)
+1. Loop from the first index of the array until the last index of the array
+2. add customers[i] to the count variable
+3. if (i >= minutes)
+   - if (grumpy[i - minutes] == 1)
+     - decrease count by customers[i - minutes]
+4. get the maximum count value (result = max(result, count))
+
+Time Complexity : O(N)
+N -> size of grumpy array
+
+Memory Complexity : O(1)
+
+*/
+
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
-        int n = customers.size();
-        int unrealizedCustomers = 0;
+        int count = 0;
+        int result = 0;
 
-        for (int i = 0; i < minutes; i++) {
-            unrealizedCustomers += customers[i] * grumpy[i];
+        for (int i = 0; i < grumpy.size(); i++) {
+            if (grumpy[i] == 0) {
+                count += customers[i];
+            }
         }
 
-        int maxUnrealizedCustomers = unrealizedCustomers;
+        for (int i = 0; i < grumpy.size(); i++) {
+            if (grumpy[i] == 1) {
+                count += customers[i];
+            }
 
-        for (int i = minutes; i < n; i++) {
-            unrealizedCustomers += customers[i] * grumpy[i];
-            unrealizedCustomers -= customers[i - minutes] * grumpy[i - minutes];
+            if (i >= minutes && grumpy[i - minutes] == 1) {
+                count -= customers[i - minutes];
+            }
 
-            maxUnrealizedCustomers =
-                max(maxUnrealizedCustomers, unrealizedCustomers);
+            result = max(result, count);
         }
 
-        int totalCustomers = maxUnrealizedCustomers;
-
-        for (int i = 0; i < n; i++) {
-            totalCustomers += customers[i] * (1 - grumpy[i]);
-        }
-
-        return totalCustomers;
+        return result;
     }
 };
