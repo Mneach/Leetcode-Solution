@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1137-height-checker](https://github.com/Mneach/Leetcode-Solution/tree/master/1137-height-checker) |
+| [1138-grumpy-bookstore-owner](https://github.com/Mneach/Leetcode-Solution/tree/master/1138-grumpy-bookstore-owner) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/Mneach/Leetcode-Solution/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mneach/Leetcode-Solution/tree/master/1207-delete-nodes-and-return-forest) |
@@ -1670,6 +1671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0867-new-21-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/Mneach/Leetcode-Solution/tree/master/0940-fruit-into-baskets) |
+| [1138-grumpy-bookstore-owner](https://github.com/Mneach/Leetcode-Solution/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Mneach/Leetcode-Solution/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Mneach/Leetcode-Solution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
