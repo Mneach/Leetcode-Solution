@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/Mneach/Leetcode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
@@ -1177,6 +1178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Mneach/Leetcode-Solution/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/Mneach/Leetcode-Solution/tree/master/0038-count-and-say) |
@@ -1664,6 +1666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0187-repeated-dna-sequences) |
 | [0219-contains-duplicate-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
