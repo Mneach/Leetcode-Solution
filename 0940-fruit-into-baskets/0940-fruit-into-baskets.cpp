@@ -23,7 +23,7 @@ Time Complexity : O(N)
 N -> size of fruits array
 
 Memory Complexity : O(M)
-M -> total different number in fruits array
+M -> total different number in fruits array -> worse case -> 3 numbers
 
 */
 
