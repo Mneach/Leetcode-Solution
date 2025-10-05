@@ -1,77 +1,80 @@
+/*
+
+How to solve the problem
+1. if k == 0
+   - loop from the first index of the array until last index of the array
+   - change results[i] = 0
+2. else if k > 0
+   - loop from index 1 until code + k
+     - if (right - left) + 1 == k
+       - put the total value into the results array
+       - decrease total value by code[left]
+       - increaes left pointer
+    - add total value by right pointer % size of code array
+    - increase right pointer 
+3. else 
+   - loop from index code.size() - k until code.size() * 2 - k + 1
+     - if (right - left) + 1 == k
+       - put the total value into results array
+       - decrease total value by code[left]
+       - increase left pointer
+    - add total value by right pointer % size of code array
+    - increase right pointer
+4. return results array
+
+Time Complexity : O(N + K)
+N -> size of code arrays
+
+Memory Complexity : O(1)
+
+
+*/
+
 class Solution {
 public:
     vector<int> decrypt(vector<int>& code, int k) {
-        vector<int> answer(code.size(), 0);
-        int currentResult = 0;
-        
-        if(k > 0){
-            int left = 1;
-            int right = 1;
-            currentResult = 0;
+        int left = 0;
+        int right = 0;
+        int total = 0;
+        vector<int> results;
 
-            while(k > 0){
-                currentResult += code[right];
-                right = (right + 1) % code.size();
-                k--;
+        if (k == 0) {
+            for (int i = 0; i < code.size(); i++) {
+                results.push_back(0);
             }
+        } else if (k > 0) {
+            left = 1;
+            right = 1;
 
-            for(int i = 0; i < code.size(); i++){
-                answer[i] = currentResult;
-                currentResult -= code[left];
-                currentResult += code[right];
+            while (right < code.size() + k) {
+                
+                total += code[right % code.size()];
 
-                left = (left + 1) % code.size();
-                right = (right + 1) % code.size();
+                if ((right - left) + 1 == k) {
+                    results.push_back(total);
+                    total -= code[left % code.size()];
+                    left++;
+                }
+                right++;
             }
-            
-        }else if(k < 0){
-            int left = code.size() + k;
-            int right = left;
-            currentResult = 0;
+        } else {
+            k = abs(k);
+            left = code.size() - k;
+            right = code.size() - k;
 
-            while(k < 0){
-                currentResult += code[right];
-                right = (right + 1) % code.size();
-                k++;
+            while (right < code.size() * 2 - 1) {
+                total += code[right % code.size()];
+
+                if ((right - left) + 1 == k) {
+                    results.push_back(total);
+                    total -= code[left % code.size()];
+                    left++;
+                }
+
+                right++;
             }
-
-            for(int i = 0; i < code.size(); i++){
-                answer[i] = currentResult;
-                currentResult -= code[left];
-                currentResult += code[right];
-
-                left = (left + 1) % code.size();
-                right = (right + 1) % code.size();
-            } 
         }
 
-        return answer;
+        return results;
     }
 };
-
-
-/*
-
-Intuition to solve problem
-- if k > 0
-  - we will start to compute from currentIndex + 1
-  - we need to check if currentIndex >= nums.size()
-    - make currentIndex = 0
-- if k = 0 -> just fill the answer with 0
-- if k < 0
-  - we will start to compute from currentIndex - 1
-  - we need to check if the currentIndex - 1 < 0
-    - make currentIndex = nums.size() - 1
-
-# Implementation 1 (two-pointer technique)
-1. left will start from currentIndex - 1 | currentIndex + 1
-2. move rightPointer from left until left - k | left + k
-3. try to move left pointer until end of nums elements
-
-Time Complexity
-O(n) -> where n is nums.size()
-
-Memory Compelxity 
-O(n) -> where n is nums.size()
-
-*/
