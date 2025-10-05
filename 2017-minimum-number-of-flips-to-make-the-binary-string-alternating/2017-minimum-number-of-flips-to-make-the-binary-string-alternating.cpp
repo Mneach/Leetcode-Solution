@@ -50,40 +50,41 @@ public:
         int result2 = 0;
         int size = s.length();
 
-        string s1 = "";
-        string s2 = "";
-
-        for (int i = 0; i < (size * 2) - 1; i++) {
-            if (i % 2  == 0) {
-                s1 += "0";
-                s2 += "1";
-            } else {
-                s1 += "1";
-                s2 += "0";
-            }
-        }
-        
+        char charRight = '0';
+        char charLeft = '0';
 
         while (right < (size * 2) - 1) {
-            if (s[right % size] != s1[right]) {
+            if (s[right % size] == charRight) {
                 result1++;
             }
 
-            if (s[right % size] != s2[right]) {
+            if (s[right % size] != charRight) {
                 result2++;
             }
 
             if (right >= size - 1) {
                 result = min(result, min(result1, result2));
-                if (s[left % size] != s1[left]) {
+                if (s[left % size] == charLeft) {
                     result1--;
                 }
 
-                if (s[left % size] != s2[left]) {
+                if (s[left % size] != charLeft) {
                     result2--;
                 }
 
                 left++;
+
+                if (charLeft == '0') {
+                    charLeft = '1';
+                } else {
+                    charLeft = '0';
+                }
+            }
+
+            if (charRight == '0') {
+                charRight = '1';
+            } else {
+                charRight = '0';
             }
 
             right++;
