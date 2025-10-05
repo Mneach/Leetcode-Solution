@@ -74,7 +74,7 @@ public:
             }
 
             if (right >= size - 1) {
-                result = min({result, result1, result2});
+                result = min(result, min(result1, result2));
                 if (s[left % size] != s1[left]) {
                     result1--;
                 }
