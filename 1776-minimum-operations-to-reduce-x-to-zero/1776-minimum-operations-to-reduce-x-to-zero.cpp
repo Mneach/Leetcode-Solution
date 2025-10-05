@@ -26,7 +26,7 @@ Steps :
    - decrease sum by nums[left]
    - increase left pointer by 1
 4. if sum == target
-   - get the result (result = min(result, (right - left) + 1))
+   - get the result (result = min(result, size - ((right - left) + 1)))
 
 Time Complexity : O(N + N)
 N -> size of nums
