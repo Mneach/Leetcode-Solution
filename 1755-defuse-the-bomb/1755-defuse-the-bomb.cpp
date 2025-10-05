@@ -13,7 +13,7 @@ How to solve the problem
     - add total value by right pointer % size of code array
     - increase right pointer 
 3. else 
-   - loop from index code.size() - k until code.size() * 2 - k + 1
+   - loop from index code.size() - k until code.size() * 2 - 1
      - if (right - left) + 1 == k
        - put the total value into results array
        - decrease total value by code[left]
