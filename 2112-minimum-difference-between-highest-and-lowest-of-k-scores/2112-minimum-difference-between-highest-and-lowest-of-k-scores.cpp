@@ -14,10 +14,11 @@ How to solve the problem
    - increase the right pointer
 4. return the result
 
-Time Complexity : O(N)
+Time Complexity : O(N log N + N)
 N -> size of nums
 
-Memory Complexity : O(1)
+Memory Complexity : O(N)
+N -> size of nums
 
 */
 
