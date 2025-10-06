@@ -10,7 +10,7 @@ How to solve the problem
 2. while right < nums.size()
    - if (nums[right] == 0)
      - we will use k value, so k -= 1
-   - while k < 0 && left < right
+   - while k < 0
      - check if nums[left] == 0 
        - add k value by 1
      - increase left pointer by 1
@@ -38,7 +38,7 @@ public:
                 k -= 1;
             }
 
-            while (k < 0 && left <= right) {
+            while (k < 0) {
                 if (nums[left] == 0) {
                     k += 1;
                 }
