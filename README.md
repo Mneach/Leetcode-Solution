@@ -389,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Mneach/Leetcode-Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -1257,6 +1258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
 | [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Mneach/Leetcode-Solution/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
@@ -1701,6 +1703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/Mneach/Leetcode-Solution/tree/master/0940-fruit-into-baskets) |
 | [1138-grumpy-bookstore-owner](https://github.com/Mneach/Leetcode-Solution/tree/master/1138-grumpy-bookstore-owner) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Mneach/Leetcode-Solution/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Mneach/Leetcode-Solution/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -1825,6 +1828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0878-shifting-letters](https://github.com/Mneach/Leetcode-Solution/tree/master/0878-shifting-letters) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mneach/Leetcode-Solution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1477-product-of-the-last-k-numbers) |
