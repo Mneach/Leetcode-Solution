@@ -67,9 +67,6 @@ public:
                     left++;
                 }
             } 
-
-            cout << total << endl;
-
             right++;
         }
 
