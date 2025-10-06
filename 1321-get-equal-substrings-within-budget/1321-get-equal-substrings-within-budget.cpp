@@ -28,10 +28,6 @@ Memory Compelxtiy : O(1)
 */
 
 class Solution {
-private:
-    int calculateDistance(char x, char y) {
-        return abs(x - y);
-    }
 public:
     int equalSubstring(string s, string t, int maxCost) {
         int left = 0;
@@ -40,12 +36,12 @@ public:
 
         while (right < s.length()) {
             if (s[right] != t[right]) {
-                maxCost -= calculateDistance(s[right], t[right]);
+                maxCost -= abs(s[right] - t[right]);
             }
 
             while (maxCost < 0) {
                 if (s[left] != t[left]) {
-                    maxCost += calculateDistance(s[left], t[left]);
+                    maxCost += abs(s[left] - t[left]);
                 }
 
                 left++;
