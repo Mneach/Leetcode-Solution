@@ -1,70 +1,67 @@
-class Solution {
-public:
-
-    long long max(long long a, long long b){
-        if(a > b) return a;
-        else return b;
-    }
-
-    long long maximumSubarraySum(vector<int>& nums, int k) {
-
-        unordered_map<long long int,int> ump;
-        long long int answer = 0;
-        long long int sum = 0;
-
-        int tempK = k;
-        int left = 0;
-        for(int right = 0; right < nums.size(); right++){
-            tempK--;
-            ump[nums[right]]++;
-            sum += nums[right];
-
-            if(ump[nums[right]] > 1){
-                // move left pointer to the right pointer
-                while(left < right && ump[nums[right]] != 1) {
-                    sum -= nums[left];
-                    ump[nums[left]]--;
-                    left++;
-                    tempK++;
-                }
-                tempK = k - ((right - left) + 1);
-            }
-
-            if(tempK <= 0){
-                answer = max(answer, sum);
-                sum -= nums[left];
-                ump[nums[left]]--;
-                left++;
-            }
-        }
-
-        return answer;
-    }
-};
-
 /*
 
-Intuition : 
-- Need to sum nums of elements from nums[i] until nums[i + k]
-- to check whether there is duplicate number inside (index[i] until index[i + k]) we can use these solutions
-  - loop until hashMap[nums[i]] != 1
-  - using hashmap to check whether there is a duplicate number
-    - every process we need to do this
-      - decrement value on hashMap[nums[i]] 
-  - update tempK to become k - ((rightIndex - leftIndex) + 1), because we need to know the remaining of k after doing the top process
-- if there is a duplicate number inside (index[i] until index[i + k])
-  - move left pointer to the right pointer
-    - every process we need to decrement nums[left]
-  - reset the sum value to become nums[right]
+How to solve the problem
 
+# Using sliding window + hashtable
+1. initalize variables
+   - left = 0
+   - right = 0
+   - sum = 0
+   - result = 0
+   - hashtable -> with key = nums[i] and value = how many times nums[i] appear in the current sub array
+2. while right < nums.size()
+   - add sum by nums[right] 
+   - add nums[right] into the hashtable
+   - windowSize = (right - left) + 1
+   - while hashTable[nums[right]] > 1 || windowSize > k
+     - remove nums[left] from hashtable
+     - decrease sum by nums[left]
+     - increaes left pointer by 1
+     - redefine the window size (windowSize = (right - left) + 1)
+   - if (windowSize == k)
+     - get the maximum result using this formula
+     - formula : result = max(result, sum)
+   - increaes right pointer by 1
+3. return the result
 
-Implementation : Using two pointer technique
-- start left from 0 and right from 0 + k
+Time Complexity : O(N + N) -> O(N)
+N -> size of nums
 
-Time Complexity : 
-O(n - k) -> O(n) -> where n is number of elements in array nums
-
-Memory Complexity : 
-O(k) -> where k is total distinct number that we can save in hashmap
+Memory Complexity : O(K)
 
 */
+
+
+class Solution {
+public:
+    long long maximumSubarraySum(vector<int>& nums, int k) {
+        unordered_map<int, int> hashTable;
+        int left = 0;
+        int right = 0;
+        long long result = 0;
+        long long sum = 0;
+
+        while (right < nums.size()) {
+            sum += nums[right];
+            hashTable[nums[right]] += 1;
+
+            int windowSize = (right - left) + 1;
+
+            while (hashTable[nums[right]] > 1 || windowSize > k) {
+                hashTable[nums[left]]--;
+                sum -= nums[left];
+                left++;
+                windowSize = (right - left) + 1;
+            }
+
+            windowSize = (right - left) + 1;
+            if (windowSize == k) {
+                result = max(result, sum);
+            }
+
+            right++;
+        }
+
+        return result;
+    }
+};
