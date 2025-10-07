@@ -1,96 +1,85 @@
-long long maximum = 2e5;
-vector<vector<int>> prefixSum(maximum + 2, vector<int>(6, 0));
+/*
+
+How to solve the problem
+
+Main Idea : 
+1. Instead of find exactly k consonant, its will be easy if we just find atleast k consonant
+   - so to get exact consonant, we just need to find the substring with atleast k consonant and atleast k + 1 consonant
+   - decrease the result from atleast k consonant with atleast k + 1 consonant
+   - the result of that math formula will be = exact k consonant substrings
+
+# Using sliding window + hashtalbe
+1. create a function to get valid substrings
+2. initialize variables
+   - left = 0
+   - right = 0
+   - hashTable -> with key = vowel letters and value = how many times vowel letter appear in current substrings
+   - result = 0
+   - consonant = 0
+   - count = 0
+4. while right < word.size()
+   - if current character is vowel, then put that character into the hashtable
+   - else add consonant value by 1
+   - while (consonant == k && hashTable.size() == 5)
+     - count++
+     - if word[left] is vowel, then decrease hashTable[word[left]] by 1
+     - else decrease the consonant by 1
+     - if hashTable[word[left]] == 0, then remove that character from hashtable
+   - add the result by count
+5. return getValidSubstring(word, k) - getValidSubstring(word, k + 1)
+
+Time Complexity : O(N + N)
+N -> length of word 
+
+Memory Complexity : O(1)
+
+*/
 
 class Solution {
-    bool checkValidVowels(long long left, long long right){
-        for(long long i = 0; i < 5; i++){
-            if(prefixSum[right + 1][i] - prefixSum[left][i] == 0) return false;
-        }
+private:
 
-        return true;
+    bool isVowel(char x) {
+        return x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u';
     }
 
-    long long countConsonant(long long left, long long right){
-        return (right - left + 1) - (prefixSum[right + 1][5] - prefixSum[left][5]);
-    }
+    long long getValidSubStrings(string &word, int k) {
+        unordered_map<char,int> hashTable;
+        int left = 0;
+        int right = 0;
+        int consonant = 0;
+        long long count = 0;
+        long long result = 0;
 
-    long long getLeftPointer(long long start, long long size, long long k){
-        long long s = start;
-        long long end = size - 1;
-        long long result = size;
-
-        while(s <= end){
-            long long mid = s + (end - s) / 2;
-            if(checkValidVowels(start, mid) && countConsonant(start, mid) >= k){
-                result = mid;
-                end = mid - 1;
-            }else{
-                s = mid + 1;
+        while (right < word.length()) {
+            if (isVowel(word[right])) {
+                hashTable[word[right]]++;
+            } else {
+                consonant++;
             }
-        }
-        return result;
-    }
 
-    long long getRightPointer(long long start, long long size, long long k){
-        long long s = start;
-        long long end = size - 1;
-        long long result = start -1;
+            while (consonant >= k && hashTable.size() == 5) {
+                count++;
+                if (isVowel(word[left])) {
+                    hashTable[word[left]]--;
+                } else {
+                    consonant--;
+                }
 
-        while(s <= end){
-            long long mid = s + (end - s) / 2;
-            if(countConsonant(start, mid) <= k){
-                result = mid;
-                s = mid + 1;
-            }else{
-                end = mid - 1;
+                if (hashTable[word[left]] == 0) {
+                    hashTable.erase(word[left]);
+                }
+                left++;
             }
+
+            result += count;
+
+            right++;
         }
 
         return result;
     }
-
 public:
-    long long countOfSubstrings(string word, long long k) {
-        // compute prefix sum of vowels
-        for(long long i = 0; i < 6; i++){
-            prefixSum[0][i] = 0;
-        }
-        for(long long i = 0; i < word.length(); i++){
-            char c = word[i];
-
-            for(long long j = 0; j < 6; j++){
-                prefixSum[i + 1][j] = prefixSum[i][j];
-            }
-
-            if(c == 'a'){
-                prefixSum[i + 1][0]++;
-                prefixSum[i + 1][5]++;
-            }else if (c == 'i'){
-                prefixSum[i + 1][1]++;
-                prefixSum[i + 1][5]++;
-            }else if (c == 'u'){
-                prefixSum[i + 1][2]++;
-                prefixSum[i + 1][5]++;
-            }else if (c == 'e'){
-                prefixSum[i + 1][3]++;
-                prefixSum[i + 1][5]++;
-            }else if (c == 'o'){
-                prefixSum[i + 1][4]++;
-                prefixSum[i + 1][5]++;
-            }
-        }
-
-        long long answer = 0;
-        // compute answer
-        for(long long i = 0; i < word.size(); i++){
-            long long leftPointer = getLeftPointer(i, word.size(), k);
-            long long rightPointer = getRightPointer(i, word.size(), k);
-
-            if(leftPointer <= rightPointer){
-                answer += (rightPointer - leftPointer) + 1;
-            }
-        } 
-
-        return answer;
+    long long countOfSubstrings(string word, int k) {
+       return getValidSubStrings(word, k) - getValidSubStrings(word, k + 1); 
     }
 };
