@@ -9,10 +9,10 @@ Main Idea :
 1. initialize variables
    - left = 0
    - right = 0
-   - result = INT_MAX
    - a = 0
    - b = 0
    - c = 0
+   - result = s.length()
 2. we need to count how many times a, b, and c appear in string s
 3. if a or b or c < k
    - we need to return -1, because we know that the answer is gonna be invalid
@@ -71,17 +71,25 @@ public:
         }
 
         while (right < size) {
-            if (s[right] == 'a') a--;
-            else if (s[right] == 'b') b--;
-            else c--;
+            if (s[right] == 'a') {
+                a--;
+            } else if (s[right] == 'b') {
+                b--;
+            } else {
+                c--;
+            }
 
             if (a >= 0 && b >= 0 && c >= 0) {
                 result = min(result, left + (size - right - 1));
             } else {
                 while (a < 0 || b < 0 || c < 0) {
-                    if (s[left] == 'a') a++;
-                    else if (s[left] == 'b') b++;
-                    else c++;
+                    if (s[left] == 'a') {
+                        a++;
+                    } else if (s[left] == 'b') {
+                        b++;
+                    } else {
+                        c++;
+                    }
                     left++;
                 }
             }
