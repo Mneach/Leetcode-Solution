@@ -1,59 +1,57 @@
-
 /*
 
-how to solve : 
+How to solve the problem
 
-# Binary Search
-1. sort the nums
-2. search number between range nums[i] until nums[i] + k
-3. to implement that we can use binary search, search from nums[i] until nums[i] - k
-   - the reason of nums[i] - k, is because we can replace nums[i] with nums[i - k]
-   - so to maximize the window, we can search from nums[i] until nums[i] -k
+# Using sliding window + sorting
+1. sort the nums in asc
+2. initialize variables
+   - left = 0
+   - right = 0
+   - result = 0
+3. while right < nums.size()
+   - maximumRangeL = nums[left] + k
+   - minimumRangeR = nums[right] - k
+   - while minimumRangeR > maximumRangeL
+     - increaes the left pointer by 1
+     - update the maximumRangeL (maximumRangeL = nums[left] + k)
+   - to get the result we can use this formua
+     - windowSize = (right - left) + 1
+     - result = max(result, windowSize)
+   - increase right pointer by 1
+4. return the result
 
-Timecomplexity: O(N log n) + N log n
-- first N log n -> from sort the data
-- second N log n -> from implement binary search
+Time Complexity : O(N log N + N)
+N -> size of nums
+N log N -> coming from the sorting algorithm
+N -> because we need to loop until right >= nums.size()
 
-Memorycomplexity : O(1)
-- we dont need any additinoal memory
-
-# Two pointer technique
-1. sort the nums
-2. implement two pointer technique to get the answer
-   - we need to move left pointer, if (nums[right] - k) - nums[left] > k
-   - otherwise, just move the right pointer and keep calculate the max answer
-
-Time Complexity : O(N log n) + n
-- first N log n -> from sort the data 
-- second n -> loop from first element until last element in nums
-
-Memory Complexity : O(1)
-- we dont need additional memory complexity
+Memory Complexity : O(M)
+M -> memory that we need to do the merge sort algorithm
 
 */
 
 class Solution {
 public:
     int maximumBeauty(vector<int>& nums, int k) {
-       sort(nums.begin(), nums.end());
-       int size = nums.size();
-       int answer = 0;
+        sort(nums.begin(), nums.end());
+        int left = 0;
+        int right = 0;
+        int result = 0;
 
-       int left = 0;
-       for (int right = 0; right < size; right++) {
-            int current = nums[right] - k;
+        while (right < nums.size()) {
+            int maximumRangeL = nums[left] + k;
+            int minimumRangeR = nums[right] - k;
 
-            while (left < right && current - nums[left] > k) {
+            while (minimumRangeR > maximumRangeL) {
                 left++;
+                maximumRangeL = nums[left] + k;
             }
 
-            if (current - nums[left] <= k) {
-                answer = max(answer, (right - left) + 1);
-            }
-       }
+            int windowSize = (right - left) + 1;
+            result = max(result, windowSize);
+            right++;
+        }
 
-       answer = max(answer, size - left);
-
-       return answer;
+        return result;
     }
 };
