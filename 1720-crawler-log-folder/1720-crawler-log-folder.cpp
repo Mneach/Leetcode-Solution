@@ -13,7 +13,7 @@ How to solve the problem
      - increase the left pointer
      - increase the right pointer
    - else
-     - decreaes the left pointer
+     - decreaes the left pointer until left == 0 or logs[left] != "./"
 3. loop from index 0 until left pointer to get the answer
    - if logs[left] == "./"
      - then skip the count
@@ -44,7 +44,7 @@ public:
                     left--;
                 }
             }
-            
+
             right++;
         }
 
