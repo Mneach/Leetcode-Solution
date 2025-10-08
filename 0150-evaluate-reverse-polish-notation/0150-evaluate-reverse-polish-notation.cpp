@@ -1,49 +1,69 @@
+/*
+
+How to solve the problem
+
+# Using stack
+1. initialize variables
+   - stack<int> st
+2. loop from the first index of tokens until last index of tokens
+   - if tokens[i] is a number
+     - then put a number into the stack
+   - otherwise
+     - get 2 numbers from stack
+     - first = stack.top()
+     - stack.pop()
+     - second = stack.top()
+     - stack.pop()
+     - result = second (operation) first
+     - put the result into the stack
+3. return stack.top()
+
+Time Complexity : O(N * M)
+N -> length of tokens
+M -> maximum number digit
+
+Memory Complexity : O(K)
+K -> size of the stack 
+
+*/
+
 class Solution {
 public:
-    
-    int generateNumber(string x){
-        int end = 0;
-        if(x[0] == '-') end = 1;
-        
-        int multipCurrent = 0;
-        int answer = 0;
-        
-        for(int i = x.length() - 1; i >= end; i--){
-            int current = x[i] - '0';
-            answer += (current * pow(10, multipCurrent));
-            multipCurrent++;
-        }
-        
-        if(end == 1) answer *= -1;
-        
-        return answer;
-    }
-    
     int evalRPN(vector<string>& tokens) {
-        
-        stack<int> st;
-        
-        string operators = "+-/*";
-        
-        for(int i = 0; i < tokens.size(); i++){
-            
-            if(operators.find(tokens[i][0]) != string::npos && tokens[i].size() == 1){
+        stack<int> st;        
+
+        for (int i = 0; i < tokens.size(); i++) {
+            if (tokens[i] == "+") {
                 int first = st.top();
                 st.pop();
                 int second = st.top();
                 st.pop();
-                
-                int result;
-                
-                if(tokens[i][0] == '+') result = second + first;
-                else if(tokens[i][0] == '-') result = second - first;
-                else if(tokens[i][0] == '*') result = second * first;
-                else if(tokens[i][0] == '/') result = second / first;
-                
-                //cout << " " << first << " " << second << " " << result << endl;
-                st.push(result);
-            }else{
-                int number = generateNumber(tokens[i]);
+
+                st.push(second + first);
+            } else if (tokens[i] == "-") {
+                int first = st.top();
+                st.pop();
+                int second = st.top();
+                st.pop();
+
+                st.push(second - first);
+            } else if (tokens[i] == "*") {
+                int first = st.top();
+                st.pop();
+                int second = st.top();
+                st.pop();
+
+                st.push(second * first);
+            } else if (tokens[i] == "/") {
+                int first = st.top();
+                st.pop();
+                int second = st.top();
+                st.pop();
+
+                st.push(second / first);
+            } else {
+                // put tokens[i] into the stack
+                int number = stoi(tokens[i]);
                 st.push(number);
             }
         }
