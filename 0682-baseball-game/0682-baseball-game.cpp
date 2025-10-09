@@ -1,34 +1,72 @@
+/*
+
+How to solve the problem
+
+# Using two pointer
+1. initialize variables
+   - left = 0
+   - right = 0
+   - result = 0
+2. while right < operations.size()
+   - if operations[right] == "D"
+     - prev = stoi(operations[left - 1])
+     - operations[left] = to_string(prev)
+     - left++
+   - else if operations[right] == "C"
+     - left--
+   - else if operations[right] == "+"
+     - firstPrev = stoi(operations[left - 1])
+     - secondPrev = stoi(operations[left - 2])
+     - operations[left] = to_string(firstPrev + secondPrev)
+     - left++
+   - else
+     - change operations[left] to operations[rigth]
+     - increaes the left pointer
+   - increase the right pointer
+3. To get the result we need to loop from index 0 until index left
+   - change operations[i] to int
+   - add that value into the result value
+4. return the result
+
+Time Complexity : O(N + M)
+N -> size of opeartions array
+M -> left pointer value
+
+Memory Complexity : O(1)
+
+*/
+
 class Solution {
 public:
     int calPoints(vector<string>& operations) {
-        
-        stack<int> stack;
-        int answer = 0;
-        
-        for(int i = 0; i < operations.size(); i++){
-            if(operations[i] == "C") {
-                stack.pop();
+        int result = 0;
+        int left = 0;
+        int right = 0;
+
+        while (right < operations.size()) {
+            if (operations[right] == "D") {
+                int prev = stoi(operations[left - 1]);
+                operations[left] = to_string(prev * 2);
+                left++;
+            } else if (operations[right] == "C") {
+                left--;
+            } else if (operations[right] == "+") {
+                int firstPrev = stoi(operations[left - 1]);
+                int secondPrev = stoi(operations[left - 2]);
+                operations[left] = to_string(firstPrev + secondPrev);
+                left++;
+            } else {
+                operations[left] = operations[right];
+                left++;
             }
-            else if(operations[i] == "D") {
-                int temp = stack.top();
-                stack.push(temp * 2);
-            }else if(operations[i] == "+"){
-                int temp1 = stack.top();
-                stack.pop();
-                int temp2 = stack.top();
-                
-                stack.push(temp1);
-                stack.push(temp1 + temp2);
-            }else{
-                stack.push(stoi(operations[i]));
-            }         
+
+            right++;
         }
-        
-        while(stack.empty() == false){
-            answer += stack.top();
-            stack.pop();
+
+        for (int i = 0; i < left; i++) {
+            result += stoi(operations[i]);
         }
-        
-        return answer;
+
+        return result;
     }
 };
