@@ -1,33 +1,72 @@
+/*
+
+How to solve the problem
+
+# Main Idea 
+1. Using two stack to maintain the data
+   - first stack to maintain the data
+   - second stack to get the minimum data based on the user input
+
+# Using Two Stack
+1. initialize variables
+   - stack<int> st
+   - stacK<int> minStack
+2. push functions
+   - push value into the stack
+   - if minStack == empty
+     - push value into the stack
+   - else value <= minStack.top()
+     - push value into the minStack
+3. pop functions
+   - if st.top() == minStack.top()
+     - pop from the minstack
+   - pop from the stack
+4. top functions
+   - return st.top()
+5. getMin functions
+   - return minStack.top()
+
+Time Complexity : O(1)
+
+Memory Compelxity : O(N + M)
+N -> size of stack
+M -> size of minStack
+
+*/
+
 class MinStack {
+private:
+    stack<int> st;
+    stack<int> minStack;
 public:
-    
-    stack<int> stack1;
-    stack<int> stack2;
-    
     MinStack() {
         
     }
     
     void push(int val) {
-        
-        if(stack2.size() == 0) stack2.push(val);
-        else if(stack2.top() >= val) stack2.push(val);
-        
-        stack1.push(val);
+        st.push(val);
+
+        if (minStack.empty()) {
+            minStack.push(val);
+        } else if (val <= minStack.top()) {
+            minStack.push(val);
+        }
     }
     
     void pop() {
-        
-        if(stack2.top() == stack1.top()) stack2.pop();
-        stack1.pop();
+        if (minStack.top() == st.top()) {
+            minStack.pop();
+        }
+
+        st.pop();
     }
     
     int top() {
-        return stack1.top();
+        return st.top();
     }
     
     int getMin() {
-        return stack2.top();
+        return minStack.top();
     }
 };
 
