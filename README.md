@@ -1216,6 +1216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Mneach/Leetcode-Solution/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Mneach/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [0038-count-and-say](https://github.com/Mneach/Leetcode-Solution/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Mneach/Leetcode-Solution/tree/master/0058-length-of-last-word) |
@@ -1378,6 +1379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Mneach/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mneach/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Mneach/Leetcode-Solution/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
