@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
+| [0983-validate-stack-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-validate-stack-sequences) |
 | [0985-bag-of-tokens](https://github.com/Mneach/Leetcode-Solution/tree/master/0985-bag-of-tokens) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -1097,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/Mneach/Leetcode-Solution/tree/master/0874-backspace-string-compare) |
 | [0906-walking-robot-simulation](https://github.com/Mneach/Leetcode-Solution/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/0921-spiral-matrix-iii) |
+| [0983-validate-stack-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-validate-stack-sequences) |
 | [1386-shift-2d-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1386-shift-2d-grid) |
 | [1642-water-bottles](https://github.com/Mneach/Leetcode-Solution/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -1392,6 +1394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
 | [0874-backspace-string-compare](https://github.com/Mneach/Leetcode-Solution/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [0983-validate-stack-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
