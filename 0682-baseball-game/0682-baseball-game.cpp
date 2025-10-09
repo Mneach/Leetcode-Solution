@@ -2,6 +2,9 @@
 
 How to solve the problem
 
+# Main Idea
+1. Instead of using stack to maintaint the state, we can utilize two pointer to maintaint the state.
+
 # Using two pointer
 1. initialize variables
    - left = 0
