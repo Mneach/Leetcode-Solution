@@ -32,41 +32,76 @@ M -> size of stacks
 Memory Compelxity : O(M)
 M -> size of stacks
 
+# Can we improve the solution ?
+1. Yes we can, i think we can reduce the memory. So the idea of using stack in the solution above is to maintain the state. So to improve the solution we can try to use two pointer to maintain the state instead of using stack 
+
+# Using Two Pointer
+1. Initialize variables
+   - left = 0
+   - right = 0
+   - vector<int> results
+2. while right < asteroids.size()
+   - bool skip = false
+   - while (left > 0 && asteroids[left - 1] > 0 && asteroids[right] < 0)
+     - if (asteroids[left - 1] + asteroids[right] > 0)
+       - skip = true
+       - break
+     - eles if (asteroids[left - 1] + asteroids[right] < 0)
+       - decrease left pointer by 1 (you can imangine its like pop the data from the stack)
+     - else
+       - skip = true
+       - decrease left pointer by 1 (you can imagine its like pop the data from the stack)
+       - break
+   - if skip == false
+     - change asteroids[left] to asteroids[right] (you can imagine its like push asteroids[i] into the stack)
+     - increaes left pointer by 1
+3. loop from index 0 until left pointer value
+   - add asteroids[i] into the results
+4. return the results 
+
+Time Compleixty : O(N + M)
+N -> size of asteroids
+M -> left pointer value
+
+Memory Complexity : O(1)
+
 */
 
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        stack<int> st;
+        int left = 0;
+        int right = 0;
         vector<int> results;
 
-        for (int i = 0; i < asteroids.size(); i++) {
+        while (right < asteroids.size()) {
             bool skip = false;
 
-            while (st.size() > 0 && st.top() > 0 && asteroids[i] < 0) {
-                if (st.top() + asteroids[i] > 0) {
+            while (left > 0 && asteroids[left - 1] > 0 && asteroids[right] < 0) {
+                if (asteroids[left - 1] + asteroids[right] > 0) {
                     skip = true;
                     break;
-                } else if (st.top() + asteroids[i] < 0) {
-                    st.pop();
+                } else if (asteroids[left - 1] + asteroids[right] < 0) {
+                    left--;
                 } else {
                     skip = true;
-                    st.pop();
+                    left--;
                     break;
                 }
             }
 
             if (skip == false) {
-                st.push(asteroids[i]);
+                // maintain the state
+                asteroids[left] = asteroids[right];
+                left++;
             }
+
+            right++;
         }
 
-        while (st.size() > 0) {
-            results.push_back(st.top());
-            st.pop();
+        for (int i = 0; i < left; i++) {
+            results.push_back(asteroids[i]);
         }
-
-        reverse(results.begin(), results.end());
 
         return results;
     }
