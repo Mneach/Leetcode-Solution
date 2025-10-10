@@ -7,20 +7,23 @@ How to solve the problem
    - stack<int> st
    - vector<int> results
 2. loop from the first index of asteroids until last index of asteroids
-   - if asteroids[i] is positive, just push the data into the stack
-   - else 
-     - while stack is not empty and stack.top() is positive 
-       - if (stack.top() > asteroids) break
-       - else if (stack.top() == asteroids)
-         - stack.pop()
-         - break
-       - else
-         - stack.pop()
-     - if stack is empty
-       - push asteroids[i] into the stack
+   - bool skip = false
+   - while st.size() > 0 && st.top() > 0 && asteroids[i] < 0
+     - if (st.top() + asteroids[i] > 0)
+       - skip = true
+       - break
+     - else if (st.top() + asteroids[i] < 0)
+       - st.pop()
+     - else
+       - st.pop()
+       - skip = true
+       - break
+   - if skip == false
+     - then push asteroids[i] into the stack
 3. loop for every data in the stack
    - put the number into the results array
 4. reverse the result array
+5. return the result array
 
 Time Complexity : O(N + M + N / 2)
 N -> size of asteroids array
