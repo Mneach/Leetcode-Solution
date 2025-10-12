@@ -1401,6 +1401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
 | [0874-backspace-string-compare](https://github.com/Mneach/Leetcode-Solution/tree/master/0874-backspace-string-compare) |
+| [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0983-validate-stack-sequences](https://github.com/Mneach/Leetcode-Solution/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
@@ -1563,6 +1564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/Mneach/Leetcode-Solution/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/Mneach/Leetcode-Solution/tree/master/0859-design-circular-deque) |
+| [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1477-product-of-the-last-k-numbers) |
@@ -1795,6 +1797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1477-product-of-the-last-k-numbers) |
 | [2161-stock-price-fluctuation](https://github.com/Mneach/Leetcode-Solution/tree/master/2161-stock-price-fluctuation) |
@@ -1987,6 +1990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Mneach/Leetcode-Solution/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
+| [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
 | [1002-maximum-width-ramp](https://github.com/Mneach/Leetcode-Solution/tree/master/1002-maximum-width-ramp) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mneach/Leetcode-Solution/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1628-count-submatrices-with-all-ones) |
