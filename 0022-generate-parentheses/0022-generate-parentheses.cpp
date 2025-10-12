@@ -31,36 +31,23 @@ class Solution {
 private:
     void recursive(int n, string current, int openBracket, int closeBracket, vector<string> &results) {
         if (current.length() == n * 2) {
-            stack<char> stack;
-
-            for (int i = 0; i < current.length(); i++) {
-                if (stack.empty()) {
-                    stack.push(current[i]);
-                } else if (stack.top() == '(' && current[i] == ')') {
-                    stack.pop();
-                } else {
-                    stack.push(current[i]);
-                }
-            }
-
-            if (stack.empty()) {
-                results.push_back(current);
-            }
-        } else if (openBracket > n) {
-            return;
-        } else if (closeBracket > openBracket) {
+            results.push_back(current);
             return;
         }
 
-        // choose open bracket
-        current += "(";
-        recursive(n, current, openBracket + 1, closeBracket, results);
-        current.pop_back();
-
-        // choose close bracket
-        current += ")";
-        recursive(n, current, openBracket, closeBracket + 1, results);
-        current.pop_back();
+        if (openBracket < n) {
+            // choose open bracket
+            current += "(";
+            recursive(n, current, openBracket + 1, closeBracket, results);
+            current.pop_back();
+        } 
+        
+        if (closeBracket < openBracket) {
+            // choose close bracket
+            current += ")";
+            recursive(n, current, openBracket, closeBracket + 1, results);
+            current.pop_back();
+        }
     }
 
 public:
