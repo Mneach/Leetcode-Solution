@@ -1,27 +1,50 @@
+/*
+
+How to solve the problem : 
+
+# Using one queue
+1. push function
+   - push x into the queue
+   - loop from 0 until queue.size() - 1
+   - get queue front, and push that again into the queue
+2. pop
+   - pop front from the queue
+3. top
+   - return queue.front()
+4. empty
+   - return queue.empty()
+
+*/
+
 class MyStack {
 private:
-    deque<int> dq;
+    queue<int> q;
 public:
     MyStack() {
         
     }
     
     void push(int x) {
-       dq.push_back(x); 
+        q.push(x);
+
+        for (int i = 0; i < q.size() - 1; i++) {
+            q.push(q.front());
+            q.pop();
+        }
     }
     
     int pop() {
-        int result = top();
-        dq.pop_back();
-        return result;
+        int value = q.front(); 
+        q.pop();
+        return value;
     }
     
     int top() {
-       return dq.back(); 
+        return q.front();
     }
     
     bool empty() {
-        return dq.size() == 0;
+        return q.size() == 0;
     }
 };
 
