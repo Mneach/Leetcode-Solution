@@ -40,28 +40,29 @@ class Solution {
 public:
     string removeKdigits(string num, int k) {
         int multiply = 0;
+        int left = 0;
         string result = "";
-        stack<char> st;
 
         for(int i = 0; i < num.length(); i++) {
             int number = num[i] - '0';
 
-            while (st.size() > 0 && (st.top() - '0') > number && k > 0) {
-                st.pop();
+            while (left > 0 && (num[left - 1] - '0') > number && k > 0) {
+                left--;
                 k--;
             }
-
-            st.push(num[i]);
+            
+            num[left] = num[i];
+            left++;
         }
 
-        while (k > 0 && st.size() > 0) {
-            st.pop();
+        while (k > 0 && left > 0) {
+            left--;
             k--;
         }
 
-        while (st.size() > 0) {
-            result += st.top();
-            st.pop();
+        while (left > 0) {
+            result += num[left - 1];
+            left--;
         }
 
         if (result == "") {
