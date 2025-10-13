@@ -9,18 +9,24 @@ How to solve the problem
    - multiply = 0
 2. loop from first index of num until last index of num
    - number = num[i] - '0';
-   - if st.size() == 0
-     - push number into the stack
-   - else if stack.top() < number && k > 0
+   - while stack.size() > 0 && stoi(stack.top() - '0') > number && k > 0
      - stack.pop()
      - k--
-3. while (k > 0 && staci.size() > 0) 
+   - push the num[i] into the stack
+3. if k > 0 && stack.size() > 0
    - stack.pop()
    - k--
-4. to get the result
-   - result += (number * pow(10, multiply))
-   - increaes multiply by 1
-5. change the result to the string (return to_string(result))
+4. while stack.size() > 0
+   - result += stack.top()
+   - stack.pop()
+5. if result == ""
+   - return "0"
+6. reverse the result
+7. remove the leading zeros from the string
+8. if the pointer == result.length()
+   - return "0", thats means all of the result string contain 0 number
+9. return substr(index pointer position, result.length() - index pointer position)
+
 
 Time Complexity : O(N + M + M)
 N -> length of string num
