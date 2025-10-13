@@ -34,6 +34,11 @@ M -> size of the stack
 
 Memory Complexity : O(M)
 M -> size of the stack
+
+# Using two pointer
+
+TODO : Write all the implementation
+
 */
 
 class Solution {
