@@ -1243,6 +1243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Mneach/Leetcode-Solution/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mneach/Leetcode-Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -1398,6 +1399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Mneach/Leetcode-Solution/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Mneach/Leetcode-Solution/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/Mneach/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/Mneach/Leetcode-Solution/tree/master/0682-baseball-game) |
@@ -1864,6 +1866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/Mneach/Leetcode-Solution/tree/master/0273-integer-to-english-words) |
 | [0326-power-of-three](https://github.com/Mneach/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Mneach/Leetcode-Solution/tree/master/0342-power-of-four) |
+| [0394-decode-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Mneach/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mneach/Leetcode-Solution/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1667-find-kth-bit-in-nth-binary-string) |
