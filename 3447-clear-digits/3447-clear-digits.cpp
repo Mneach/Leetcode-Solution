@@ -26,6 +26,38 @@ M -> size of stack
 Memory Compleixty : O(M)
 M -> size of stack
 
+# Can we improve the solution
+1. Yes we can, instead of using stack to maintain the state, we can use two pointer to maintain the state
+
+# Note
+index 0 - L = represent all of the data in stack
+s[left] = s[right] && left++ = represent push s[i] into the stack
+left-- = represent pop s[i] from the stack
+s[left - 1] = data in the top of the stack
+left == 0 = represent stack is empty
+
+# Using Two Pointer
+1. initialzie variables
+   - left = 0
+   - right = 0
+2. while right < s.length()
+   - if left == 0
+     - s[left] = s[right]
+     - left++
+   - else if s[left - 1] is a non digit and s[right] is a digit
+     - decrease the left pointer by 1
+   - else
+     - s[left] = s[right]
+     - left++
+3. loop from index 0 until left pointer value
+   - result += s[i]
+4. return the result
+
+Time Complexity : O(N)
+N -> length of s
+
+Memory Complexity : O(1)
+
 */
 
 class Solution {
@@ -34,25 +66,24 @@ class Solution {
     }
 public:
     string clearDigits(string s) {
+        int left = 0;
         string result = "";
-        stack<char> st;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (st.empty()) {
-                st.push(s[i]);
-            } else if (isDigit(st.top()) == false && isDigit(s[i]) == true) {
-                st.pop();
+        for (int right = 0; right < s.length(); right++) {
+            if (left == 0) {
+                s[left] = s[right];
+                left++;
+            } else if (isDigit(s[left - 1]) == false && isDigit(s[right]) == true) {
+                left--;
             } else {
-                st.push(s[i]);
+                s[left] = s[right];
+                left++;
             }
         }
 
-        while (st.size() > 0) {
-            result += st.top();
-            st.pop();
+        for (int i = 0; i < left; i++) {
+            result += s[i];
         }
-
-        reverse(result.begin(), result.end());
 
         return result;
     }
