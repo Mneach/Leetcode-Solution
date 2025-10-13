@@ -1125,6 +1125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/Mneach/Leetcode-Solution/tree/master/2645-pass-the-pillow) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Mneach/Leetcode-Solution/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Mneach/Leetcode-Solution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/3447-clear-digits) |
@@ -1351,6 +1352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/Mneach/Leetcode-Solution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/Mneach/Leetcode-Solution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mneach/Leetcode-Solution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1422,6 +1424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Mneach/Leetcode-Solution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Mneach/Leetcode-Solution/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mneach/Leetcode-Solution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
