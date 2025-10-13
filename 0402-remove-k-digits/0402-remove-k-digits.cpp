@@ -1,43 +1,80 @@
+/*
+
+How to solve the problem
+
+# Using stack
+1. initialize variables
+   - stack<int> st
+   - result = 0
+   - multiply = 0
+2. loop from first index of num until last index of num
+   - number = num[i] - '0';
+   - if st.size() == 0
+     - push number into the stack
+   - else if stack.top() < number && k > 0
+     - stack.pop()
+     - k--
+3. while (k > 0 && staci.size() > 0) 
+   - stack.pop()
+   - k--
+4. to get the result
+   - result += (number * pow(10, multiply))
+   - increaes multiply by 1
+5. change the result to the string (return to_string(result))
+
+Time Complexity : O(N + M + M)
+N -> length of string num
+M -> size of the stack
+
+Memory Complexity : O(M)
+M -> size of the stack
+*/
+
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        stack<int> st;
-        
-        for(int i = 0; i < num.size(); i++){
-            while(st.empty() == false && k > 0 && st.top() > num[i]){
+        int multiply = 0;
+        string result = "";
+        stack<char> st;
+
+        for(int i = 0; i < num.length(); i++) {
+            int number = num[i] - '0';
+
+            while (st.size() > 0 && (st.top() - '0') > number && k > 0) {
                 st.pop();
-                k -= 1;
+                k--;
             }
-            
+
             st.push(num[i]);
         }
-        
-        for(int i = 0; i < k; i++){
+
+        while (k > 0 && st.size() > 0) {
+            st.pop();
+            k--;
+        }
+
+        while (st.size() > 0) {
+            result += st.top();
             st.pop();
         }
-        
-        string bucket = "";
-        
-        while(st.empty() == false){
-            bucket += st.top();
-            st.pop();
+
+        if (result == "") {
+            return "0";
         }
-        
-        reverse(bucket.begin(), bucket.end());
-        
-        string answer = "";
-        bool checkZero = true;
-        for(int i = 0; i < bucket.size(); i++){
-            
-            if(checkZero && bucket[i] == '0') continue;
-            checkZero = false;
-            
-            answer += bucket[i];
+
+        reverse(result.begin(), result.end());
+
+        // remove leadings zero from string
+        int resultIndex = 0;
+
+        while (resultIndex < result.length() && result[resultIndex] == '0') {
+            resultIndex++;
         }
-                
-        
-        if(answer.length() == 0) return "0";
-        
-        return answer;
+
+        if (resultIndex == result.length()) {
+            return "0";
+        }
+
+        return result.substr(resultIndex, result.length() - resultIndex);
     }
 };
