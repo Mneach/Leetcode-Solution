@@ -8,17 +8,23 @@ How to solve the problem
    - result = ""
 2. loop from the first index of string until last index of string
    - if current character is a letter
-     - loop from the first index until we meet close bracket or a number
+     - extract the word
      - push that word into the stack
    - else if current character is a number
+     - extract the number
      - push into the stack
+     - increase the index value by 1
    - else if current charcter is a close bracket
-     - get the first data and second data
-     - if second data is not a number
-       - combine first data with the second data
-     - else
-       - duplicate the first data equal to the second data value
-4. get all of the data from stack
+     - while stack.size() > 1
+        - get the first data and second data
+          - if second data is not a number
+          - combine first data with the second data
+          - push that data into the stack
+        - else
+          - duplicate the first data equal to the second data value
+          - break the loop
+       - increase index value by 1
+3. get all of the data from stack
     - if stack.size() == 1
       - add result by stack.top()
     - get the first data and second data
@@ -26,6 +32,8 @@ How to solve the problem
        - combine first data with the second data
      - else
        - duplicate the first data equal to the second data value
+    - push the new combined data into the stack
+      - the reason is because of need to combine the data to get the result
 5. return the result
 
 Time Complexity : O(N - total open and close bracket in string s) -> O(N)
