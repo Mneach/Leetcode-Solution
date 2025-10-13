@@ -12,10 +12,9 @@ How to solve the problem
 3. sort the cars data by position asc
 4. loop from the first index of cars array until last index of cars array
    - count total iteration that we need to reach finish 
-     - totalIteration = (target - cars[i].getPosition()) / cars[i].getSpeed()
-     - while (stack.size() > 0 && stack.top() <= totalIteration)
-       - stack.pop()
-   - push totalIteration into the stack
+     - time = (1.0 * target - cars[i].getPosition()) / cars[i].getSpeed()
+     - if stack is empty or stack.top() < time
+       - push time into the stack
 5. return stack.size()
 
 Time Complexity : O(N log N + N)
