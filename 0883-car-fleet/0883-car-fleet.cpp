@@ -24,6 +24,18 @@ Memory Complexity : O(N + M)
 N -> size of cars array
 M -> size of stack
 
+# Iteration
+1. create class Car
+2. initialize variables
+   - prev time = (1.0 * target - cars[0].getPosition) / cars[i].getSpeed()
+   - result = 1
+3. loop from the first index of cars array until last index of cars array
+   - calculate the current time 
+   - if current time > prev time
+     - prev time = current time
+     - result++
+4. return result
+
 */
 
 class Car {
@@ -50,7 +62,7 @@ class Solution {
 public:
     int carFleet(int target, vector<int>& position, vector<int>& speed) {
         vector<Car> cars;
-        stack<double> stack;
+        int result = 1;
 
         for (int i = 0; i < position.size(); i++) {
             Car car = Car(position[i], speed[i]);
@@ -61,14 +73,17 @@ public:
             return a.getPosition() > b.getPosition();
         });
 
-        for (int i = 0; i < cars.size(); i++) {
-            double time = (1.0 * target - cars[i].getPosition()) / cars[i].getSpeed();
+        double prevTime = (1.0 * target - cars[0].getPosition()) / cars[0].getSpeed();
 
-            if (stack.size() == 0 || stack.top() < time) {
-                stack.push(time);
+        for (int i = 1; i < cars.size(); i++) {
+            double currentTime = (1.0 * target - cars[i].getPosition()) / cars[i].getSpeed();
+
+            if (currentTime > prevTime) {
+                prevTime = currentTime;
+                result++;
             }
         }
 
-        return stack.size();
+        return result;
     }
 };
