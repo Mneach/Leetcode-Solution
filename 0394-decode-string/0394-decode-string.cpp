@@ -1,84 +1,140 @@
+/*
+
+How to solve the problem
+
+# Using stack
+1. initialize variables
+   - stack<string> st
+   - result = ""
+2. loop from the first index of string until last index of string
+   - if current character is a letter
+     - loop from the first index until we meet close bracket or a number
+     - push that word into the stack
+   - else if current character is a number
+     - push into the stack
+   - else if current charcter is a close bracket
+     - get the first data and second data
+     - if second data is not a number
+       - combine first data with the second data
+     - else
+       - duplicate the first data equal to the second data value
+4. get all of the data from stack
+    - if stack.size() == 1
+      - add result by stack.top()
+    - get the first data and second data
+    - if second data is not a number
+       - combine first data with the second data
+     - else
+       - duplicate the first data equal to the second data value
+5. return the result
+
+Time Complexity : O(N - total open and close bracket in string s) -> O(N)
+N -> length of s
+
+Memory complexity : (M)
+M -> size of stack
+
+*/
+
 class Solution {
+private:
+
+    string getWord(string &s, int &index) {
+        string result = "";
+
+        while (index < s.length() && s[index] != ']' && isDigit(s[index]) == false) {
+            result += s[index];
+            index++;
+        }
+
+        return result;
+    }
+
+    string getDigit(string &s, int &index) {
+        string result = "";
+        
+        while (index < s.length() && s[index] != '[' && isDigit(s[index])) {
+            result += s[index];
+            index++;
+        }
+
+        return result;
+    }
+
+    bool isLetter(char x) {
+        return x >= 'a' && x <= 'z';
+    }
+
+    bool isDigit(char x) {
+        return x >= '0' && x <= '9';
+    }
 public:
     string decodeString(string s) {
-        stack<int> arrInt;
-        stack<string> arrStr;
-        
-        string answer = "";
-        
-        int i = 0;
-        int openBracket = 0;
-        
-        while(i < s.length()){
-            if(s[i] >= '0' && s[i] <= '9'){
-                string temp = "";
-                while(i < s.length() && s[i] >= '0' && s[i] <= '9'){
-                    temp += s[i];
-                    i++;
-                }  
-               
-                arrInt.push(stoi(temp));
+        stack<string> st;
+        string result = "";
+
+        int index = 0;
+        while (index < s.length()) {
+            if (isLetter(s[index])) {
+                string word = getWord(s, index);
+                st.push(word);
+            } else if (isDigit(s[index])) {
+                string digit = getDigit(s, index);
+                st.push(digit);
+            } else if (s[index] == ']') {
+                while (st.size() > 1) {
+                    string temp = "";
+                    string firstData = st.top(); st.pop();
+                    string secondData = st.top(); st.pop();
+                        
+                    if (isDigit(secondData[0])) {
+                        int loop = stoi(secondData);
+
+                        while (loop > 0) {
+                            temp += firstData;
+                            loop--;
+                        }
+
+                        st.push(temp);
+                        break;
+                    } else {
+                        temp += secondData;
+                        temp += firstData;
+                        st.push(temp);
+                    }
+                }
+
+                index++;
+            } else if (s[index] == '[') {
+                index++;
+            }
+        }
+
+        while (st.size() > 0) {
+
+            if (st.size() == 1) {
+                result += st.top();
+                break;
             }
 
-            if(s[i] == '['){
-                openBracket++;
-                if(i != 0 && s[i - 1] != ']') i++;
-            
-                string temp = "";
-                while(i < s.length() && s[i] >= 'a' && s[i] <='z'){
-                    temp += s[i];
-                    i++;
+            string temp = "";
+            string firstData = st.top(); st.pop();
+            string secondData = st.top(); st.pop();
+
+            if (isDigit(secondData[0])) {
+                int loop = stoi(secondData);
+                while (loop > 0) {
+                    temp += firstData;
+                    loop--;
                 }
-                if(s[i] != '[') arrStr.push(temp);
+            } else {
+                temp += secondData;
+                temp += firstData;
             }
-          
-            if(s[i] == ']'){
-                openBracket--;
-                string temp = "";
-                i++;
-                if(arrInt.size() > 1){
-                    for(int j = 0; j < arrInt.top(); j++){
-                        temp += arrStr.top();
-                    }
-                     
-                    arrInt.pop();
-                    arrStr.pop();
-                    
-                    if(arrStr.top() != "") temp = arrStr.top() + temp;
-                    arrStr.pop();
-                    
-                    while(i < s.length() && s[i] >= 'a' && s[i] <='z') {
-                        temp += s[i];
-                        i++;
-                    }       
-                    
-                    arrStr.push(temp);
-                }else{
-                   
-                    for(int j = 0; j < arrInt.top(); j++){
-                        temp += arrStr.top();
-                    }
-                    
-                    arrInt.pop();
-                    arrStr.pop();
-                    
-                    answer += temp;
-                    
-                    while(i < s.length() && s[i] >= 'a' && s[i] <='z') {
-                        answer += s[i];
-                        i++;
-                    }
-                }
-            }
-            
-            if(openBracket == 0 && s[i] >= 'a' && s[i] <='z'){
-                answer += s[i];
-                i++;
-            }
-           
+
+            st.push(temp);
         }
-        
-        
-        return answer;
+
+        return result;
     }
 };
