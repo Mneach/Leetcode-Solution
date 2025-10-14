@@ -449,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Mneach/Leetcode-Solution/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0226-invert-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 | [0386-lexicographical-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
@@ -1408,6 +1409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/Mneach/Leetcode-Solution/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0456-132-pattern) |
@@ -1459,6 +1461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Mneach/Leetcode-Solution/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0226-invert-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
@@ -1577,6 +1580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Mneach/Leetcode-Solution/tree/master/0232-implement-queue-using-stacks) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0307-range-sum-query-mutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/Mneach/Leetcode-Solution/tree/master/0432-all-oone-data-structure) |
 | [0535-encode-and-decode-tinyurl](https://github.com/Mneach/Leetcode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
@@ -1993,6 +1997,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Mneach/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Mneach/Leetcode-Solution/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 | [0859-design-circular-deque](https://github.com/Mneach/Leetcode-Solution/tree/master/0859-design-circular-deque) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
@@ -2135,4 +2140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/Mneach/Leetcode-Solution/tree/master/0380-insert-delete-getrandom-o1) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/Mneach/Leetcode-Solution/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
