@@ -17,7 +17,7 @@ N -> size of nums array
 Memory Complexity : O(1)
 
 # Can we improve the solution
-1. Yes we can, instead of using linear search to find a pick number, we can use binary search to find a pick number. The main idea is, we just need to find the higest number in the current sub array (nums[L] until nums[R]), so need to follow these rules
+1. Yes we can, instead of using linear search to find a pick number, we can use binary search to find a pick number. The main idea is, we just need to find the higest number in the current sub array (nums[L] until nums[R]), because the highest number in the current sub array should be a peak number, so need to follow these rules
    - if nums[i] < nums[i + 1], then move to the right part. Because we know that the higest number should be in the right part of the i index
    - if nums[i] < nums[i - 1], then move to the left part. Because we know that the highest number should be in the left part of the i index
 
