@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0539-minimum-time-difference](https://github.com/Mneach/Leetcode-Solution/tree/master/0539-minimum-time-difference) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
 | [0554-brick-wall](https://github.com/Mneach/Leetcode-Solution/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Mneach/Leetcode-Solution/tree/master/0367-valid-perfect-square) |
 | [0456-132-pattern](https://github.com/Mneach/Leetcode-Solution/tree/master/0456-132-pattern) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0713-subarray-product-less-than-k) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mneach/Leetcode-Solution/tree/master/0719-find-k-th-smallest-pair-distance) |
