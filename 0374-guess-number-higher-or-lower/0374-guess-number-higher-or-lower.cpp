@@ -7,25 +7,60 @@
  * int guess(int num);
  */
 
+ /*
+
+How to solve the problem
+
+# Brute force solution
+1. loop 1 until n
+   - call guess function and passing current number as parameter
+   - if the function return 0, then we need to return the current number
+
+Time Complexity : O(N)
+N -> total number
+
+# Can we improve the solution ? 
+1. Yes we can, instead of using linear search to guess the number, we can use binary search to guess the number
+
+
+# Binary search
+1. initialize variables
+   - left = 1
+   - right = n
+   - result = -1
+2. while left <= right (binary search algorithm)
+   - get mid value
+   - if guessNumber(mid) == 0
+     - result = mid
+     - break
+   - else if guessNumber(mid)  == -1
+     - right = mid - 1
+   - else
+     - left = mid + 1
+3. return result
+
+ */
+
 class Solution {
 public:
     int guessNumber(int n) {
-        
-        long long int low = 1;
-        long long int high = n;
-        
-        while(low <= high){
-            long long int mid = (low + high) / 2;
-            
-            if(guess(mid) == -1){
-                high = mid - 1;
-            }else if(guess(mid) == 1){
-                low = mid + 1;
-            }else{
-                return mid;
+        int left = 1;
+        int right = n;
+        int result = -1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (guess(mid) == 0) {
+                result = mid;
+                break;
+            } else if (guess(mid) == -1) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
             }
         }
-        
-        return low;
+
+        return result;
     }
 };
