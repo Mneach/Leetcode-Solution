@@ -1,36 +1,34 @@
 class Solution {
 public:
     int maximumCandies(vector<int>& candies, long long k) {
-        int maxCandiesInPile = 0;
-        for (int i = 0; i < candies.size(); i++) {
-            maxCandiesInPile = max(maxCandiesInPile, candies[i]);
-        }
+        int minimumCandy = 1;
+        int maximumCandy = *max_element(candies.begin(), candies.end());
+        int result = 0;
 
-        int left = 0;
-        int right = maxCandiesInPile;
-        while (left < right) {
-            int middle = (left + right + 1) / 2;
-            if (canAllocateCandies(candies, k, middle)) {
-                left = middle;
+        // do binary search algoritm
+        while (minimumCandy <= maximumCandy) {
+            int currentCandy = minimumCandy + (maximumCandy - minimumCandy) / 2;
+
+            // check if we can distribute current candy to the k childs
+            bool valid = false;
+            long long totalChild = 0;
+            for (int i = 0; i < candies.size(); i++) {
+                totalChild += candies[i] / currentCandy;
+
+                if (totalChild >= k) {
+                    valid = true;
+                    break;
+                }
+            }
+
+            if (valid) {
+                result = max(result, currentCandy);
+                minimumCandy = currentCandy + 1;
             } else {
-                right = middle - 1;
+                maximumCandy = currentCandy - 1;
             }
         }
 
-        return left;
-    }
-
-private:
-    bool canAllocateCandies(vector<int>& candies, long long k,
-                            int numOfCandies) {
-        long long int maxNumOfChildren = 0;
-
-        for (int pileIndex = 0; pileIndex < candies.size(); pileIndex++) {
-            maxNumOfChildren +=
-                candies[pileIndex] /
-                numOfCandies; 
-        }
-
-        return maxNumOfChildren >= k;
+        return result;
     }
 };
