@@ -1,24 +1,69 @@
+
+/*
+
+How to solve the problem
+
+# Using brute force solution
+1. loop for every row in the matrix
+  - loop for every col in the matrix
+    - if matrix[row][col] == target, then return true
+2. return false
+
+Time Complexity : O(N * M)
+N -> total row
+M -> total col
+
+Memory Complexity : O(1)
+
+# Using Binary Search
+1. initialize variables
+   - n = matrix.size()
+   - m = matrix[0].size()
+   - left = 0
+   - right = (n * m) - 1
+2. while left <= right (binary serach algorithm)
+   - mid = left + (right - left) / 2
+   - row = mid / m
+   - col = mid - (row * m)
+   - if (matrix[row][col] < target) 
+     - right = mid - 1
+   - else if (matrix[row][col] > target)
+     - left = mid + 1
+   - else
+     - return true
+3. return false
+
+Time Complexity : O(log N * M)
+N -> total row
+M -> total col
+
+Memory Complexity : O(1)
+
+
+*/
+
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        
-        for(int i = 0; i < matrix.size(); i++){
-            
-            if(target >= matrix[i][0] && target <= matrix[i][matrix[i].size() - 1]){
-                int left = 0;
-                int right = matrix[i].size() - 1;
-                while(left <= right){
-                    
-                    int mid = (left + right) / 2;
-                    cout << mid << endl;
-                    
-                    if(matrix[i][mid] == target) return true;
-                    else if(matrix[i][mid] < target) left = mid + 1;
-                    else if(matrix[i][mid] > target) right = mid - 1;
-                }
+        int n = matrix.size();
+        int m = matrix[0].size();
+        int left = 0;
+        int right = (n * m) - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int row = mid / m;
+            int col = mid - (row * m);
+
+            if (matrix[row][col] < target) {
+                left = mid + 1;
+            } else if (matrix[row][col] > target) {
+                right = mid - 1;
+            } else {
+                return true;
             }
         }
-        
+
         return false;
     }
 };
