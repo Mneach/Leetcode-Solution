@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mneach/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Mneach/Leetcode-Solution/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0088-merge-sorted-array) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/Mneach/Leetcode-Solution/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/Mneach/Leetcode-Solution/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0209-minimum-size-subarray-sum) |
@@ -1538,6 +1540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Mneach/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0074-search-a-2d-matrix) |
 | [0289-game-of-life](https://github.com/Mneach/Leetcode-Solution/tree/master/0289-game-of-life) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Mneach/Leetcode-Solution/tree/master/0304-range-sum-query-2d-immutable) |
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
