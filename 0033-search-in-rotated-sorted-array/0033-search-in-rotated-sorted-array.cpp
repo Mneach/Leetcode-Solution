@@ -35,6 +35,8 @@ Memory Complexity : O(1)
 # Observation
 1.	We can have maximum 2 sorted array, after we rotate the array
 2.	nums[left] > nums[right], that means we are in different sorted array
+    - nums[left] - nums[mid] should be left part sorted array
+    - nums[mid] - nums[right] should be right part sorted array
 
 # Simulation
 
@@ -79,22 +81,53 @@ move right pointer to mid - 1
 1.	initialize variables
    - left = 0
    - right = nums.size() - 1
-   - target = -1
+   - result = -1
 2. while left <= right (do binary search algorithm)
    - int mid = left + (right - left) / 2
    - if (nums[mid] == target)
      - result = mid
      - break
-   - if (nums[left] > nums[right] && nums[left] > target)
-     - left = mid + 1
+   - else if (nums[left] <= nums[mid]) 
+     - left part sorted array
+     - if (nums[mid] < target || nums[left] > target)
+       - // target should be in right part
+       - left = mid + 1
+     - else
+       - right = mid - 1
    - else
-     - right = mid - 1
+     - right part sorted array
+     - if (nums[mid] > target || nums[right] < target)
+       - target should be in left part
+       - right = mid - 1
+     - else
+       - left = mid + 1
 3. return the result
 
 Time Complexity : O(log N)
 N -> size of nums array
 
 Memory Complexity : O(1)
+
+target = 8
+ 	 L
+               R
+[4,5,6,7,8,1,2,3]
+
+nums[left] > nums[right] && nums[mid] < target && nums[left] < target
+
+left = 5
+right = 4
+
+         L
+                 R
+[4,5,6,7,8,0,1,2,3]
+
+
+[4,1,2,3]
+
+[1,2,3,4,5,6,7,8,9,10]
+
+target = 3
 
 */
 
