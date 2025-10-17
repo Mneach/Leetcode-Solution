@@ -1,40 +1,27 @@
-class Compare {
-public:
-    bool operator()(vector<long long> &first, vector<long long> &second){
-        return first[0] > second[0];
-    }
-};
-
 class Solution {
 public:
     long long repairCars(vector<int>& ranks, int cars) {
-        unordered_map<int,int> count;
-        priority_queue<vector<long long>, vector<vector<long long>>, Compare> pq;
+        long long minMinutes = 1;
+        long long maxMinutes = *max_element(ranks.begin(), ranks.end()) * 1LL * cars * cars;
+        long long result = maxMinutes;
 
-        for (auto rank : ranks) {
-            count[rank] += 1;
+        while (minMinutes <= maxMinutes) {
+            long long minutes = minMinutes + (maxMinutes - minMinutes) / 2;
+
+            // check if minutes is a valid answer
+            long long totalCarsRepaired = 0;
+            for (int i = 0; i < ranks.size(); i++) {
+                totalCarsRepaired += sqrt(minutes / ranks[i]);
+            }
+
+            if (totalCarsRepaired >= cars) {
+                result = minutes; 
+                maxMinutes = minutes - 1;
+            } else {
+                minMinutes = minutes + 1;
+            }
         }
 
-        for (auto data : count) {
-            int rank = data.first;
-            int mechanics = data.second;
-            pq.push({rank, rank, 1, mechanics});
-        }
-
-        long long time = 0;
-        while (cars > 0) {
-            vector<long long> data = pq.top();
-            pq.pop();
-            time = data[0];
-            long long rank = data[1];
-            long long n = data[2];
-            long long mechanics = data[3];
-            n += 1;
-            cars -= mechanics;
-
-            pq.push({rank * n * n, rank, n, mechanics});
-        }
-
-        return time;
+        return result;
     }
 };
