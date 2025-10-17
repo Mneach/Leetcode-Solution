@@ -1,21 +1,36 @@
 class Solution {
 public:
     int minimizedMaximum(int n, vector<int>& quantities) {
-        int left = 1;
-        int right = INT_MAX;
+        int minimumX = 1;
+        int maximumX = *max_element(quantities.begin(), quantities.end());
+        int result = -1;
 
-        while(left < right){
-            int mid = left + (right - left) / 2;
-            int total = 0;
-            
-            for(int q : quantities){
-                total += (q + mid - 1) / mid;
+        while (minimumX <= maximumX) {
+            int x = minimumX + (maximumX - minimumX) / 2;
+
+            // check x is a valid answer
+            int totalStore = 0;
+            int index = 0;
+
+            while (index < quantities.size() && totalStore <= n) {
+                int quantity = quantities[index]; 
+                if (quantity % x == 0) {
+                    totalStore +=  quantity / x;
+                } else {
+                    totalStore += (quantity / x) + 1;
+                }
+
+                index++;
             }
 
-            if(total > n) left = mid + 1;
-            else right = mid;
+            if (totalStore <= n) {
+                result = x;
+                maximumX = x - 1;
+            } else {
+                minimumX = x + 1;
+            }
         }
 
-        return left;
+        return result;
     }
 };
