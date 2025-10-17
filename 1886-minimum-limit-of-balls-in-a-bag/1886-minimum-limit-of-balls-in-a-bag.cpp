@@ -1,33 +1,37 @@
 class Solution {
 public:
     int minimumSize(vector<int>& nums, int maxOperations) {
-        
-        int left = 1;
-        int right = 0;
-        int answer = INT_MAX;
+        int minPenalty = 1;
+        int maxPenalty = *max_element(nums.begin(), nums.end());
+        int result = maxPenalty;
 
-        for (auto num : nums) {
-            right = max(num, right);
-        }
+        while (minPenalty <= maxPenalty) {
+            int penalty = minPenalty + (maxPenalty - minPenalty) / 2;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+            cout << penalty << endl;
 
-            int res = 0;
-            
-            for (auto num : nums) {
-                if (num < mid) continue;
-                res += ceil((double)(num - mid) / mid);
+            // check if current penalty is a valid answer
+            long long totalOperations = 0;
+            for (int i = 0; i < nums.size(); i++) {
+                if (nums[i] <= penalty) {
+                    continue;
+                }
+
+                if (nums[i] % penalty == 0) {
+                    totalOperations += (1LL * nums[i] / penalty) - 1;
+                } else {
+                    totalOperations += (1LL * nums[i] / penalty);
+                }
             }
 
-            if (res > maxOperations) {
-                left = mid + 1;
+            if (totalOperations <= maxOperations) {
+                result = penalty;
+                maxPenalty = penalty - 1;
             } else {
-                right = mid - 1;
-                answer = min(answer, mid);
+                minPenalty = penalty + 1;
             }
         }
 
-        return answer;
+        return result;
     }
 };
