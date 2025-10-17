@@ -915,6 +915,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2689-rearranging-fruits](https://github.com/Mneach/Leetcode-Solution/tree/master/2689-rearranging-fruits) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Mneach/Leetcode-Solution/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -1003,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2562-count-ways-to-build-good-strings](https://github.com/Mneach/Leetcode-Solution/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2586-longest-square-streak-in-an-array) |
 | [2690-house-robber-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/2690-house-robber-iv) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Mneach/Leetcode-Solution/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
