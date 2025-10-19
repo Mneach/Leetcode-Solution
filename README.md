@@ -321,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2716-prime-subtraction-operation) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2727-number-of-senior-citizens](https://github.com/Mneach/Leetcode-Solution/tree/master/2727-number-of-senior-citizens) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -927,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mneach/Leetcode-Solution/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2846-robot-collisions](https://github.com/Mneach/Leetcode-Solution/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Mneach/Leetcode-Solution/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -1016,6 +1018,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2586-longest-square-streak-in-an-array) |
 | [2690-house-robber-iv](https://github.com/Mneach/Leetcode-Solution/tree/master/2690-house-robber-iv) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2755-extra-characters-in-a-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Mneach/Leetcode-Solution/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
@@ -1098,6 +1101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Mneach/Leetcode-Solution/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Mneach/Leetcode-Solution/tree/master/2716-prime-subtraction-operation) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Mneach/Leetcode-Solution/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Mneach/Leetcode-Solution/tree/master/3001-apply-operations-to-maximize-score) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Mneach/Leetcode-Solution/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Mneach/Leetcode-Solution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -1903,6 +1907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2509-minimize-xor](https://github.com/Mneach/Leetcode-Solution/tree/master/2509-minimize-xor) |
 | [2529-range-product-queries-of-powers](https://github.com/Mneach/Leetcode-Solution/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Mneach/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Mneach/Leetcode-Solution/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Mneach/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/3291-find-if-array-can-be-sorted) |
@@ -2092,6 +2097,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Mneach/Leetcode-Solution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Mneach/Leetcode-Solution/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Mneach/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Enumeration
 |  |
@@ -2104,6 +2110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mneach/Leetcode-Solution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2215-finding-3-digit-even-numbers) |
+| [2754-maximum-strength-of-a-group](https://github.com/Mneach/Leetcode-Solution/tree/master/2754-maximum-strength-of-a-group) |
 | [2998-count-symmetric-integers](https://github.com/Mneach/Leetcode-Solution/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3201-distribute-candies-among-children-ii) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
