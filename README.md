@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mneach/Leetcode-Solution/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/2215-finding-3-digit-even-numbers) |
+| [2219-maximum-number-of-words-found-in-sentences](https://github.com/Mneach/Leetcode-Solution/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mneach/Leetcode-Solution/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Mneach/Leetcode-Solution/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2231-find-first-palindromic-string-in-the-array) |
@@ -1374,6 +1375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Mneach/Leetcode-Solution/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mneach/Leetcode-Solution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2219-maximum-number-of-words-found-in-sentences](https://github.com/Mneach/Leetcode-Solution/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mneach/Leetcode-Solution/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mneach/Leetcode-Solution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Mneach/Leetcode-Solution/tree/master/2231-find-first-palindromic-string-in-the-array) |
