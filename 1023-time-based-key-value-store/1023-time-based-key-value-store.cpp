@@ -1,3 +1,60 @@
+/*
+
+# Observation
+⦁	Timestamp should given in asc order
+⦁	We cant have a data that with same key and same timestamp
+⦁	There is a case where we will have different key with the same timesamp
+⦁	We need to create 2 functions, get and set
+
+# HashMap + Vector + Binary search
+
+# Simulation
+-> set("foo", "bar", 1)
+
+["foo"] -> [{bar, 1}]
+
+-> set("foo", "rab", 2)
+
+["foo"] -> [{bar, 1}, {rab, 2}]
+
+-> set("foo", "bar", 3)
+
+["foo"] -> [{bar, 1}, {rab, 2}, {bar, 3}]
+
+-> get("foo", 3)
+return : "bar"
+
+-> get ("foo", 10)
+return : "bar"
+
+-> get("foo", 2)
+return : "rab"
+
+# Pseudocode
+1.	Create a class Data
+   - string value
+   - int timestamp
+2. Create a hashmap with key = string and value = vector<Data>
+3. set functions
+   - hashMap[key].push_back(new Data(key, value))
+4. get functions
+   - left = 0
+   - right = hashTable[key].size()
+   - result = ""
+   - do binary search algorithm to find the data
+   - return the result
+
+Time Complexity : (N + logN)
+set functions -> O(N)
+N -> size of vector
+get functions -> O(log N)
+
+Memory Compelxity : (N * M)
+N -> size of vector
+M -> total key in the hashtable
+
+*/
+
 class Data {
 private:
     string value;
