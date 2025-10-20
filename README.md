@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-shift-2d-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1386-shift-2d-grid) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Mneach/Leetcode-Solution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Mneach/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mneach/Leetcode-Solution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Mneach/Leetcode-Solution/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Mneach/Leetcode-Solution/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Mneach/Leetcode-Solution/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Mneach/Leetcode-Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mneach/Leetcode-Solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Mneach/Leetcode-Solution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -900,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1333-sort-the-jumbled-numbers) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Mneach/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Mneach/Leetcode-Solution/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mneach/Leetcode-Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -1348,6 +1351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1363-greatest-english-letter-in-upper-and-lower-case](https://github.com/Mneach/Leetcode-Solution/tree/master/1363-greatest-english-letter-in-upper-and-lower-case) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Mneach/Leetcode-Solution/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mneach/Leetcode-Solution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -1701,6 +1705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/Mneach/Leetcode-Solution/tree/master/0948-sort-an-array) |
 | [1304-longest-happy-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/Mneach/Leetcode-Solution/tree/master/1325-path-with-maximum-probability) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Mneach/Leetcode-Solution/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Mneach/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Mneach/Leetcode-Solution/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -2028,6 +2033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mneach/Leetcode-Solution/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mneach/Leetcode-Solution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1397-search-suggestions-system](https://github.com/Mneach/Leetcode-Solution/tree/master/1397-search-suggestions-system) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2009-longest-word-with-all-prefixes](https://github.com/Mneach/Leetcode-Solution/tree/master/2009-longest-word-with-all-prefixes) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Mneach/Leetcode-Solution/tree/master/2079-delete-duplicate-folders-in-system) |
