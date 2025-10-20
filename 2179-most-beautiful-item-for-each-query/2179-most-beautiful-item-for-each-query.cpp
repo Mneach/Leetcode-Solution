@@ -1,47 +1,51 @@
 class Solution {
 public:
     vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
-        // Sort items by price
-        sort(items.begin(), items.end(), [](const vector<int>& a, const vector<int>& b) 
-            { 
-                return a[0] < b[0]; 
-            }
-        );
+        vector<int> results;
+        vector<int> maximumBeauties;
 
-        // Update each item's beauty to be the maximum beauty up to that item's price
-        int maxBeauty = items[0][1];
-        for (int i = 0; i < items.size(); ++i) {
-            maxBeauty = max(maxBeauty, items[i][1]);
-            items[i][1] = maxBeauty;
+        // sort items array by price asc
+        sort(items.begin(), items.end(), [](vector<int> firstItem, vector<int> secondItem) {
+            int firstPrice = firstItem[0];
+            int secondPrice = secondItem[0];
+
+            return firstPrice < secondPrice;
+        });
+
+        for (int i = 0; i < items.size(); i++) {
+            int beauty = items[i][1];
+            if (i == 0) {
+                maximumBeauties.push_back(beauty);
+            } else {
+                int maximumBeauty = max(maximumBeauties[i - 1], beauty);
+                maximumBeauties.push_back(maximumBeauty);
+            }
         }
 
-        // Process each query
-        vector<int> results(queries.size());
-        for (int i = 0; i < queries.size(); ++i) {
-            results[i] = findMaxBeauty(items, queries[i]);
+        for (auto query : queries) {
+            int maximumItemIndex = -1;
+            int left = 0;
+            int right = items.size() - 1;
+
+            while (left <= right) {
+                int mid = left + (right - left) / 2;;
+                int price = items[mid][0];
+
+                if (price <= query) {
+                    maximumItemIndex = mid;
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+
+            if (maximumItemIndex == -1) {
+                results.push_back(0);
+            } else {
+                results.push_back(maximumBeauties[maximumItemIndex]);
+            }
         }
 
         return results;
-    }
-
-private:
-    int findMaxBeauty(const vector<vector<int>>& items, int targetPrice) {
-        int left = 0, right = items.size() - 1;
-        int maxBeauty = 0;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            int compare = items[mid][0];
-            int save = items[mid][1];
-
-            if (compare <= targetPrice) {
-                maxBeauty = max(maxBeauty, save);
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-
-        return maxBeauty;
     }
 };
