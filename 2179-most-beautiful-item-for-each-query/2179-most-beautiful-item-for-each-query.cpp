@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
-        vector<int> results;
-        vector<int> maximumBeauties;
+        vector<int> results(queries.size(), 0);
+        vector<int> maximumBeauties(items.size(), 0);
 
         // sort items array by price asc
         sort(items.begin(), items.end(), [](vector<int> firstItem, vector<int> secondItem) {
@@ -15,14 +15,15 @@ public:
         for (int i = 0; i < items.size(); i++) {
             int beauty = items[i][1];
             if (i == 0) {
-                maximumBeauties.push_back(beauty);
+                maximumBeauties[i] = beauty;
             } else {
                 int maximumBeauty = max(maximumBeauties[i - 1], beauty);
-                maximumBeauties.push_back(maximumBeauty);
+                maximumBeauties[i] = maximumBeauty;
             }
         }
 
-        for (auto query : queries) {
+        for (int i = 0; i < queries.size(); i++) {
+            int query = queries[i];
             int maximumItemIndex = -1;
             int left = 0;
             int right = items.size() - 1;
@@ -40,9 +41,9 @@ public:
             }
 
             if (maximumItemIndex == -1) {
-                results.push_back(0);
+                results[i] = 0;
             } else {
-                results.push_back(maximumBeauties[maximumItemIndex]);
+                results[i] = maximumBeauties[maximumItemIndex];
             }
         }
 
