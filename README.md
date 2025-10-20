@@ -428,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Mneach/Leetcode-Solution/tree/master/0792-binary-search) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mneach/Leetcode-Solution/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/Mneach/Leetcode-Solution/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/Mneach/Leetcode-Solution/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mneach/Leetcode-Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Mneach/Leetcode-Solution/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Mneach/Leetcode-Solution/tree/master/1321-get-equal-substrings-within-budget) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Mneach/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Mneach/Leetcode-Solution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Mneach/Leetcode-Solution/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1023-time-based-key-value-store](https://github.com/Mneach/Leetcode-Solution/tree/master/1023-time-based-key-value-store) |
 | [1098-largest-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1098-largest-unique-number) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mneach/Leetcode-Solution/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -1323,6 +1325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/Mneach/Leetcode-Solution/tree/master/0965-unique-email-addresses) |
 | [0979-di-string-match](https://github.com/Mneach/Leetcode-Solution/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/Mneach/Leetcode-Solution/tree/master/0981-delete-columns-to-make-sorted) |
+| [1023-time-based-key-value-store](https://github.com/Mneach/Leetcode-Solution/tree/master/1023-time-based-key-value-store) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Mneach/Leetcode-Solution/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Mneach/Leetcode-Solution/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -1637,6 +1640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Mneach/Leetcode-Solution/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/Mneach/Leetcode-Solution/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/Mneach/Leetcode-Solution/tree/master/0937-online-stock-span) |
+| [1023-time-based-key-value-store](https://github.com/Mneach/Leetcode-Solution/tree/master/1023-time-based-key-value-store) |
 | [1366-first-unique-number](https://github.com/Mneach/Leetcode-Solution/tree/master/1366-first-unique-number) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Mneach/Leetcode-Solution/tree/master/1477-product-of-the-last-k-numbers) |
