@@ -41,8 +41,13 @@ Observation
      - break
    - if tempNode == NULL
      - tempNode = node -> left child
+     - tempNode -> next = rightChild
+     - tempNode = tempNode -> next
    - else
      - tempNode -> next = leftChild
+     - tempNode = tempNode -> next
+     - tempNode -> next = rightChild
+     - tempNode = tempNode
    - push left child and right child to the queue
    - availableNode -= 2
    - if (availableNode == 0)
