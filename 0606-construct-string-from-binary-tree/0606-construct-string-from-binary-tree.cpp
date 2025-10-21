@@ -10,37 +10,48 @@
  * };
  */
 class Solution {
-public:
-    
-    void preOrder(TreeNode* root, string &answer){
-        if(root){
-            if(root->left && root->right){
-                answer += "(" + to_string(root->val);
-                preOrder(root->left, answer);
-                preOrder(root->right, answer);
-                answer += ")";    
-            }else if(root->left && root->right == NULL){
-                answer += "(" + to_string(root->val);
-                preOrder(root->left, answer);
-                answer += ")";
-            }else if(root->right && root->left == NULL){
-                answer += "(" + to_string(root->val) + "()";
-                preOrder(root->right, answer);
-                answer += ")";
-            }else{
-                answer += "(" + to_string(root->val) + ")";
-            }
+private:
+    void preOrderTranversal(string &result, TreeNode* root) {
+        if (root == NULL) {
+            return;
         }
+
+        result += '(';
+        result += to_string(root -> val);
+
+        TreeNode* leftChild = root -> left;
+        TreeNode* rightChild = root -> right;
+
+        if (leftChild == NULL && rightChild != NULL) {
+            result += "()";
+            preOrderTranversal(result, root -> right);
+        } else if (leftChild != NULL && rightChild == NULL) {
+            preOrderTranversal(result, root -> left);
+        } else {
+            preOrderTranversal(result, root -> left);
+            preOrderTranversal(result, root -> right);
+        }
+
+        result += ')';
     }
-    
+public:
     string tree2str(TreeNode* root) {
+
+        if (root == NULL) {
+            return "";
+        }
+
+        string result = "";
+        result += to_string(root -> val);
+
+        if (root -> left == NULL && root -> right != NULL) {
+            result += "()";
+            preOrderTranversal(result, root -> right);
+        } else {
+            preOrderTranversal(result, root -> left);
+            preOrderTranversal(result, root -> right);
+        }
         
-        string answer = "";
-        preOrder(root, answer);
-        //preOrder(root->left, answer);
-        //preOrder(root->right, answer);
-        
-        cout << answer << endl;
-        return answer.substr(1, answer.size() - 2);
+        return result;
     }
 };
