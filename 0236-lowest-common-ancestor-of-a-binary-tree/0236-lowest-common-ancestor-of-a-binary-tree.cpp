@@ -8,30 +8,39 @@
  * };
  */
 class Solution {
-public:
-    
-    TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(root->val == p->val || root->val == q->val) return root;
-        
-        if(!root->left && !root->right) return NULL;
-        
-        TreeNode* left = NULL;
-        TreeNode* right = NULL;
-        
-        if(root->left) left = dfs(root->left, p, q);
-        if(root->right) right = dfs(root->right, p, q);
-        
-        if(left && right) return root;
-        else if(left) return left;
-        else if(right) return right;
-        else return NULL;
+private:
+    int total = 0;
+    TreeNode* result;
+
+    int dfs(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == NULL) {
+            return 0;
+        }
+
+        int resultLeft = dfs(root -> left, p, q);
+        int resultRight = dfs(root -> right, p , q);
+
+        if (result != NULL) {
+            return 0;
+        } else if (resultLeft + resultRight == 2) {
+            result = root;
+        }
+
+        if (root -> val == p -> val || root -> val == q -> val) {
+
+            if (resultLeft == 1 || resultRight == 1) {
+                result = root;
+            }
+
+            return 1;
+        } else {
+            return max(resultLeft, resultRight);
+        }
     }
-    
+public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-       TreeNode* answer;
-        
-       answer = dfs(root, p, q);
-        
-       return answer;
+        dfs(root, p, q);
+
+        return result;
     }
 };
