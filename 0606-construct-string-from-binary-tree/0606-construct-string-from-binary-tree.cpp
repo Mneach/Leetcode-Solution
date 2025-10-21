@@ -11,28 +11,26 @@
  */
 class Solution {
 private:
-    void preOrderTranversal(string &result, TreeNode* root) {
+    void preOrderTransversal(string &result, TreeNode* root) {
         if (root == NULL) {
             return;
         }
 
-        result += '(';
         result += to_string(root -> val);
 
-        TreeNode* leftChild = root -> left;
-        TreeNode* rightChild = root -> right;
-
-        if (leftChild == NULL && rightChild != NULL) {
-            result += "()";
-            preOrderTranversal(result, root -> right);
-        } else if (leftChild != NULL && rightChild == NULL) {
-            preOrderTranversal(result, root -> left);
-        } else {
-            preOrderTranversal(result, root -> left);
-            preOrderTranversal(result, root -> right);
+        if (root -> left == NULL && root -> right == NULL) {
+            return;
         }
 
+        result += '(';
+        preOrderTransversal(result, root -> left);
         result += ')';
+
+        if (root -> right != NULL) {
+            result += '(';
+            preOrderTransversal(result, root -> right);
+            result += ')';
+        }
     }
 public:
     string tree2str(TreeNode* root) {
@@ -42,16 +40,8 @@ public:
         }
 
         string result = "";
-        result += to_string(root -> val);
+        preOrderTransversal(result, root);
 
-        if (root -> left == NULL && root -> right != NULL) {
-            result += "()";
-            preOrderTranversal(result, root -> right);
-        } else {
-            preOrderTranversal(result, root -> left);
-            preOrderTranversal(result, root -> right);
-        }
-        
         return result;
     }
 };
