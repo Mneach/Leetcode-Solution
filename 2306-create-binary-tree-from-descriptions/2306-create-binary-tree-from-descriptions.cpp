@@ -9,41 +9,90 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+class Node {
+private:
+    TreeNode* currentNode;
+    bool isRoot; 
+public:
+    Node(TreeNode* currentNode, bool isRoot) {
+        this -> isRoot = isRoot;
+        this -> currentNode = currentNode;
+    }
+
+    void setRoot(bool isRoot) {
+        this -> isRoot = isRoot;
+    }
+
+    bool getRoot() {
+        return this -> isRoot;
+    }
+
+    TreeNode* getCurrentNode() {
+        return this -> currentNode;
+    }
+};
+
 class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
-        unordered_map<int, TreeNode*> nodeMap;
-        unordered_set<int> children;
+        unordered_map<int, Node*> hashMap;        
 
-        for (const auto& description : descriptions) {
-            int parentValue = description[0];
-            int childValue = description[1];
-            bool isLeft = description[2];
+        for (auto description : descriptions) {
+            int parentKey = description[0];
+            int childKey = description[1];
+            int isLeft = description[2];
 
-            if (nodeMap.count(parentValue) == 0) {
-                nodeMap[parentValue] = new TreeNode(parentValue);
+            // if the parent is not exists
+            // we need to create the parent node
+            if (hashMap.count(parentKey) == 0) {
+                TreeNode* parent = new TreeNode(parentKey);
+                Node* newNode = new Node(parent, true);
+                hashMap[parentKey] = newNode; 
             }
-            if (nodeMap.count(childValue) == 0) {
-                nodeMap[childValue] = new TreeNode(childValue);
-            }
-
+                
             if (isLeft) {
-                nodeMap[parentValue]->left = nodeMap[childValue];
+                // if the new node already exists in the hashmap
+                // then update the child isRoot property to false
+                // otherwise create a new node
+                if (hashMap.count(childKey) == 0) {
+                    TreeNode* leftChild = new TreeNode(childKey);
+                    hashMap[parentKey] -> getCurrentNode() -> left = leftChild;
+
+                    Node* newNode = new Node(leftChild, false);
+                    hashMap[childKey] = newNode;
+                } else {
+                    hashMap[childKey] -> setRoot(false);
+                    hashMap[parentKey] -> getCurrentNode() -> left = hashMap[childKey] -> getCurrentNode();
+                }
             } else {
-                nodeMap[parentValue]->right = nodeMap[childValue];
-            }
+                // if the new node already exists in the hashmap
+                // then update the child isRoot property to false
+                // otherwise create a new node
+                if (hashMap.count(childKey) == 0) {
+                    TreeNode* rightChild = new TreeNode(childKey);
+                    hashMap[parentKey] -> getCurrentNode() -> right = rightChild;
 
-            children.insert(childValue);
+                    Node* newNode = new Node(rightChild, false);
+                    hashMap[childKey] = newNode;
+                } else {
+                    hashMap[childKey] -> setRoot(false);
+                    hashMap[parentKey] -> getCurrentNode() -> right = hashMap[childKey] -> getCurrentNode();
+                }
+            }
         }
 
-        for (auto& entry : nodeMap) {
-            auto& value = entry.first;
-            auto& node = entry.second;
-            if (children.find(value) == children.end()) {
-                return node;
+        // find the root
+        TreeNode* result = NULL;
+
+        for (auto [key, node] : hashMap) {
+            
+            if (node -> getRoot() == true) {
+                result = node -> getCurrentNode();
+                break;
             }
         }
 
-        return nullptr;
+        return result;
     }
 };
