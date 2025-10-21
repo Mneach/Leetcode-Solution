@@ -491,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
+| [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
@@ -1317,6 +1318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Mneach/Leetcode-Solution/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Mneach/Leetcode-Solution/tree/master/0592-fraction-addition-and-subtraction) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Mneach/Leetcode-Solution/tree/master/0599-minimum-index-sum-of-two-lists) |
+| [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
 | [0664-strange-printer](https://github.com/Mneach/Leetcode-Solution/tree/master/0664-strange-printer) |
 | [0680-valid-palindrome-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0680-valid-palindrome-ii) |
 | [0726-number-of-atoms](https://github.com/Mneach/Leetcode-Solution/tree/master/0726-number-of-atoms) |
@@ -1531,6 +1533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
+| [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -1571,6 +1574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
+| [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
