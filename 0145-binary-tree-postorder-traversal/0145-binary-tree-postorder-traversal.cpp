@@ -9,21 +9,21 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
+private:
+    vector<int> results;
 public:
-    
-    void dfs(TreeNode* root, vector<int>& answer){
-        if(root){
-            dfs(root->left, answer);
-            dfs(root->right, answer);
-            answer.push_back(root->val);
-        }
-    }
-    
     vector<int> postorderTraversal(TreeNode* root) {
-        vector<int> answer;
-        dfs(root, answer);
-        
-        return answer;
+       if (root == NULL) {
+            return results;
+       } 
+
+       postorderTraversal(root -> left);
+       postorderTraversal(root -> right);
+
+       results.push_back(root -> val);
+
+       return results;
     }
 };
