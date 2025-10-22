@@ -53,31 +53,53 @@ N -> total node in the tree
 Memory Commplexity : O(H)
 H -> height of the tree
 
+# Can we improve the solution 
+1.	Yes we can, instead of visit all of the nodes, we can utilize the binary search tree rules
+   - if p is < current node value, than we know that the current node might be our answer
+   - if p is > current node value, than we need to move to the right child, because right child might be our answer
+   - if q is > current node value, than we know that the current node might be our answer
+   - if q is < current node value, that we need to move to the left child, because left child might be our answer
+   - the information above alwasy valid if p > q
+
+# DFS
+
+# Pseudocode
+1.	if p > q
+   - swap p value with q value
+2. while root != NULL
+   - if p > root -> val
+     - root = root -> right
+   - else if q < root -> val
+     - root = root -> left
+   - else
+     break
+3. return root
+
+Time Complexity : O(H)
+H -> height of binary tree
+
+Memory Complexity : O(1)
+
 
 */
 
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (root == NULL) {
-            return root;
-        } else if (root == p) {
-            return p;
-        } else if (root == q) {
-            return q;
+        if (p -> val > q -> val) {
+            swap(p, q);
         }
 
-        TreeNode* leftChild = lowestCommonAncestor(root -> left, p, q);
-        TreeNode* rightChild = lowestCommonAncestor(root -> right, p, q);
-
-        if (leftChild != NULL && rightChild != NULL) {
-            return root;
-        } else if (leftChild != NULL) {
-            return leftChild;
-        } else if (rightChild != NULL) {
-            return rightChild;
-        } else {
-            return NULL;
+        while (root != NULL) {
+            if (p -> val > root -> val) {
+                root = root -> right;
+            } else if (q -> val < root -> val) {
+                root = root -> left;
+            } else {
+                break;
+            }
         }
+
+        return root;
     }
 };
