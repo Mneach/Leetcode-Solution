@@ -124,8 +124,6 @@ public:
                 root -> val = minNode -> val;
 
                 root -> right = deleteNode(root -> right, minNode -> val);
-                cout << "AFTER DELETE" << endl;
-                cout << root -> val << endl;
             }
         }
 
