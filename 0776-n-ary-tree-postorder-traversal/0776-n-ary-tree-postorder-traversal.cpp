@@ -18,31 +18,52 @@ public:
 };
 */
 
+/*
+
+# Observation
+1.	We need to run post order traversal in N-ary tree 
+   - we need to visit all of the children from the current node, start from the index 0 to children.size() - 2. (visit from left children to the right children), then parent
+   - use recursive function to do the traversal
+
+
+# DFS (pre order traversal)
+1.	initialize variables
+ - vector<int> results
+2.	create a dfs function (void)
+   - if root == NULL, return 
+   - visit the children
+   - push the current node value to the result
+3. return the result
+
+Time Complexity : O(N)
+N -> total node in a tree
+
+Memory Complexity : O(H)
+H -> height of the tree
+
+*/
+
 class Solution {
-public:
+private:
+    vector<int> results;
 
-    void preOrder(Node* root, vector<int> &answer){
-        if(root){
-            int index = 0;
-            while(index < root->children.size()){
-                preOrder(root -> children[index], answer);
-                
-                index++;
-                if(index >= root->children.size()){
-                    break;
-                }
-                preOrder(root -> children[index], answer);
-                index++;
-            }
-            answer.push_back(root->val);
+    void dfs(Node* root) {
+        if (root == NULL) {
+            return;
         }
+
+        // visit all of the children
+        for (int i = 0; i < root -> children.size(); i++) {
+            dfs(root -> children[i]);
+        }
+
+        // push the current node value to the results
+        results.push_back(root -> val);
+        return;
     }
-
+public:
     vector<int> postorder(Node* root) {
-        vector<int> answer;
-
-        preOrder(root, answer);
-
-        return answer;
+        dfs(root);
+        return results;
     }
 };
