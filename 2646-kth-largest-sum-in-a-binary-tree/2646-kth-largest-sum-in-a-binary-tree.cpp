@@ -9,75 +9,151 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+/*
+
+# Observation
+⦁	We need to return k-th largest sum in the tree
+⦁	We need to sum all of the nodes in the tree (level by level)
+ - we can use BFS to traverse the node level by level
+⦁	If the sum data < k, then return -1
+⦁	Note that two nodes are on the same level if they have the same distance from the root.
+⦁	we should use long long to save sum values
+
+# BFS (Queue)
+
+# Main Idea
+⦁	Traverse the node level by level
+⦁	For every level we need to sum the node val
+⦁	we can push sum value to the priority queue
+⦁	later we can look at into the priority queue to get the answer
+
+# Simulation
+
+       5
+     /  \
+    8    9
+   /\    /\
+  2  1  3  7
+ /\
+4  6
+
+Level 0
+=============
+Queue = 8,9
+current node = 5
+
+Sum = 5
+Prioirty Queue (max-heap) = 5
+
+
+Level 1
+==========
+Queue = 2,1,3,7
+
+current node = 9
+
+sum = 8 + 9 = 17
+Priority Queue (max-heap) = 17, 5
+
+level 2
+==========
+
+Queue = | 4,6
+
+current node = 7
+
+sum = 13
+Priority Queue (max-heap) = 17, 13, 5
+
+level 3
+==========
+Queue = 
+
+current node = 6
+
+sum = 10
+Priority Queue (max-heap) = 17, 13, 10, 5
+
+find k-th largest element
+k = 2
+
+Priority Queue (max-heap) = 17, 13, 10, 5
+result = 13
+
+# Pseudocode
+1.	initialize variables
+   - queue<TreeNode*> q
+   - priority_queue<long long> pq
+2. if root == NULL, return 0
+3. push root into the queue
+4. while queue is not empty
+   - size = q.size()
+   - long long sum = 0
+   - loop from index 0 until q.size()
+     - currentNode = q.front()
+     - pop the data from the queue
+     - if the current node has left child
+       - push left child into the queue
+     - if the current node has right child
+       - push right child into the queue
+     - sum += currentNode -> val
+   - push sum into the priority queue
+5. result = get the k-th largest sum from the priority queue
+6. return the result
+
+Time complexity : O(N + log H + K)
+N -> total nodes in the binary tree
+H -> height of the binary tree
+
+Memory Complexity : (log H)
+H -> height of the binary tree
+
+
+*/
 class Solution {
 public:
     long long kthLargestLevelSum(TreeNode* root, int k) {
-
-        if(root -> left == NULL && root -> right == NULL){
-            if(k == 1) return root -> val;
-            else return -1;
-        }
-        
+        queue<TreeNode*> q;        
         priority_queue<long long> pq;
-        long long res = 0;
-        int level = 0;
 
-        // tree node , tree level
-        queue<pair<TreeNode*, int>> q;
-        q.push(make_pair(root, 0));
-        bool check = true;
-
-        while(q.empty() == false){
-            auto node = q.front();
-            TreeNode* treeNode = node.first;
-            q.pop();
-
-            if(node.second != level){
-                // put the sum into the pq
-                pq.push(res);
-                level = node.second;
-                res = node.first -> val;
-            }else{
-                res += treeNode -> val;
-            }
-
-            if(treeNode -> left != NULL){
-                q.push(make_pair(treeNode -> left, node.second + 1));
-            }
-            
-            if(treeNode -> right != NULL){
-                q.push(make_pair(treeNode -> right, node.second + 1));
-            }
+        if (root == NULL) {
+            return 0;
         }
 
-        pq.push(res);
-        long long answer = -1;
+        q.push(root);
+        while(q.size() > 0) {
+            long long sum = 0;
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode* currentNode = q.front();
+                q.pop();
 
-        while(pq.size() > 0 && k > 0){
-            if(k == 1){
-                answer = pq.top();
+                if (currentNode -> left) {
+                    q.push(currentNode -> left);
+                }
+
+                if (currentNode -> right) {
+                    q.push(currentNode -> right);
+                }
+
+                sum += currentNode -> val;
             }
-            k--;
+
+            pq.push(sum);
+        }
+
+        long long result = -1;
+        while(k > 0 && pq.size() > 0) {
+            long long currentData = pq.top();
             pq.pop();
+            k--;
+
+            if (k == 0) {
+                result = currentData;
+            }
         }
 
-        return answer;
+        return result;
     }
 };
-
-/*
-How to solve
-1. need to traverse the tree level by level -> we can use BFS algorithm with queue
-2. we also need to mark the current tree level
-3. if the current tree level is not equal to the next tree level -> add the current level sum to pq
-4. looping while k > 0
-   4.1 every loop we need to pop until k == 0
-
-Time complexity : O(N) + (totalLevel * logTotalLevel)
-O(N) -> where n is equal to total data in the tree, we need to traverse from root until last child
-O(totalLevel * logTotalLevel) -> we need to push the sum from every level to the pq
-
-Memory complexity : 
-O(N) -> we need to traverse the tree from root until last child
-O(totalLevel) -> we need to save sum from every level to pq
-*/
