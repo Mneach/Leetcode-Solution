@@ -10,18 +10,27 @@
  * };
  */
 class Solution {
-public:
-    
-    void dfs(TreeNode* leftTree, TreeNode* rightTree, int currDepth){
-        if(leftTree && rightTree){
-            if(currDepth % 2 == 0) swap(leftTree->val, rightTree->val);
-            dfs(leftTree->left, rightTree->right, currDepth + 1);
-            dfs(leftTree->right, rightTree->left, currDepth + 1);
+private:
+    void postOrderTraversal(TreeNode* leftRoot, TreeNode* rightRoot, int level) {
+        if (leftRoot == NULL && rightRoot == NULL) {
+            return;
         }
-    } 
+
+        postOrderTraversal(leftRoot -> left, rightRoot -> right, level + 1);
+        postOrderTraversal(leftRoot -> right, rightRoot -> left, level + 1);
+
+        if (level % 2 == 1) {
+            swap(leftRoot -> val, rightRoot -> val);
+        }
+    }
+public:
     TreeNode* reverseOddLevels(TreeNode* root) {
-       dfs(root->left, root->right, 0);
-        
+        if (root == NULL) {
+            return root;
+        }
+
+        postOrderTraversal(root -> left, root -> right, 1);
+
         return root;
     }
 };
