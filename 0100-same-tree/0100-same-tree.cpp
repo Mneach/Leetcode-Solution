@@ -11,27 +11,26 @@
  */
 class Solution {
 public:
-    
-    bool answer = true;
-    
-    void inOrder(TreeNode *p, TreeNode *q){
-        
-        if(p && q){
-            inOrder(p->left, q->left);
-            if(p -> val != q -> val){
-                answer = false;
-            }
-            inOrder(p->right, q->right);
-        }else if(p == NULL && q == NULL){
-            return;
-        }else{
-            answer = false;
-            return;
-        }
-    }
-    
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        inOrder(p, q);
-        return answer;
+        if (p == NULL && q != NULL) {
+            return false;
+        } else if (p != NULL && q == NULL) {
+            return false;
+        } else if (p == NULL && q == NULL) {
+            return true;
+        }
+
+        if (p -> val != q -> val) {
+            return false;
+        }
+        
+        bool leftResult = isSameTree(p -> left, q -> left);
+        bool rightResult = isSameTree(p -> right, q -> right);
+
+        if (leftResult == false || rightResult == false) {
+            return false;
+        }
+
+        return true;
     }
 };
