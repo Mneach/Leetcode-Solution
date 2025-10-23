@@ -17,25 +17,11 @@ private:
     int dfs(TreeNode* root) {
         if (root == NULL) {
             return 0;
-        } else if (root -> left == NULL && root -> right == NULL) {
-            return 0;
         }
 
         int leftResult = dfs(root -> left);
         int rightResult = dfs(root -> right);
-
-        // calculate the current result
-        int currentResult = leftResult + rightResult;
-
-        if (root -> left) {
-            currentResult += 1;
-        }
-
-        if (root -> right) {
-            currentResult += 1;
-        }
-
-        result = max(result, currentResult);
+        result = max(result, leftResult + rightResult);
 
         return max(leftResult, rightResult) + 1;
     }
