@@ -10,31 +10,26 @@
  * };
  */
 class Solution {
-public:
-    
-    bool answer = true;
-    
-    int dfs(TreeNode* root){
-        if(root){
-            int leftHeight = dfs(root->left) + 1;
-            int rightHeight = dfs(root->right) + 1;
-            
-            int diff = abs(leftHeight - rightHeight);
-            
-            if(diff > 1){
-                answer = false;
-            }
-            
-            return max(leftHeight, rightHeight);
+private:
+    int calculateHeight(TreeNode* root, bool &result) {
+        if (root == NULL) {
+            return 0;
         }
-        
-        return 0;
+
+        int leftHeight = calculateHeight(root -> left, result);
+        int rightHeight = calculateHeight(root -> right, result);
+
+        if (abs(leftHeight - rightHeight) > 1) {
+            result = false;
+        }
+
+        return max(leftHeight, rightHeight) + 1;
     }
-    
+public:
     bool isBalanced(TreeNode* root) {
-        
-        dfs(root);
-        
-        return answer;
+       bool result = true;
+       calculateHeight(root, result);
+
+       return result;
     }
 };
