@@ -20,24 +20,43 @@
  * };
  */
 class Solution {
+
+    bool checkIdentical(ListNode* head, TreeNode* root) {
+        if (head == NULL && root != NULL) {
+            return true;
+        } else if (head != NULL && root == NULL) {
+            return false;
+        } else if(head == NULL && root == NULL) {
+            return true;
+        }
+
+        if (head -> val != root -> val) {
+            return false;
+        }
+
+        bool leftResult = checkIdentical(head -> next, root -> left);
+        bool rightResult = checkIdentical(head -> next, root -> right);
+
+        return leftResult || rightResult;
+    }
+
 public:
+    bool isSubPath(ListNode* head, TreeNode* root) {
+        if (root == NULL) {
+            return false;
+        }
 
-    bool check(ListNode* head, TreeNode* root){
-        if(head == nullptr) return true;
+        if (head -> val == root -> val) {
+            bool result = checkIdentical(head, root);
 
-        if(root){
-            if(root -> val == head -> val){
-                return check(head -> next, root -> left) || check(head -> next, root -> right);
+            if (result) {
+                return result;
             }
         }
 
-        return false;
-    }
+        bool leftResult = isSubPath(head, root -> left);
+        bool rightResult = isSubPath(head, root -> right);
 
-    bool isSubPath(ListNode* head, TreeNode* root) {
-        
-        if(root == nullptr) return false;
-
-        return check(head, root) || isSubPath(head, root -> left) || isSubPath(head , root -> right);
+        return leftResult || rightResult;
     }
 };
