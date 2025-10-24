@@ -499,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
+| [0617-merge-two-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0820-find-eventual-safe-states](https://github.com/Mneach/Leetcode-Solution/tree/master/0820-find-eventual-safe-states) |
@@ -549,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Mneach/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Mneach/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/Mneach/Leetcode-Solution/tree/master/0542-01-matrix) |
+| [0617-merge-two-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/Mneach/Leetcode-Solution/tree/master/0684-redundant-connection) |
 | [0753-open-the-lock](https://github.com/Mneach/Leetcode-Solution/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/Mneach/Leetcode-Solution/tree/master/0787-sliding-puzzle) |
@@ -1557,6 +1559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
+| [0617-merge-two-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0617-merge-two-binary-trees) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mneach/Leetcode-Solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1610,6 +1613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0563-binary-tree-tilt](https://github.com/Mneach/Leetcode-Solution/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0606-construct-string-from-binary-tree) |
+| [0617-merge-two-binary-trees](https://github.com/Mneach/Leetcode-Solution/tree/master/0617-merge-two-binary-trees) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Mneach/Leetcode-Solution/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mneach/Leetcode-Solution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Mneach/Leetcode-Solution/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
