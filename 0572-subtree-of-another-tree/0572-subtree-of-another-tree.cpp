@@ -32,12 +32,8 @@ private:
     }
 public:
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        if (root == NULL && subRoot != NULL) {
+        if (root == NULL) {
             return false;
-        } else if (root != NULL && subRoot == NULL) {
-            return false;
-        } else if (root == NULL && subRoot == NULL) {
-            return true;
         }
 
         if (root -> val == subRoot -> val) {
