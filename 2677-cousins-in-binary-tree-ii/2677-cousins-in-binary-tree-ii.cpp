@@ -1,53 +1,78 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+
+class Node {
+public:
+    TreeNode* root;    
+    int sum;
+
+    Node(TreeNode* root, int sum) {
+        this -> root = root;
+        this -> sum = sum;
+    }
+
+    int getChildSum() {
+        int childSum = 0;
+        if (this -> root -> left) {
+            childSum += this -> root -> left -> val;
+        }
+
+        if (this -> root -> right) {
+            childSum += this -> root -> right -> val;
+        }
+
+        return childSum;
+    }
+};
+
 class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
-        if (!root) return root;
+        queue<Node*> q;
 
-        queue<TreeNode*> nodeQueue;
-        nodeQueue.push(root);
-        int previousLevelSum = root->val;
+        // parent node value | child values
+        unordered_map<int,int> bucket;
 
-        while (!nodeQueue.empty()) {
-            int levelSize = nodeQueue.size();
-            int currentLevelSum = 0;
+        if (root == NULL) {
+            return root;
+        }
 
-            // Process each node at the current level.
-            for (int i = 0; i < levelSize; ++i) {
-                TreeNode* currentNode = nodeQueue.front();
-                nodeQueue.pop();
-                
-                // Replace current node's value with cousin sum.
-                currentNode->val = previousLevelSum - currentNode->val;
+        q.push(new Node(root, root -> val));
+        int currentLevelSum = root -> val;
 
-                // Calculate sibling sum.
-                int siblingSum = calculateSiblingSum(currentNode);
+        while (q.empty() == false) {
+            int size = q.size();
+            int nextLevelSum = 0;
 
-                // Process left child.
-                if (currentNode->left) {
-                    currentLevelSum += currentNode->left->val;
-                    currentNode->left->val = siblingSum;
-                    nodeQueue.push(currentNode->left);
+            for (int i = 0; i < size; i++) {
+                Node* currentNode = q.front();
+                q.pop();
+
+                if (currentNode -> root -> left) {
+                    q.push(new Node(currentNode -> root -> left, currentNode -> getChildSum()));
+                    nextLevelSum += currentNode -> root -> left -> val;
                 }
 
-                // Process right child.
-                if (currentNode->right) {
-                    currentLevelSum += currentNode->right->val;
-                    currentNode->right->val = siblingSum;
-                    nodeQueue.push(currentNode->right);
+                if (currentNode -> root -> right) {
+                    q.push(new Node(currentNode -> root -> right, currentNode -> getChildSum()));
+                    nextLevelSum += currentNode -> root -> right -> val;
                 }
+
+                currentNode -> root -> val = currentLevelSum - currentNode -> sum;
             }
 
-            previousLevelSum = currentLevelSum; // Prepare for the next level.
+            currentLevelSum = nextLevelSum;
         }
 
         return root;
-    }
-
-private:
-    // Helper function to calculate the sum of a node's children (sibling sum).
-    int calculateSiblingSum(TreeNode* node) {
-        int leftVal = (node->left != nullptr) ? node->left->val : 0;
-        int rightVal = (node->right != nullptr) ? node->right->val : 0;
-        return leftVal + rightVal;
     }
 };
