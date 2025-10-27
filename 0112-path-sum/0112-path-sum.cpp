@@ -10,22 +10,24 @@
  * };
  */
 class Solution {
-public:
-    
-    bool dfs(TreeNode* root, int targetSum, int sum) {
-        if (root) {
-            if (root -> left == NULL && root -> right == NULL) {
-                return sum + root -> val == targetSum;
-            }
-            bool left = dfs(root -> left, targetSum, sum + root -> val);
-            bool right = dfs(root -> right, targetSum, sum + root -> val);
 
-            return left || right;
+    bool dfs(TreeNode* root, int targetSum, int sum) {
+        if (root == NULL) {
+            return false;
+        } else if (root -> left == NULL && root -> right == NULL) {
+            if (targetSum == sum + root -> val) {
+                return true;
+            }
+
+            return false;
         }
 
-        return false;
-    }
+        bool leftResult = dfs(root -> left, targetSum, sum + root -> val);
+        bool rightResult = dfs(root -> right, targetSum, sum + root -> val);
 
+        return leftResult || rightResult;
+    }
+public:
     bool hasPathSum(TreeNode* root, int targetSum) {
         return dfs(root, targetSum, 0);
     }
