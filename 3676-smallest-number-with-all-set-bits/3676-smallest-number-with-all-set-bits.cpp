@@ -1,12 +1,11 @@
 class Solution {
 public:
     int smallestNumber(int n) {
-        int answer = 0;
-        int rank = 0;
+        int answer = 1;
 
         while (answer < n) {
-            answer += pow(2, rank);
-            rank++;
+            answer = answer << 1;
+            answer += 1;
         }
 
         return answer;
