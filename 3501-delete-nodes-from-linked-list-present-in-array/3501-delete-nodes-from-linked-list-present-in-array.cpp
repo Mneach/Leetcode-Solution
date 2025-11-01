@@ -11,28 +11,42 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        
-        vector<int> bucket;
-        unordered_map<int,int> ump;
+        unordered_map<int,int> hashMap;
 
-        for(auto data : nums) ump[data]++;
+        for (auto number : nums) {
+            hashMap[number]++;
+        }
 
         ListNode* curr = head;
-        while(curr != NULL){
-            if(ump[curr -> val] <= 0){
-                bucket.push_back(curr -> val);
+        ListNode* prev = NULL;
+
+        while (curr != NULL) {
+            if (hashMap[curr -> val] > 0) {
+                // should delete the data
+                if (curr == head) {
+                    ListNode* temp = head -> next;
+                    // delete(head);
+
+                    curr = head = temp;
+                    prev = NULL;
+                } else if (curr -> next == NULL) {
+                    prev -> next = NULL;
+                    // delete(curr);
+
+                    curr = NULL;
+                } else {
+                   ListNode* nextNode = curr -> next; 
+                   prev -> next = nextNode;
+
+                //    delete(curr);
+                   curr = nextNode;
+                }
+            } else {
+                prev = curr;
+                curr = curr -> next;
             }
-            curr = curr -> next;
         }
 
-        ListNode* answer = new ListNode(bucket[0]);
-        ListNode* point = answer;
-
-        for(int i = 1; i < bucket.size(); i++){
-            point -> next = new ListNode(bucket[i]);
-            point = point -> next;
-        }
-
-        return answer;
+        return head;
     }
 };
